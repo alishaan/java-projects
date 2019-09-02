@@ -120,6 +120,8 @@ public class Employee {
                     ", idNum=" + idNum +
                     ", age=" + age +
                     ", nickName='" + nickName + '\'' +
+                    ", grossPay='" + getGrossPay() + '\'' +
+                    ", overTime='" + checkOvertime() + '\'' +
                     '}';
         }
         else{
@@ -131,6 +133,8 @@ public class Employee {
                     ", idNum=" + idNum +
                     ", age=" + age +
                     ", nickName='" + nickName + '\'' +
+                    ", grossPay='" + getGrossPay() + '\'' +
+                    ", overTime='" + checkOvertime() + '\'' +
                     '}';
         }
     }
