@@ -7,7 +7,7 @@ public class EmployeeTester {
     public static void main(String[] args){
         //Create GUI
         JFrame GUI = new JFrame();
-        Container panels = GUI.getContentPane();
+        Container pane = GUI.getContentPane();
 
         //GUI Settings
         GUI.setSize(600, 600);
@@ -44,10 +44,39 @@ public class EmployeeTester {
         Employee employeeRateString = new Employee(lastNameString, firstNameString, hoursWorkedString, rateString, ageString, nickNameString);
 
         //Create Grid Props
-        panels.setLayout(null);
-        panels.setBackground(Color.white);
+        pane.setLayout(new GridLayout(1,3));
+        pane.setBackground(Color.green);
 
         //Create labels for employees
-        JLabel lblFill = new JLabel(fillEmployee.toString() + fillEmployee.checkOvertime() + fillEmployee.getGrossPay());
+        JTextArea lblFill = new JTextArea(fillEmployee.toString());
+        JTextArea lblEmployeeRateDouble = new JTextArea(employeeRateDouble.toString());
+        JTextArea lblEmployeeRateString = new JTextArea(employeeRateString.toString());
+
+        //Add text area properties
+        lblFill.setWrapStyleWord(true);
+        lblFill.setLineWrap(true);
+        lblFill.setEditable(false);
+        lblEmployeeRateDouble.setWrapStyleWord(true);
+        lblEmployeeRateDouble.setLineWrap(true);
+        lblEmployeeRateDouble.setEditable(false);
+        lblEmployeeRateString.setWrapStyleWord(true);
+        lblEmployeeRateString.setLineWrap(true);
+        lblEmployeeRateString.setEditable(false);
+
+        //Create the three panels
+        JPanel fillPanel = new JPanel();
+        JPanel doublePanel = new JPanel();
+        JPanel stringPanel = new JPanel();
+
+        //Add respective labels
+        fillPanel.add(lblFill);
+        doublePanel.add(lblEmployeeRateDouble);
+        stringPanel.add(lblEmployeeRateString);
+
+        //add panels and make visible
+        GUI.add(fillPanel);
+        GUI.add(doublePanel);
+        GUI.add(stringPanel);
+        GUI.setVisible(true);
     }
 }

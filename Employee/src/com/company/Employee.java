@@ -10,7 +10,7 @@ public class Employee {
     private int idNum;
     private int age;
     private String nickName;
-    private int idNumIncrement = 0;
+    static private int idNumIncrement = 0;
 
     //Default constructor
     public Employee(){
@@ -142,7 +142,7 @@ public class Employee {
     public double getGrossPay(){
         if (rate != null){
             String[] rat = rate.split("/");
-            return Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]);
+            return (Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]))*hoursWorked;
         }else{
             return (rateDouble * hoursWorked);
         }
