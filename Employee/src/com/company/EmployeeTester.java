@@ -52,6 +52,10 @@ public class EmployeeTester {
         JTextArea lblEmployeeRateDouble = new JTextArea(employeeRateDouble.toString());
         JTextArea lblEmployeeRateString = new JTextArea(employeeRateString.toString());
 
+        System.out.println(fillEmployee.toString());
+        System.out.println(employeeRateDouble.toString());
+        System.out.println(employeeRateString.toString());
+
         //Add text area properties
         lblFill.setWrapStyleWord(true);
         lblFill.setLineWrap(true);
