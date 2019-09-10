@@ -21,24 +21,22 @@ public class ColorPanel extends JPanel {
         int xCo = Coordinates.xCo;
         int yCo = Coordinates.yCo;
 
-        //initialize paint component
+        //initialize parent paint component
         super.paintComponent(g);
         g.setColor(Color.blue);
-        // Create Graphics2D component.
+        //Graphics 2D is better for creating these gridlines and having them scale
         Graphics2D g2 = (Graphics2D) g;
 
-        // Drawing grid first, then axis to overlay.
-
         // Grid properties.
-        g2.setColor(new Color(206, 206, 206));
+        g2.setColor(new Color(200, 200, 200));
         g2.setStroke(new BasicStroke(1));
         // Create grid lines.
-        for (int i = 0; i < getWidth(); i+=10) {
+        for (int i = 0; i < getWidth(); i+=12) {
             g2.drawLine(i, 0, i, getHeight());
             g2.drawLine(0, i, getWidth(), i);
         }
 
-        // Axis properties.
+        //The color of the axises and their size
         g2.setColor(Color.black);
         g2.setStroke(new BasicStroke(3));
         // Create axis lines.
@@ -46,14 +44,14 @@ public class ColorPanel extends JPanel {
         g2.drawLine(0, getHeight()/2, getWidth(), getHeight()/2);
 
 
-        // Text properties.
+        //Text Color
         g.setColor(Color.black);
-        // Draw label showing origin.
-        g.drawString("(0, 0)", getWidth()/2 + 10, (getHeight()/2) - 5);
-        // Draw label showing coordinates.
-        g.drawString(coordinateToString, xCo + 5, yCo - 5);
+        //Text for the Origin, static
+        g.drawString("(0, 0)", getWidth()/2 + 15, (getHeight()/2) - 10);
+        //For Coordinates
+        g.drawString(coordinateToString, xCo + 10, yCo - 10);
 
-        // Point properties.
+        //Color for the point
         g2.setColor(Color.red);
         g2.setStroke(new BasicStroke(5));
         // Create point at...
