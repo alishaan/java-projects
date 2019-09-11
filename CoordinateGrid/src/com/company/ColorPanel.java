@@ -28,7 +28,7 @@ public class ColorPanel extends JPanel {
         Graphics2D g2 = (Graphics2D) g;
 
         // Grid properties.
-        g2.setColor(new Color(200, 200, 200));
+        g2.setColor(new Color(100, 100, 100));
         g2.setStroke(new BasicStroke(1));
         // Create grid lines.
         for (int i = 0; i < getWidth(); i+=12) {
@@ -52,12 +52,12 @@ public class ColorPanel extends JPanel {
         g.drawString(coordinateToString, xCo + 10, yCo - 10);
 
         //Color for the point
-        g2.setColor(Color.red);
+        g2.setColor(Color.blue);
         g2.setStroke(new BasicStroke(5));
-        // Create point at...
-        // ...the origin
+        //Creating origin point
         g2.drawLine(getWidth()/2, getHeight()/2, getWidth()/2, getHeight()/2);
-        // ...the user's click.
+        //Creating point compared to user click
         g2.drawLine(xCo, yCo, xCo, yCo);
+
     }
 }
