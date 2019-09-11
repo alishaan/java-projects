@@ -28,10 +28,6 @@ public class Coordinates {
         int offsetX = 475;
         int offsetY = 119;
 
-
-        int originalX = pane.getX();
-        int originalY = pane.getY();
-
         gui.setVisible(true);
 
         //This is where we get mouse input from the user
@@ -40,9 +36,6 @@ public class Coordinates {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
 
-                System.out.println(originalX);
-                System.out.println(originalY);
-                
                 xCo = e.getX();
                 yCo = e.getY();
 
