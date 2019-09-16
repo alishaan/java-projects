@@ -14,14 +14,15 @@ public class TriangleTester {
         //Creating new gui for this project
         JFrame gui = new JFrame();
         //Creating a new panel to display the coordinate system on
-        JPanel coordinate = new JPanel();
+        JPanel coordinate = new ColorPanel();
         //Creating a new panel to display the triangle data on
         JPanel trianglePanel = new JPanel();
         //Creating SplitPanel with the two Panels to split the view
         JSplitPane splitPanel = new JSplitPane(SwingConstants.VERTICAL, coordinate, trianglePanel);
+        splitPanel.setResizeWeight(0.7);
         //Getting user input for coordinate plane
         gui.add(splitPanel);
-        gui.setSize(1000, 1000);
+        gui.setSize(1600, 900);
         gui.setVisible(true);
         coordinate.addMouseListener(new MouseAdapter() {
             int numberClicks = 0;
@@ -37,9 +38,9 @@ public class TriangleTester {
                     arrY[numberClicks - 1] = e.getY();
                     numberClicks++;
                 }else{
+                    numberClicks++;
                     arrX[numberClicks - 1] = e.getX();
                     arrY[numberClicks - 1] = e.getY();
-                    numberClicks++;
                 }
             }
         });
