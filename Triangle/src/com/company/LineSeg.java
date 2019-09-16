@@ -1,11 +1,11 @@
 package com.company;
 
 public class LineSeg {
-    private double distance = getDistance();
-    private double slope = getSlope();
+    private double distance;
+    private double slope;
     private Point myBP;
     private Point myEP;
-    private String toStringCommon = toStringCommon();
+    private String toStringCommon;
     //Default constructor
     public LineSeg(){
         myBP = new Point();

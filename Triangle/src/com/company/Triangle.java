@@ -3,12 +3,13 @@ package com.company;
 import javax.sound.sampled.Line;
 
 public class Triangle {
-    private double area = getArea();
-    private double perimeter = getPerimeter();
+    private double area;
+    private double perimeter;
     private LineSeg LineSeg1;
     private LineSeg LineSeg2;
     private LineSeg LineSeg3;
-    private String type = getTypeOfTriangle();
+    private String type;
+    private boolean isTriangle;
     //Fill Constructor
     public Triangle(LineSeg lineSeg1, LineSeg lineSeg2, LineSeg lineSeg3) {
         LineSeg1 = lineSeg1;

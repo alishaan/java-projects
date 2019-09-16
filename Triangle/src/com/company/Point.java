@@ -4,7 +4,7 @@ public class Point {
     //Variables
     private int x;
     private int y;
-    private String toStringCommon = toStringCommon();
+    private String toStringCommon;
     //Default constructor
     public Point(){
         x = 0;
@@ -45,6 +45,6 @@ public class Point {
                 '}';
     }
     public String toStringCommon(){
-        return "(" + getX() + ", " + getY() + ")";
+        return "(" + (((TriangleTester.getWidth() / 2) - x) * -1) + ", " + ((TriangleTester.getHeight() / 2) - y) + ")";
     }
 }
