@@ -10,6 +10,8 @@ import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+//Array List for coordinates
+import java.util.Arrays;
 
 public class TriangleTester {
     public static void main(String[] args) { //main class
@@ -21,8 +23,29 @@ public class TriangleTester {
         JPanel trianglePanel = new JPanel();
         //Creating SplitPanel with the two Panels to split the view
         JSplitPane splitPanel = new JSplitPane(SwingConstants.VERTICAL, coordinate, trianglePanel);
+        //Getting user input for coordinate plane
         gui.add(splitPanel);
         gui.setSize(1000, 1000);
         gui.setVisible(true);
+        coordinate.addMouseListener(new MouseAdapter() {
+            int numberClicks = 0;
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                //Creating an array for the x and y values of the clicks
+                int[] arrX = new int[3];
+                int[] arrY = new int[3];
+                if (numberClicks == 3) {
+                    numberClicks = 1;
+                    arrX[numberClicks - 1] = e.getX();
+                    arrY[numberClicks - 1] = e.getY();
+                    numberClicks++;
+                }else{
+                    arrX[numberClicks - 1] = e.getX();
+                    arrY[numberClicks - 1] = e.getY();
+                    numberClicks++;
+                }
+            }
+        });
     }
 }
