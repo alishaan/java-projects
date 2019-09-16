@@ -8,6 +8,7 @@ public class Triangle {
     private LineSeg LineSeg1;
     private LineSeg LineSeg2;
     private LineSeg LineSeg3;
+    private String type = getTypeOfTriangle();
     //Fill Constructor
     public Triangle(LineSeg lineSeg1, LineSeg lineSeg2, LineSeg lineSeg3) {
         LineSeg1 = lineSeg1;
@@ -64,6 +65,15 @@ public class Triangle {
         }
         else{
             return false;
+        }
+    }
+    public String getTypeOfTriangle(){
+        if (LineSeg1.getDistance() == LineSeg2.getDistance() && LineSeg2.getDistance() == LineSeg3.getDistance()){
+            return "equilateral";
+        }else if (LineSeg1.getDistance() != LineSeg2.getDistance() && LineSeg2.getDistance() != LineSeg3.getDistance() && LineSeg3.getDistance() != LineSeg1.getDistance()){
+            return "scalene";
+        }else{
+            return "isosceles";
         }
     }
 }
