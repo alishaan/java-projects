@@ -6,12 +6,8 @@ import java.awt.*;
 //For gui
 import javax.swing.*;
 //For click input
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-//Array List for coordinates
-import java.util.Arrays;
 
 public class TriangleTester {
     public static void main(String[] args) { //main class
