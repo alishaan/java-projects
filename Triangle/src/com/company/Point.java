@@ -14,6 +14,11 @@ public class Point {
         x = myx;
         y = myy;
     }
+    //Copy constructor
+    public Point(Point originalPoint){
+        x = originalPoint.x;
+        y = originalPoint.y;
+    }
     //Sets and Gets
     public int getX() {
         return x;
