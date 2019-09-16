@@ -5,7 +5,7 @@ public class LineSeg {
     private double slope = getSlope();
     private Point myBP;
     private Point myEP;
-
+    private String toStringCommon = toStringCommon();
     //Default constructor
     public LineSeg(){
         myBP = new Point();
@@ -49,5 +49,8 @@ public class LineSeg {
                 ", myBP=" + myBP +
                 ", myEP=" + myEP +
                 '}';
+    }
+    public String toStringCommon(){
+        return "(" + myBP.getX() + ", " + myBP.getY() + ")" + " --> " + "(" + myEP.getX() + ", " + myEP.getY() + ")";
     }
 }

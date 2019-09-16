@@ -4,6 +4,7 @@ public class Point {
     //Variables
     private int x;
     private int y;
+    private String toStringCommon = toStringCommon();
     //Default constructor
     public Point(){
         x = 0;
@@ -35,7 +36,6 @@ public class Point {
     public void setY(int y) {
         this.y = y;
     }
-
     //toString method
     @Override
     public String toString() {
@@ -43,5 +43,8 @@ public class Point {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+    public String toStringCommon(){
+        return "(" + getX() + ", " + getY() + ")";
     }
 }
