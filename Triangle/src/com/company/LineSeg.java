@@ -27,5 +27,27 @@ public class LineSeg {
     public double getDistance(){
        return distance = java.lang.Math.sqrt((((myEP.getY()-myBP.getY())^2) + ((myEP.getX()-myBP.getX())^2))); //return distance in double format
     }
-
+    //Gets and Sets
+    public Point getMyBP() {
+        return myBP;
+    }
+    public void setMyBP(Point myBP) {
+        this.myBP = myBP;
+    }
+    public Point getMyEP() {
+        return myEP;
+    }
+    public void setMyEP(Point myEP) {
+        this.myEP = myEP;
+    }
+    //toString method
+    @Override
+    public String toString() {
+        return "LineSeg{" +
+                "distance=" + distance +
+                ", slope=" + slope +
+                ", myBP=" + myBP +
+                ", myEP=" + myEP +
+                '}';
+    }
 }
