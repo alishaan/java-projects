@@ -1,7 +1,5 @@
 package com.company;
 
-import javax.sound.sampled.Line;
-
 public class Triangle {
     private double area;
     private double perimeter;
@@ -66,7 +64,10 @@ public class Triangle {
         return java.lang.Math.sqrt(s*(s-LineSeg1.getDistance())*(s-LineSeg2.getDistance())*(s-LineSeg3.getDistance()));
     }
     public boolean isTriangle(){
-        if ((LineSeg1.getDistance() + LineSeg2.getDistance() > LineSeg3.getDistance())||(LineSeg3.getDistance() + LineSeg2.getDistance() > LineSeg1.getDistance())||(LineSeg3.getDistance() + LineSeg1.getDistance() > LineSeg2.getDistance())){ //utilizing inequality theorem
+        if (LineSeg1.getDistance() == 0||LineSeg2.getDistance() == 0||LineSeg3.getDistance() == 0){
+            return false;
+        }
+        else if ((LineSeg1.getDistance() + LineSeg2.getDistance() > LineSeg3.getDistance())||(LineSeg3.getDistance() + LineSeg2.getDistance() > LineSeg1.getDistance())||(LineSeg3.getDistance() + LineSeg1.getDistance() > LineSeg2.getDistance())){ //utilizing inequality theorem
            return true;
         }
         else{
@@ -74,7 +75,10 @@ public class Triangle {
         }
     }
     public String getTypeOfTriangle(){
-        if (LineSeg1.getDistance() == LineSeg2.getDistance() && LineSeg2.getDistance() == LineSeg3.getDistance()){
+        if (isTriangle() == false){
+            return "not a triangle";
+        }
+        else if (LineSeg1.getDistance() == LineSeg2.getDistance() && LineSeg2.getDistance() == LineSeg3.getDistance()){
             return "equilateral";
         }else if (LineSeg1.getDistance() != LineSeg2.getDistance() && LineSeg2.getDistance() != LineSeg3.getDistance() && LineSeg3.getDistance() != LineSeg1.getDistance()){
             return "scalene";
