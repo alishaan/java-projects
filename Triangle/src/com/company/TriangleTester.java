@@ -10,6 +10,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class TriangleTester {
+    public static Triangle clickedTriangle = new Triangle();
     //Arrays of points
     public static int[] arrX = new int[]{0, 0, 0};
     public static int[] arrY = new int []{0, 0, 0};
@@ -20,28 +21,32 @@ public class TriangleTester {
         //Creating new gui for this project
         JFrame gui = new JFrame();
         //Creating a new panel to display the coordinate system on
-        JPanel coordinate = new ColorPanel();
+        JPanel coordinatePanel = new ColorPanel();
         //Creating a new panel to display the triangle data on
         JPanel trianglePanel = new JPanel();
+        JTextArea triangleText = new JTextArea(clickedTriangle.toString());
+        triangleText.setSize(new Dimension(300, 900));
+        triangleText.setLineWrap(true);
+        trianglePanel.add(triangleText);
         //Creating SplitPanel with the two Panels to split the view
-        JSplitPane splitPanel = new JSplitPane(SwingConstants.VERTICAL, coordinate, trianglePanel);
+        JSplitPane splitPanel = new JSplitPane(SwingConstants.VERTICAL, coordinatePanel, trianglePanel);
         splitPanel.setResizeWeight(0.7);
         //Getting user input for coordinate plane
         gui.add(splitPanel);
         gui.setSize(1600, 900);
         gui.setVisible(true);
         //Setting origin values to initial points of triangle
-        arrX[0] =  coordinate.getWidth()/2;
-        arrX[1] =  coordinate.getWidth()/2;
-        arrX[2] =  coordinate.getWidth()/2;
-        arrY[0] =  coordinate.getHeight()/2;
-        arrY[1] =  coordinate.getHeight()/2;
-        arrY[2] =  coordinate.getHeight()/2;
-
+        arrX[0] =  coordinatePanel.getWidth()/2;
+        arrX[1] =  coordinatePanel.getWidth()/2;
+        arrX[2] =  coordinatePanel.getWidth()/2;
+        arrY[0] =  coordinatePanel.getHeight()/2;
+        arrY[1] =  coordinatePanel.getHeight()/2;
+        arrY[2] =  coordinatePanel.getHeight()/2;
         //Variables to see height and width
-        width = coordinate.getWidth();
-        height = coordinate.getHeight();
-        coordinate.addMouseListener(new MouseAdapter() {
+        width = coordinatePanel.getWidth();
+        height = coordinatePanel.getHeight();
+        //Adding mouse input to the coordinate pane
+        coordinatePanel.addMouseListener(new MouseAdapter() {
             int numberClicks = 0;
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -52,11 +57,15 @@ public class TriangleTester {
                     numberClicks = 1;
                     arrX[numberClicks - 1] = e.getX();
                     arrY[numberClicks - 1] = e.getY();
-                    coordinate.repaint();
+                    coordinatePanel.repaint();
+                    clickedTriangle.setTriangle(new Triangle(new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[1], TriangleTester.arrY[1])), new LineSeg(new Point(TriangleTester.arrX[1], TriangleTester.arrY[1]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2])), new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2]))));
+                    triangleText.setText(clickedTriangle.toString());
                 }else{
                     arrX[numberClicks - 1] = e.getX();
                     arrY[numberClicks - 1] = e.getY();
-                    coordinate.repaint();
+                    coordinatePanel.repaint();
+                    clickedTriangle.setTriangle(new Triangle(new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[1], TriangleTester.arrY[1])), new LineSeg(new Point(TriangleTester.arrX[1], TriangleTester.arrY[1]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2])), new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2]))));
+                    triangleText.setText(clickedTriangle.toString());
                 }
             }
         });
@@ -75,5 +84,9 @@ public class TriangleTester {
 
     public static int getHeight() {
         return height;
+    }
+
+    public Triangle getClickedTriangle() {
+        return clickedTriangle;
     }
 }

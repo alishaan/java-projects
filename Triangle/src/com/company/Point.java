@@ -32,7 +32,13 @@ public class Point {
     public int getY() {
         return y;
     }
-
+    //Get adjusted coordinates for the current plane
+    public int getAdjustedX(){
+        return (((TriangleTester.getWidth() / 2) - x) * -1);
+    }
+    public int getAdjustedY(){
+        return ((TriangleTester.getHeight() / 2) - y);
+    }
     public void setY(int y) {
         this.y = y;
     }

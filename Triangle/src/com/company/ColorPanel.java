@@ -4,9 +4,9 @@ package com.company;
 import javax.swing.*;
 //Import color
 import java.awt.*;
-import java.awt.event.MouseAdapter;
 
 public class ColorPanel extends JPanel {
+    public Triangle clickedTriangle = new Triangle();
     //default constructor
     public ColorPanel(){
         setBackground(Color.white);
@@ -43,7 +43,7 @@ public class ColorPanel extends JPanel {
         //Text for the Origin, static
         g.drawString("(0, 0)", getWidth()/2 + 15, (getHeight()/2) - 10);
         //Creating the Triangle
-        Triangle clickedTriangle = new Triangle(new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[1], TriangleTester.arrY[1])), new LineSeg(new Point(TriangleTester.arrX[1], TriangleTester.arrY[1]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2])), new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2])));
+        clickedTriangle.setTriangle(new Triangle(new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[1], TriangleTester.arrY[1])), new LineSeg(new Point(TriangleTester.arrX[1], TriangleTester.arrY[1]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2])), new LineSeg(new Point(TriangleTester.arrX[0], TriangleTester.arrY[0]), new Point(TriangleTester.arrX[2], TriangleTester.arrY[2]))));
         // Draw label showing coordinates.
         g.drawString(clickedTriangle.getLineSeg1().getMyBP().toStringCommon(), TriangleTester.getArrX()[0] + 5, TriangleTester.getArrY()[0] - 5);
         g.drawString(clickedTriangle.getLineSeg1().getMyEP().toStringCommon(), TriangleTester.getArrX()[1] + 5, TriangleTester.getArrY()[1] - 5);

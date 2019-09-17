@@ -28,6 +28,11 @@ public class Triangle {
         LineSeg2 = originalTriangle.LineSeg2;
         LineSeg3 = originalTriangle.LineSeg3;
     }
+    public void setTriangle(Triangle baseTriangle){
+        LineSeg1 = baseTriangle.LineSeg1;
+        LineSeg2 = baseTriangle.LineSeg2;
+        LineSeg3 = baseTriangle.LineSeg3;
+    }
     //Gets and Sets
     public LineSeg getLineSeg1() {
         return LineSeg1;
@@ -76,5 +81,18 @@ public class Triangle {
         }else{
             return "isosceles";
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "area=" + getArea() +
+                ", perimeter=" + getPerimeter() +
+                ", Point 1=" + LineSeg1.getMyBP().toStringCommon() +
+                ", Point 2=" + LineSeg1.getMyEP().toStringCommon() +
+                ", Point 3=" + LineSeg3.getMyEP().toStringCommon() +
+                ", type='" + getTypeOfTriangle() + '\'' +
+                ", isTriangle=" + isTriangle() +
+                '}';
     }
 }

@@ -22,10 +22,10 @@ public class LineSeg {
         myEP = originalSeg.myEP;
     }
     public double getSlope(){
-       return slope = ((myEP.getY()-myBP.getY())/(myEP.getX()-myBP.getX())); //return slope in double format
+       return slope = ((myEP.getAdjustedY()-myBP.getAdjustedY())/(myEP.getX()-myBP.getX())); //return slope in double format
     }
     public double getDistance(){
-       return distance = java.lang.Math.sqrt((((myEP.getY()-myBP.getY())^2) + ((myEP.getX()-myBP.getX())^2))); //return distance in double format
+       return distance = java.lang.Math.sqrt((Math.pow((myEP.getAdjustedY()-myBP.getAdjustedY()), 2)) + (Math.pow((myEP.getAdjustedX()-myBP.getAdjustedX()), 2))); //return distance in double format
     }
     //Gets and Sets
     public Point getMyBP() {
@@ -51,6 +51,6 @@ public class LineSeg {
                 '}';
     }
     public String toStringCommon(){
-        return "(" + myBP.getX() + ", " + myBP.getY() + ")" + " --> " + "(" + myEP.getX() + ", " + myEP.getY() + ")";
+        return "(" + myBP.getAdjustedX() + ", " + myBP.getAdjustedY() + ")" + " --> " + "(" + myEP.getAdjustedX() + ", " + myEP.getAdjustedY() + ")";
     }
 }
