@@ -64,7 +64,10 @@ public class Triangle {
         return java.lang.Math.sqrt(s*(s-LineSeg1.getDistance())*(s-LineSeg2.getDistance())*(s-LineSeg3.getDistance()));
     }
     public boolean isTriangle(){
-        if (LineSeg1.getDistance() == 0||LineSeg2.getDistance() == 0||LineSeg3.getDistance() == 0){
+        if(((LineSeg1.getMyBP().getX() == LineSeg2.getMyBP().getX())&&(LineSeg2.getMyBP().getX() == LineSeg3.getMyBP().getX()))||((LineSeg1.getMyBP().getY() == LineSeg2.getMyBP().getY())&&(LineSeg2.getMyBP().getY() == LineSeg3.getMyBP().getY()))){
+            return false;
+        }
+        else if (LineSeg1.getDistance() == 0||LineSeg2.getDistance() == 0||LineSeg3.getDistance() == 0){
             return false;
         }
         else if ((LineSeg1.getDistance() + LineSeg2.getDistance() > LineSeg3.getDistance())||(LineSeg3.getDistance() + LineSeg2.getDistance() > LineSeg1.getDistance())||(LineSeg3.getDistance() + LineSeg1.getDistance() > LineSeg2.getDistance())){ //utilizing inequality theorem
