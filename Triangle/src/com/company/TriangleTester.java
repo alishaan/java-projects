@@ -27,6 +27,7 @@ public class TriangleTester {
         JTextArea triangleText = new JTextArea(clickedTriangle.toString());
         triangleText.setSize(new Dimension(300, 900));
         triangleText.setLineWrap(true);
+        triangleText.setEditable(false);
         trianglePanel.add(triangleText);
         //Creating SplitPanel with the two Panels to split the view
         JSplitPane splitPanel = new JSplitPane(SwingConstants.VERTICAL, coordinatePanel, trianglePanel);
