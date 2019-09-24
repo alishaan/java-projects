@@ -53,4 +53,5 @@ public class Point {
     public String toStringCommon(){
         return "(" + (((TriangleTester.getWidth() / 2) - x) * -1) + ", " + ((TriangleTester.getHeight() / 2) - y) + ")";
     }
+
 }
