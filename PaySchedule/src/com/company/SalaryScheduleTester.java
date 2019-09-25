@@ -1,10 +1,12 @@
 package com.company;
 import javax.swing.*;
 import java.io.*;
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class SalaryScheduleTester {
     public static void main(String[] args) throws IOException {
+        DecimalFormat f = new DecimalFormat("##.00");
         //Check if user wants to use file or type information
         int fileOrInput = JOptionPane.showConfirmDialog(null, "Would you like to read from a file?");
         if (fileOrInput == JOptionPane.YES_OPTION){
@@ -16,7 +18,7 @@ public class SalaryScheduleTester {
                 String yearsWorkedString = fileReader.nextLine();
                 int yearsWorked = Integer.parseInt(yearsWorkedString);
                 String baseSalaryString = fileReader.nextLine();
-                int baseSalary = Integer.parseInt(baseSalaryString);
+                double baseSalary = Integer.parseInt(baseSalaryString);
                 Teacher newTeacher = new Teacher(degreeLevel, yearsWorked, baseSalary);
                 //Create pay schedule object
                 SalarySchedule salarySchedule = new SalarySchedule(newTeacher);
@@ -27,7 +29,7 @@ public class SalaryScheduleTester {
                 print_line.printf("%s" + "%n", newTeacher.toString());
                 print_line.close();
                 //Output teacher salary
-                JOptionPane.showMessageDialog(null, "The teacher's salary is " + newTeacher.getSalary());
+                JOptionPane.showMessageDialog(null, "The teacher's salary is " + f.format(newTeacher.getSalary()));
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -35,7 +37,7 @@ public class SalaryScheduleTester {
             //Input for all the values
             String degreeLevel = JOptionPane.showInputDialog(null, "What degree is the teacher?");
             String baseSalaryString = JOptionPane.showInputDialog(null, "What is the district's base salary for teachers?");
-            int baseSalary = Integer.parseInt(baseSalaryString);
+            double baseSalary = Integer.parseInt(baseSalaryString);
             String yearsWorkedString = JOptionPane.showInputDialog(null, "How many years has the teacher worked at the school?");
             int yearsWorked = Integer.parseInt(yearsWorkedString);
             //Create teacher object
@@ -49,7 +51,7 @@ public class SalaryScheduleTester {
             print_line.printf("%s" + "%n", newTeacher.toString());
             print_line.close();
             //Output teacher salary
-            JOptionPane.showMessageDialog(null, "The teacher's salary is " + newTeacher.getSalary());
+            JOptionPane.showMessageDialog(null, "The teacher's salary is " + f.format(newTeacher.getSalary()));
         }
     }
 }

@@ -1,1 +1,1 @@
-Teacher{degree='master's', years=12, salary=89522}
+Teacher{degree='master's', years=12, salary=447614.7510220749}

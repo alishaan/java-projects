@@ -1,5 +1,7 @@
 package com.company;
 
+import java.text.DecimalFormat;
+
 public class SalarySchedule {
     private String paySchedule;
 
@@ -26,6 +28,7 @@ public class SalarySchedule {
                 '}';
     }
     public String generateSchedule(){
+        DecimalFormat f = new DecimalFormat("##.00");
         String generateScheduleString;
         generateScheduleString = "Degree ";
         for (int i = 0; i < 20; i++){
@@ -34,19 +37,19 @@ public class SalarySchedule {
         generateScheduleString += System.lineSeparator();
         generateScheduleString += "Bachelor's ";
         for (int i = 0; i<20; i++){
-            generateScheduleString += (int)(teacher.getBaseSalary()*(Math.pow(1.02, i)));
+            generateScheduleString += f.format((double)(teacher.getBaseSalary()*(Math.pow(1.02, i))));
             generateScheduleString += " ";
         }
         generateScheduleString += System.lineSeparator();
         generateScheduleString += "Master's ";
         for (int i = 0; i<20; i++) {
-            generateScheduleString += (int) (teacher.getBaseSalary() * (Math.pow(1.02, i)) * 1.2);
+            generateScheduleString += f.format((double) (teacher.getBaseSalary() * (Math.pow(1.02, i)) * 1.2));
             generateScheduleString += " ";
         }
         generateScheduleString += System.lineSeparator();
         generateScheduleString += "PhD ";
         for (int i = 0; i<20; i++) {
-            generateScheduleString += (int) (teacher.getBaseSalary() * (Math.pow(1.02, i)) * 1.4);
+            generateScheduleString += f.format((double) (teacher.getBaseSalary() * (Math.pow(1.02, i)) * 1.4));
             generateScheduleString += " ";
         }
         return generateScheduleString;

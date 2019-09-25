@@ -3,8 +3,8 @@ package com.company;
 public class Teacher {
     private String degree;
     private int years;
-    private int actualSalary;
-    private int baseSalary;
+    private double actualSalary;
+    private double baseSalary;
 
     public Teacher(){
         degree = "bachelor's";
@@ -12,19 +12,19 @@ public class Teacher {
         baseSalary = 40000;
         actualSalary = getSalary();
     }
-    public Teacher(String degreePass, int yearsPass, int baseSalaryPass){
+    public Teacher(String degreePass, int yearsPass, double baseSalaryPass){
         degree = degreePass;
         years = yearsPass;
         baseSalary = baseSalaryPass;
         actualSalary = getSalary();
     }
-    public int getSalary(){
+    public double getSalary(){
         if (degree.equals("bachelor's")){
-            return (int)(baseSalary*Math.pow(1.02, years-1));
+            return (double)(baseSalary*Math.pow(1.02, years-1));
         }else if(degree.equals("master's")){
-            return (int)(baseSalary*Math.pow(1.02, years-1)*1.2);
+            return (double)(baseSalary*Math.pow(1.02, years-1)*1.2);
         }else{
-            return (int)(baseSalary*Math.pow(1.02, years-1)*1.4);
+            return (double)(baseSalary*Math.pow(1.02, years-1)*1.4);
         }
     }
     public String getDegree() {
@@ -43,11 +43,11 @@ public class Teacher {
         this.years = years;
     }
 
-    public int getBaseSalary() {
+    public double getBaseSalary() {
         return baseSalary;
     }
 
-    public void setBaseSalary(int baseSalary) {
+    public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }
 
