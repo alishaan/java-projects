@@ -27,6 +27,7 @@ public class SalaryScheduleTester {
                 FileWriter write = new FileWriter("teacherOutput.txt");
                 PrintWriter print_line = new PrintWriter(write);
                 print_line.printf("%s" + "%n", newTeacher.toString());
+                print_line.printf("%s" + "%n", salarySchedule.generateSchedule());
                 print_line.close();
                 //Output teacher salary
                 JOptionPane.showMessageDialog(null, "The teacher's salary is " + f.format(newTeacher.getSalary()));
@@ -49,6 +50,7 @@ public class SalaryScheduleTester {
             FileWriter write = new FileWriter("teacherOutput.txt");
             PrintWriter print_line = new PrintWriter(write);
             print_line.printf("%s" + "%n", newTeacher.toString());
+            print_line.printf("%s" + "%n", salarySchedule.generateSchedule());
             print_line.close();
             //Output teacher salary
             JOptionPane.showMessageDialog(null, "The teacher's salary is " + f.format(newTeacher.getSalary()));
