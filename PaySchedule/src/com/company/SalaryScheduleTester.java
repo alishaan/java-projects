@@ -1,11 +1,10 @@
 package com.company;
 import javax.swing.*;
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.Scanner;
 
 public class SalaryScheduleTester {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         //Check if user wants to use file or type information
         int fileOrInput = JOptionPane.showConfirmDialog(null, "Would you like to read from a file?");
         if (fileOrInput == JOptionPane.YES_OPTION){
@@ -23,8 +22,14 @@ public class SalaryScheduleTester {
                 SalarySchedule salarySchedule = new SalarySchedule(newTeacher);
                 //Print out the salary schedule
                 System.out.println(salarySchedule.generateSchedule());
+                FileWriter write = new FileWriter("teacherOutput.txt");
+                PrintWriter print_line = new PrintWriter(write);
+                print_line.printf("%s" + "%n", newTeacher.toString());
+                print_line.close();
                 //Output teacher salary
                 JOptionPane.showMessageDialog(null, "The teacher's salary is " + newTeacher.getSalary());
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }else{
             //Input for all the values
@@ -39,6 +44,10 @@ public class SalaryScheduleTester {
             SalarySchedule salarySchedule = new SalarySchedule(newTeacher);
             //Print out the salary schedule
             System.out.println(salarySchedule.generateSchedule());
+            FileWriter write = new FileWriter("teacherOutput.txt");
+            PrintWriter print_line = new PrintWriter(write);
+            print_line.printf("%s" + "%n", newTeacher.toString());
+            print_line.close();
             //Output teacher salary
             JOptionPane.showMessageDialog(null, "The teacher's salary is " + newTeacher.getSalary());
         }
