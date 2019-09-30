@@ -1,4 +1,4 @@
-# java-projects
+# Java Projects
 
 This repository houses all the projects that I have created for my AP Computer Science class.
 
