@@ -2,6 +2,7 @@ package com.company;
 
 import java.io.*;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Employee100Tester {
 
@@ -13,8 +14,14 @@ public class Employee100Tester {
         double randomDoubleRate;
         int randomAge;
         String randomSex;
-        String[] randomEmployeeArray = new String[100];
         int employeeCount = 0;
+        int numEmployees;
+
+        Scanner employeeInput = new Scanner(System.in);
+        System.out.print("Enter the amount of employees you want to generate?: ");
+        numEmployees = employeeInput.nextInt();
+        String[] randomEmployeeArray = new String[numEmployees];
+
 
         //Get the amount of last names
         int linesLast = 0;
@@ -108,7 +115,7 @@ public class Employee100Tester {
             RandomEmployee randomEmployee = new RandomEmployee(randomFirstName, randomLastName, randomHoursWorked, randomDoubleRate, randomAge, randomNumDependents, randomSex);
             randomEmployeeArray[employeeCount-1] = randomEmployee.toString();
 
-        }while(employeeCount < 100);
+        }while(employeeCount < numEmployees);
         //Make a large string
         String randomEmployeeArrayString = "";
         for (int i=0; i < randomEmployeeArray.length; i++){
