@@ -67,7 +67,7 @@ public class Employee100Tester {
             //Hours Worked
             randomHoursWorked = (int)(Math.random()*60)+20;
             //Pay rate
-            randomDoubleRate = (Math.random()*25)+1;
+            randomDoubleRate = (Math.random()*25)+10;
             //Age
             randomAge = (int)((Math.random()*47)+18);
             //Sex
@@ -121,8 +121,9 @@ public class Employee100Tester {
         for (int i=0; i < randomEmployeeArray.length; i++){
             randomEmployeeArrayString = randomEmployeeArrayString +randomEmployeeArray[i] + System.lineSeparator();
         }
-        FileWriter write = new FileWriter("teacherOutput.txt");
+        FileWriter write = new FileWriter("employeeOutput.csv");
         PrintWriter print_line = new PrintWriter(write);
+        print_line.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME");
         print_line.print(randomEmployeeArrayString);
         print_line.close();
     }

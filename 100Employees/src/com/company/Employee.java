@@ -113,26 +113,26 @@ public class Employee {
     public String toString() {
         if (rate != null) {
             return "Employee{" +
-                    "lastName='" + lastName + '\'' +
-                    ", firstName='" + firstName + '\'' +
-                    ", hoursWorked=" + hoursWorked +
-                    ", rate=" + rate +
-                    ", idNum=" + idNum +
-                    ", age=" + age +
-                    ", nickName='" + nickName + '\'' +
+                    "lastName='" + getLastName() + '\'' +
+                    ", firstName='" + getFirstName() + '\'' +
+                    ", hoursWorked=" + getHoursWorked() +
+                    ", rate=" + getRate() +
+                    ", idNum=" + getIdNum() +
+                    ", age=" + getAge() +
+                    ", nickName='" + getNickName() + '\'' +
                     ", grossPay='" + getGrossPay() + '\'' +
                     ", overTime='" + checkOvertime() + '\'' +
                     '}';
         }
         else{
             return "Employee{" +
-                    "lastName='" + lastName + '\'' +
-                    ", firstName='" + firstName + '\'' +
-                    ", hoursWorked=" + hoursWorked +
-                    ", rateDouble='" + rateDouble + '\'' +
-                    ", idNum=" + idNum +
-                    ", age=" + age +
-                    ", nickName='" + nickName + '\'' +
+                    "lastName='" + getLastName() + '\'' +
+                    ", firstName='" + getFirstName() + '\'' +
+                    ", hoursWorked=" + getHoursWorked() +
+                    ", rateDouble='" + getRateDouble() + '\'' +
+                    ", idNum=" + getIdNum() +
+                    ", age=" + getAge() +
+                    ", nickName='" + getNickName() + '\'' +
                     ", grossPay='" + getGrossPay() + '\'' +
                     ", overTime='" + checkOvertime() + '\'' +
                     '}';
@@ -140,14 +140,14 @@ public class Employee {
     }
     //Custom methods
     public double getGrossPay(){
-        if (rate != null){
-            String[] rat = rate.split("/");
+        if (getRate() != null){
+            String[] rat = getRate().split("/");
             return (Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]))*hoursWorked;
         }else{
-            return (rateDouble * hoursWorked);
+            return (getRateDouble() * getHoursWorked());
         }
     }
     public boolean checkOvertime(){
-        return hoursWorked > 40;
+        return getHoursWorked() > 40;
     }
 }

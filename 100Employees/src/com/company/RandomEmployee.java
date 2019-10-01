@@ -5,26 +5,17 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomEmployee extends Employee{
 
-    private String lastName;
-    private String firstName;
-    private int hoursWorked;
-    private String rate;
-    private double rateDouble;
-    private int idNum;
-    private int age;
-    private String nickName;
-    static private int idNumIncrement = 0;
     private String sex;
     private int numDependents;
 
     //Must randomly generate
-    // first name,
-    // last name,
+    // first name, DONE
+    // last name, DONE
     // hoursworked, DONE
     // hourlypay, DONE
     // idnum, DONE
     // numofdependents, DONE
-    // sex
+    // sex DONE
 
     public RandomEmployee(){
         super();
@@ -55,19 +46,18 @@ public class RandomEmployee extends Employee{
     }
 
     public String toString(){
-        return "RandomEmployee{" +
-                "lastName='" + getLastName() + '\'' +
-                ", firstName='" + getFirstName() + '\'' +
-                ", hoursWorked=" + getHoursWorked() +
-                ", rateDouble='" + getRateDouble() + '\'' +
-                ", idNum=" + getIdNum() +
-                ", age=" + getAge() +
-                ", sex=" + getSex() +
-                ", nickName='" + getNickName() + '\'' +
-                ", numDependents='" + getNumDependents() + '\'' +
-                ", grossPay='" + getGrossPay() + '\'' +
-                ", overTime='" + checkOvertime() + '\'' +
-                '}';
+        return
+                getLastName() +
+                ", "+ getFirstName() +
+                ", " + getIdNum() +
+                ", "+ getHoursWorked() +
+                ", " + getRateDouble() +
+                ", " + getAge() +
+                ", " + getSex() +
+                ", " + getNickName() +
+                ", " + getNumDependents() +
+                ", " + getGrossPay() +
+                ", " + checkOvertime();
     }
 
 }
