@@ -1,6 +1,6 @@
 package com.company;
 
-public class RandomEmployee extends Employee{
+public class PayrollEmployee extends Employee{
 
     private String sex;
     private int numDependents;
@@ -14,13 +14,13 @@ public class RandomEmployee extends Employee{
     // numofdependents, DONE
     // sex DONE
 
-    public RandomEmployee(){
+    public PayrollEmployee(){
         super();
         sex = "male";
         numDependents = 0;
     }
     //Create constructor that passes in values, generate them randomly on the tester field
-    public RandomEmployee(String fn, String ln, int hoursWorked, double rd, int age, int nd, String sx){
+    public PayrollEmployee(String fn, String ln, int hoursWorked, double rd, int age, int nd, String sx){
         super(ln, fn, hoursWorked, rd, age, fn);
         numDependents = nd;
         sex = sx;
