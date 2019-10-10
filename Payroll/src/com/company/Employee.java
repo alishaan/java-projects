@@ -43,6 +43,26 @@ public class Employee {
         nickName = nick;
         idNum = idNumIncrement;
     }
+    public Employee(String last, String first, int idNumPass, int hours, String ratePass, int a, String nick){
+        idNumIncrement++;
+        lastName = last;
+        firstName = first;
+        hoursWorked = hours;
+        rate = ratePass;
+        age = a;
+        nickName = nick;
+        idNum = idNumPass;
+    }
+    public Employee(String last, String first, int idNumPass, int hours, double ratePass, int a, String nick){
+        idNumIncrement++;
+        lastName = last;
+        firstName = first;
+        hoursWorked = hours;
+        rateDouble = ratePass;
+        age = a;
+        nickName = nick;
+        idNum = idNumPass;
+    }
     //Set and Get Functions
 
     public String getLastName() {

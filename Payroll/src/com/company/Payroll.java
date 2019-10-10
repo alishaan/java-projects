@@ -1,10 +1,11 @@
 package com.company;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Payroll {
-    private PayrollEmployee[] employeeArray = new PayrollEmployee[100];
+    private ArrayList<PayrollEmployee> employeeArray = new ArrayList<PayrollEmployee>();
 
     //Default constructor generates an array of 100 employees
     public Payroll() throws IOException {
@@ -111,7 +112,7 @@ public class Payroll {
             }
             PayrollEmployee randomEmployee = new PayrollEmployee(randomFirstName, randomLastName, randomHoursWorked, randomDoubleRate, randomAge, randomNumDependents, randomSex);
             randomEmployeeArray[employeeCount-1] = randomEmployee.toString();
-            employeeArray[employeeCount-1] = randomEmployee;
+            employeeArray.add(randomEmployee);
 
         }while(employeeCount < numEmployees);
         //Make a large string
@@ -128,14 +129,14 @@ public class Payroll {
 
     //Fill Constructor will take in a file and generate an array of employees from it
     public Payroll(File passedFile){
-        
     }
 
-    public PayrollEmployee[] getEmployeeArray() {
+    public ArrayList<PayrollEmployee> getEmployeeArray() {
         return employeeArray;
     }
 
-    public void setEmployeeArray(PayrollEmployee[] employeeArray) {
+    public void setEmployeeArray(ArrayList<PayrollEmployee> employeeArray) {
         this.employeeArray = employeeArray;
     }
 }
+

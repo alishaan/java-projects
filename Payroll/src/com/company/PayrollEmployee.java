@@ -25,6 +25,11 @@ public class PayrollEmployee extends Employee{
         numDependents = nd;
         sex = sx;
     }
+    public PayrollEmployee(String fn, String ln, int idNumPass, int hoursWorked, double rd, int age, int nd, String sx){
+        super(ln, fn, idNumPass, hoursWorked, rd, age, fn);
+        numDependents = nd;
+        sex = sx;
+    }
 
     public String getSex() {
         return sex;
