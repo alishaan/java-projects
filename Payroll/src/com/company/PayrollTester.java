@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class PayrollTester {
 
     public static void main(String[] args) throws IOException {
-        Payroll testerPayroll = new Payroll(new File("employeeOutput.csv"));
+        Payroll testerPayroll = new Payroll();
         System.out.println(testerPayroll.getEmployeeArray().toString());
     }
 }
