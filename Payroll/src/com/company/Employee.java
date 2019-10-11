@@ -13,7 +13,7 @@ public class Employee {
     static private int idNumIncrement = 0;
 
     //Default constructor
-    public Employee(){
+    public Employee() {
         idNumIncrement++;
         lastName = "John";
         firstName = "Doe";
@@ -23,7 +23,8 @@ public class Employee {
         nickName = "John";
         idNum = idNumIncrement;
     }
-    public Employee(String last, String first, int hours, double ratePassD, int a, String nick){
+
+    public Employee(String last, String first, int hours, double ratePassD, int a, String nick) {
         idNumIncrement++;
         lastName = last;
         firstName = first;
@@ -33,7 +34,8 @@ public class Employee {
         nickName = nick;
         idNum = idNumIncrement;
     }
-    public Employee(String last, String first, int hours, String ratePass, int a, String nick){
+
+    public Employee(String last, String first, int hours, String ratePass, int a, String nick) {
         idNumIncrement++;
         lastName = last;
         firstName = first;
@@ -43,7 +45,8 @@ public class Employee {
         nickName = nick;
         idNum = idNumIncrement;
     }
-    public Employee(String last, String first, int idNumPass, int hours, String ratePass, int a, String nick){
+
+    public Employee(String last, String first, int idNumPass, int hours, String ratePass, int a, String nick) {
         idNumIncrement++;
         lastName = last;
         firstName = first;
@@ -53,7 +56,8 @@ public class Employee {
         nickName = nick;
         idNum = idNumPass;
     }
-    public Employee(String last, String first, int idNumPass, int hours, double ratePass, int a, String nick){
+
+    public Employee(String last, String first, int idNumPass, int hours, double ratePass, int a, String nick) {
         idNumIncrement++;
         lastName = last;
         firstName = first;
@@ -140,11 +144,8 @@ public class Employee {
                     ", idNum=" + getIdNum() +
                     ", age=" + getAge() +
                     ", nickName='" + getNickName() + '\'' +
-                    ", grossPay='" + getGrossPay() + '\'' +
-                    ", overTime='" + checkOvertime() + '\'' +
                     '}';
-        }
-        else{
+        } else {
             return "Employee{" +
                     "lastName='" + getLastName() + '\'' +
                     ", firstName='" + getFirstName() + '\'' +
@@ -153,21 +154,7 @@ public class Employee {
                     ", idNum=" + getIdNum() +
                     ", age=" + getAge() +
                     ", nickName='" + getNickName() + '\'' +
-                    ", grossPay='" + getGrossPay() + '\'' +
-                    ", overTime='" + checkOvertime() + '\'' +
                     '}';
         }
-    }
-    //Custom methods
-    public double getGrossPay(){
-        if (getRate() != null){
-            String[] rat = getRate().split("/");
-            return (Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]))*hoursWorked;
-        }else{
-            return (getRateDouble() * getHoursWorked());
-        }
-    }
-    public boolean checkOvertime(){
-        return getHoursWorked() > 40;
     }
 }

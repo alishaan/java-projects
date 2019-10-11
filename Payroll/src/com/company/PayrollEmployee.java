@@ -147,6 +147,21 @@ public class PayrollEmployee extends Employee{
         this.numDependents = numDependents;
     }
 
+    //Custom methods
+    public double getGrossPay(){
+        if (getRate() != null){
+            String[] rat = getRate().split("/");
+            return (Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]))*getHoursWorked();
+        }else{
+            return (getRateDouble() * getHoursWorked());
+        }
+    }
+    public boolean checkOvertime(){
+        return getHoursWorked() > 40;
+    }
+
+
+    //toString override method
     public String toString(){
         return
                 getLastName() +
