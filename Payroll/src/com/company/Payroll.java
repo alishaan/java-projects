@@ -134,7 +134,11 @@ public class Payroll {
     }
     public String toReadableString(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return "The total gross pay of the payroll is $" + df.format(getTotalGrossPay()) +", total net pay is $" + df.format(getTotalNetPay()) + ", total federal tax is $" + df.format(getTotalFed()) + ", total state tax is $" + df.format(getTotalState()) + ", total local tax is $" + df.format(getTotalLocal()) + ", and total social security tax is $" + df.format(getTotalSS());
+        return "The total gross pay of the payroll is $" + df.format(getTotalGrossPay()) +", " +
+                "total net pay is $" + df.format(getTotalNetPay()) + ", total federal tax is $" +
+                df.format(getTotalFed()) + ", total state tax is $" + df.format(getTotalState()) + ", " +
+                "total local tax is $" + df.format(getTotalLocal()) + ", and total social security tax is $" +
+                df.format(getTotalSS());
     }
 }
 

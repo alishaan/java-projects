@@ -9,7 +9,7 @@ public class PayrollTester {
     public static void main(String[] args) throws IOException {
         //Open file of employee output
         Payroll payroll = new Payroll(new File("employeeOutput.csv"));
-        
+
         //Control variables
         int restart = 0;
         int error = 0;

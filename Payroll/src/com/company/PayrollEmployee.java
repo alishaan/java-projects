@@ -181,7 +181,13 @@ public class PayrollEmployee extends Employee{
 
     public String toReadableString(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return getFirstName() + " " + getLastName() + " has a gross pay of $" +df.format(getGrossPay()) + " and a net pay of $" + df.format(getNetPay()) + " while paying $" + df.format(getFed()) + " in Federal taxes, " + "$" + df.format(getState()) + " in State taxes, " + "$" + df.format(getLocal()) + " in Local taxes, " + "and $" + df.format(getSS()) + " in Social Security taxes, ";
+        return getFirstName() + " " + getLastName() + " has a gross pay of $" +df.format(getGrossPay()) + System.lineSeparator() +
+                " and a net pay of $" + df.format(getNetPay()) + " while paying $" + df.format(getFed()) + System.lineSeparator() +
+                " in Federal taxes, " + "$" + df.format(getState()) + " in State taxes, " + "$" + df.format(getLocal()) + System.lineSeparator() +
+                " in Local taxes, " + "and $" + df.format(getSS()) + " in Social Security taxes." +System.lineSeparator()  + " They are " + getSex()
+                + " with an ID Number of " + getIdNum() + " working " + getHoursWorked() + System.lineSeparator() +
+                " hours with a a pay rate of $" + df.format(getRateDouble()) + " per hour with " + getNumDependents() + " dependents. " + System.lineSeparator()
+                + "Their overtime status is " + checkOvertime() + ".";
     }
 
     //toString override method
