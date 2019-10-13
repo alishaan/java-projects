@@ -17,7 +17,7 @@ public class Payroll {
             employeeArray.add(randomEmployee);
             randomEmployeeArrayString = randomEmployeeArrayString +employeeArray.get(i) + System.lineSeparator();
         }
-        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME");
+        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME, MONTHS_WORKED");
         writer.print(randomEmployeeArrayString);
         employeeListWriter.close();
     }
@@ -32,7 +32,7 @@ public class Payroll {
             employeeArray.add(randomEmployee);
             randomEmployeeArrayString = randomEmployeeArrayString +employeeArray.get(i) + System.lineSeparator();
         }
-        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME");
+        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME, MONTHS_WORKED");
         writer.print(randomEmployeeArrayString);
         employeeListWriter.close();
     }
@@ -70,10 +70,11 @@ public class Payroll {
             double rateDouble = Double.parseDouble(attributes[4]);
             int age = Integer.parseInt(attributes[5]);
             int numDependents = Integer.parseInt(attributes[8]);
+            int monthsWorked = Integer.parseInt(attributes[11]);
             String sex = attributes[6];
 
             //create new payroll employee
-            PayrollEmployee payrollEmployee = new PayrollEmployee(firstName, lastName, idNum, hoursWorked, rateDouble, age, numDependents, sex);
+            PayrollEmployee payrollEmployee = new PayrollEmployee(firstName, lastName, idNum, hoursWorked, rateDouble, age, numDependents, sex, monthsWorked);
 
             //add employee to the array
             employeeArray.add(payrollEmployee);
@@ -90,54 +91,107 @@ public class Payroll {
     }
 
     //Custom methods
-    public double getTotalFed(){
+    public double getPaystubFed(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
             total += employeeArray.get(i).getFed();
         }
         return total;
     }
-    public double getTotalState(){
+    public double getPaystubState(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
             total += employeeArray.get(i).getState();
         }
         return total;
     }
-    public double getTotalLocal(){
+    public double getPaystubLocal(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
             total += employeeArray.get(i).getLocal();
         }
         return total;
     }
-    public double getTotalSS(){
+    public double getPaystubSS(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
             total += employeeArray.get(i).getSS();
         }
         return total;
     }
-    public double getTotalGrossPay(){
+    public double getPaystubGrossPay(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
             total += employeeArray.get(i).getGrossPay();
         }
         return total;
     }
-    public double getTotalNetPay(){
+    public double getPaystubNetPay(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
             total += employeeArray.get(i).getNetPay();
         }
         return total;
     }
-    public String toReadableString(){
+
+    public double getTotalFed(){
+        double total = 0;
+        for(int i=0; i<employeeArray.size(); i++){
+            total += employeeArray.get(i).getFed() * employeeArray.get(i).getMonthsWorked();
+        }
+        return total;
+    }
+    public double getTotalState(){
+        double total = 0;
+        for(int i=0; i<employeeArray.size(); i++){
+            total += employeeArray.get(i).getState() * employeeArray.get(i).getMonthsWorked();
+        }
+        return total;
+    }
+    public double getTotalLocal(){
+        double total = 0;
+        for(int i=0; i<employeeArray.size(); i++){
+            total += employeeArray.get(i).getLocal() * employeeArray.get(i).getMonthsWorked();
+        }
+        return total;
+    }
+    public double getTotalSS(){
+        double total = 0;
+        for(int i=0; i<employeeArray.size(); i++){
+            total += employeeArray.get(i).getSS() * employeeArray.get(i).getMonthsWorked();
+        }
+        return total;
+    }
+    public double getTotalGrossPay(){
+        double total = 0;
+        for(int i=0; i<employeeArray.size(); i++){
+            total += employeeArray.get(i).getGrossPay() * employeeArray.get(i).getMonthsWorked();
+        }
+        return total;
+    }
+    public double getTotalNetPay(){
+        double total = 0;
+        for(int i=0; i<employeeArray.size(); i++){
+            total += employeeArray.get(i).getNetPay() * employeeArray.get(i).getMonthsWorked();
+        }
+        return total;
+    }
+
+    public String toPayStubString(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return "The total gross pay of the payroll is $" + df.format(getTotalGrossPay()) +", " +
-                "total net pay is $" + df.format(getTotalNetPay()) + ", total federal tax is $" +
-                df.format(getTotalFed()) + ", total state tax is $" + df.format(getTotalState()) + ", " +
-                "total local tax is $" + df.format(getTotalLocal()) + ", and total social security tax is $" +
+        return "This week's gross pay of the payroll is $" + df.format(getPaystubGrossPay()) +", " +
+                "total net pay is $" + df.format(getPaystubNetPay()) + ", federal tax is $" +
+                df.format(getPaystubFed()) + ", state tax is $" + df.format(getPaystubState()) + ", " +
+                "local tax is $" + df.format(getPaystubLocal()) + ", and social security tax is $" +
+                df.format(getPaystubSS());
+    }
+
+    public String toTotalString(){
+        DecimalFormat df = new DecimalFormat("0.00");
+        return "The year to date's gross pay of the payroll is $" + df.format(getTotalGrossPay()) +", " +
+                "total net pay is $" + df.format(getTotalNetPay()) + ", federal tax is $" +
+                df.format(getTotalFed()) + ", state tax is $" + df.format(getTotalState()) + ", " +
+                "local tax is $" + df.format(getTotalLocal()) + ", and social security tax is $" +
                 df.format(getTotalSS());
     }
 }

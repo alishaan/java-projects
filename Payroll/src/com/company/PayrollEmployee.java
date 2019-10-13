@@ -8,6 +8,7 @@ public class PayrollEmployee extends Employee{
 
     private String sex;
     private int numDependents;
+    private int monthsWorked;
 
     //Random employee creator
     public PayrollEmployee(){
@@ -16,6 +17,7 @@ public class PayrollEmployee extends Employee{
         String randomFirstName = "John";
         int randomNumDependents;
         int randomHoursWorked;
+        int randomMonthsWorked;
         double randomDoubleRate;
         int randomAge;
         String randomSex;
@@ -66,6 +68,8 @@ public class PayrollEmployee extends Employee{
             randomHoursWorked = (int)(Math.random()*60)+20;
             //Pay rate
             randomDoubleRate = (Math.random()*25)+10;
+            //Months worked
+            randomMonthsWorked = (int)((Math.random()*12));
             //Age
             randomAge = (int)((Math.random()*47)+18);
             //Sex
@@ -117,18 +121,21 @@ public class PayrollEmployee extends Employee{
             setAge(randomAge);
             setNumDependents(randomNumDependents);
             setSex(randomSex);
+            setMonthsWorked(randomMonthsWorked);
     }
 
     //Create constructor that passes in values, generate them randomly on the tester field
-    public PayrollEmployee(String fn, String ln, int hoursWorked, double rd, int age, int nd, String sx){
+    public PayrollEmployee(String fn, String ln, int hoursWorked, double rd, int age, int nd, String sx, int monthsWorkedPass){
         super(ln, fn, hoursWorked, rd, age, fn);
         numDependents = nd;
         sex = sx;
+        monthsWorked = monthsWorkedPass;
     }
-    public PayrollEmployee(String fn, String ln, int idNumPass, int hoursWorked, double rd, int age, int nd, String sx){
+    public PayrollEmployee(String fn, String ln, int idNumPass, int hoursWorked, double rd, int age, int nd, String sx, int monthsWorkedPass){
         super(ln, fn, idNumPass, hoursWorked, rd, age, fn);
         numDependents = nd;
         sex = sx;
+        monthsWorked = monthsWorkedPass;
     }
 
     public String getSex() {
@@ -145,6 +152,14 @@ public class PayrollEmployee extends Employee{
 
     public void setNumDependents(int numDependents) {
         this.numDependents = numDependents;
+    }
+
+    public int getMonthsWorked() {
+        return monthsWorked;
+    }
+
+    public void setMonthsWorked(int monthsWorked) {
+        this.monthsWorked = monthsWorked;
     }
 
     //Custom methods
@@ -176,7 +191,7 @@ public class PayrollEmployee extends Employee{
     }
 
     public double getNetPay(){
-        return getGrossPay() - getSS() - getFed() -getState() - getLocal();
+        return getGrossPay() - getSS() - getFed() - getState() - getLocal();
     }
 
     public String toReadableString(){
@@ -187,6 +202,16 @@ public class PayrollEmployee extends Employee{
                 " in Local taxes, " + "and $" + df.format(getSS()) + " in Social Security taxes." +System.lineSeparator()  + " They are " + getSex()
                 + " with an ID Number of " + getIdNum() + " working " + getHoursWorked() + System.lineSeparator() +
                 " hours with a a pay rate of $" + df.format(getRateDouble()) + " per hour with " + getNumDependents() + " dependents. " + System.lineSeparator()
+                + "Their overtime status is " + checkOvertime() + ".";
+    }
+    public String toYTDString(){
+        DecimalFormat df = new DecimalFormat("0.00");
+        return getFirstName() + " " + getLastName() + " has a gross pay of $" +df.format(getGrossPay()*getMonthsWorked()) +" having worked " + getMonthsWorked() + " months"+ System.lineSeparator() +
+                "and a net pay of $" + df.format(getNetPay()*getMonthsWorked()) + " while paying $" + df.format(getFed()*getMonthsWorked()) + System.lineSeparator() +
+                "in Federal taxes, " + "$" + df.format(getState()*getMonthsWorked()) + " in State taxes, " + "$" + df.format(getLocal()*getMonthsWorked()) + System.lineSeparator() +
+                "in Local taxes, " + "and $" + df.format(getSS()*getMonthsWorked()) + " in Social Security taxes." +System.lineSeparator()  + " They are " + getSex()
+                + "with an ID Number of " + getIdNum() + " working " + getHoursWorked()*getMonthsWorked() + System.lineSeparator() +
+                "hours with a a pay rate of $" + df.format(getRateDouble()) + " per hour with " + getNumDependents() + " dependents. " + System.lineSeparator()
                 + "Their overtime status is " + checkOvertime() + ".";
     }
 
@@ -203,7 +228,8 @@ public class PayrollEmployee extends Employee{
                 ", " + getNickName() +
                 ", " + getNumDependents() +
                 ", " + getGrossPay() +
-                ", " + checkOvertime();
+                ", " + checkOvertime() +
+                ", " + getMonthsWorked();
     }
 
 }

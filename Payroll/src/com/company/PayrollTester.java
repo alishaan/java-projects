@@ -25,7 +25,8 @@ public class PayrollTester {
             if(selector.toUpperCase().equals("EXIT")){
                 restart = 1;
             }else if(selector.toUpperCase().equals("SUMMARY")){
-                JOptionPane.showMessageDialog(gui, payroll.toReadableString());
+                JOptionPane.showMessageDialog(gui, payroll.toPayStubString(), "Weekly", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(gui, payroll.toTotalString(), "Year to Date", JOptionPane.INFORMATION_MESSAGE);
             }else{
                 //Get integer value of the passed id num
                 int idNum = Integer.parseInt(selector);
@@ -34,7 +35,8 @@ public class PayrollTester {
                     if(payroll.getEmployeeArray().get(i).getIdNum() == idNum){
                         PayrollEmployee selectedEmployee = payroll.getEmployeeArray().get(i);
                         error = 0;
-                        JOptionPane.showMessageDialog(gui, selectedEmployee.toReadableString());
+                        JOptionPane.showMessageDialog(gui, selectedEmployee.toReadableString(), "Paystub", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(gui, selectedEmployee.toYTDString(), "YTD", JOptionPane.INFORMATION_MESSAGE);
                         break;
                     }else{
                         error = 1;
