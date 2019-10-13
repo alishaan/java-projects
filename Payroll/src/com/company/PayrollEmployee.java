@@ -1,6 +1,7 @@
 package com.company;
 
 import java.io.*;
+import java.text.DecimalFormat;
 import java.util.Random;
 
 public class PayrollEmployee extends Employee{
@@ -109,7 +110,6 @@ public class PayrollEmployee extends Employee{
                     e.printStackTrace();
                 }
             }
-            PayrollEmployee randomEmployee = new PayrollEmployee(randomFirstName, randomLastName, randomHoursWorked, randomDoubleRate, randomAge, randomNumDependents, randomSex);
             setFirstName(randomFirstName);
             setLastName(randomLastName);
             setHoursWorked(randomHoursWorked);
@@ -160,6 +160,29 @@ public class PayrollEmployee extends Employee{
         return getHoursWorked() > 40;
     }
 
+    public double getSS(){
+        return getGrossPay() * (.062/12);
+    }
+    public double getFed(){
+        return getGrossPay() * (.2 * (Math.pow(.95, numDependents)));
+
+    }
+    public double getState(){
+        return getGrossPay() * (.1*(Math.pow(.95, numDependents)));
+
+    }
+    public double getLocal(){
+        return getGrossPay() * (.05 * (Math.pow(.95, numDependents)));
+    }
+
+    public double getNetPay(){
+        return getGrossPay() - getSS() - getFed() -getState() - getLocal();
+    }
+
+    public String toReadableString(){
+        DecimalFormat df = new DecimalFormat("0.00");
+        return getFirstName() + " " + getLastName() + " has a gross pay of $" +df.format(getGrossPay()) + " and a net pay of $" + df.format(getNetPay()) + " while paying $" + df.format(getFed()) + " in Federal taxes, " + "$" + df.format(getState()) + " in State taxes, " + "$" + df.format(getLocal()) + " in Local taxes, " + "and $" + df.format(getSS()) + " in Social Security taxes, ";
+    }
 
     //toString override method
     public String toString(){
