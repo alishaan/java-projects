@@ -17,7 +17,7 @@ public class Payroll {
             employeeArray.add(randomEmployee);
             randomEmployeeArrayString = randomEmployeeArrayString +employeeArray.get(i) + System.lineSeparator();
         }
-        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME, MONTHS_WORKED");
+        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME, WEEKS_WORKED");
         writer.print(randomEmployeeArrayString);
         employeeListWriter.close();
     }
@@ -32,7 +32,7 @@ public class Payroll {
             employeeArray.add(randomEmployee);
             randomEmployeeArrayString = randomEmployeeArrayString +employeeArray.get(i) + System.lineSeparator();
         }
-        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME, MONTHS_WORKED");
+        writer.println("LAST_NAME, FIRST_NAME, ID_NUMBER, HOURS_WORKED, RATE, AGE, SEX, NICK_NAME, DEPENDENTS, GROSS_PAY, OVERTIME, WEEKS_WORKED");
         writer.print(randomEmployeeArrayString);
         employeeListWriter.close();
     }
@@ -70,11 +70,11 @@ public class Payroll {
             double rateDouble = Double.parseDouble(attributes[4]);
             int age = Integer.parseInt(attributes[5]);
             int numDependents = Integer.parseInt(attributes[8]);
-            int monthsWorked = Integer.parseInt(attributes[11]);
+            int weeksWorked = Integer.parseInt(attributes[11]);
             String sex = attributes[6];
 
             //create new payroll employee
-            PayrollEmployee payrollEmployee = new PayrollEmployee(firstName, lastName, idNum, hoursWorked, rateDouble, age, numDependents, sex, monthsWorked);
+            PayrollEmployee payrollEmployee = new PayrollEmployee(firstName, lastName, idNum, hoursWorked, rateDouble, age, numDependents, sex, weeksWorked);
 
             //add employee to the array
             employeeArray.add(payrollEmployee);
@@ -137,42 +137,42 @@ public class Payroll {
     public double getTotalFed(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
-            total += employeeArray.get(i).getFed() * employeeArray.get(i).getMonthsWorked();
+            total += employeeArray.get(i).getFed() * employeeArray.get(i).getWeeksWorked();
         }
         return total;
     }
     public double getTotalState(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
-            total += employeeArray.get(i).getState() * employeeArray.get(i).getMonthsWorked();
+            total += employeeArray.get(i).getState() * employeeArray.get(i).getWeeksWorked();
         }
         return total;
     }
     public double getTotalLocal(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
-            total += employeeArray.get(i).getLocal() * employeeArray.get(i).getMonthsWorked();
+            total += employeeArray.get(i).getLocal() * employeeArray.get(i).getWeeksWorked();
         }
         return total;
     }
     public double getTotalSS(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
-            total += employeeArray.get(i).getSS() * employeeArray.get(i).getMonthsWorked();
+            total += employeeArray.get(i).getSS() * employeeArray.get(i).getWeeksWorked();
         }
         return total;
     }
     public double getTotalGrossPay(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
-            total += employeeArray.get(i).getGrossPay() * employeeArray.get(i).getMonthsWorked();
+            total += employeeArray.get(i).getGrossPay() * employeeArray.get(i).getWeeksWorked();
         }
         return total;
     }
     public double getTotalNetPay(){
         double total = 0;
         for(int i=0; i<employeeArray.size(); i++){
-            total += employeeArray.get(i).getNetPay() * employeeArray.get(i).getMonthsWorked();
+            total += employeeArray.get(i).getNetPay() * employeeArray.get(i).getWeeksWorked();
         }
         return total;
     }

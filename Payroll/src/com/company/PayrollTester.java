@@ -8,7 +8,8 @@ public class PayrollTester {
 
     public static void main(String[] args) throws IOException {
         //Open file of employee output
-        Payroll payroll = new Payroll(new File("employeeOutput.csv"));
+        //Payroll payroll = new Payroll(new File("employeeOutput.csv"));
+        Payroll payroll = new Payroll();
 
         //Control variables
         int restart = 0;
@@ -35,7 +36,7 @@ public class PayrollTester {
                     if(payroll.getEmployeeArray().get(i).getIdNum() == idNum){
                         PayrollEmployee selectedEmployee = payroll.getEmployeeArray().get(i);
                         error = 0;
-                        JOptionPane.showMessageDialog(gui, selectedEmployee.toReadableString(), "Paystub", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(gui, selectedEmployee.toReadableString(), "Pay Stub", JOptionPane.INFORMATION_MESSAGE);
                         JOptionPane.showMessageDialog(gui, selectedEmployee.toYTDString(), "YTD", JOptionPane.INFORMATION_MESSAGE);
                         break;
                     }else{
