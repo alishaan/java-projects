@@ -179,20 +179,22 @@ public class Payroll {
 
     public String toPayStubString(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return "This week's gross pay of the payroll is $" + df.format(getPaystubGrossPay()) +", " +
-                "total net pay is $" + df.format(getPaystubNetPay()) + ", federal tax is $" +
-                df.format(getPaystubFed()) + ", state tax is $" + df.format(getPaystubState()) + ", " +
-                "local tax is $" + df.format(getPaystubLocal()) + ", and social security tax is $" +
-                df.format(getPaystubSS());
+        return  "Gross Pay: $" + df.format(getPaystubGrossPay()) + System.lineSeparator() +
+                "Net Pay: $" + df.format(getPaystubNetPay()) + System.lineSeparator()+
+                "Fed Tax: $" + df.format(getPaystubFed()) + System.lineSeparator() +
+                "State Tax: $" + df.format(getPaystubState()) + System.lineSeparator() +
+                "Local Tax: $" + df.format(getPaystubLocal()) + System.lineSeparator()+
+                "Social Security Tax: $" + df.format(getPaystubSS());
     }
 
     public String toTotalString(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return "The year to date's gross pay of the payroll is $" + df.format(getTotalGrossPay()) +", " +
-                "total net pay is $" + df.format(getTotalNetPay()) + ", federal tax is $" +
-                df.format(getTotalFed()) + ", state tax is $" + df.format(getTotalState()) + ", " +
-                "local tax is $" + df.format(getTotalLocal()) + ", and social security tax is $" +
-                df.format(getTotalSS());
+        return  "Gross Pay: $" + df.format(getTotalGrossPay()) + System.lineSeparator() +
+                "Net Pay: $" + df.format(getTotalNetPay()) + System.lineSeparator()+
+                "Fed Tax: $" + df.format(getTotalFed()) + System.lineSeparator() +
+                "State Tax: $" + df.format(getTotalState()) + System.lineSeparator() +
+                "Local Tax: $" + df.format(getTotalLocal()) + System.lineSeparator()+
+                "Social Security Tax: $" + df.format(getTotalSS());
     }
 }
 

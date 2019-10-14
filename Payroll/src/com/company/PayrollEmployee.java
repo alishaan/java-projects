@@ -194,25 +194,34 @@ public class PayrollEmployee extends Employee{
         return getGrossPay() - getSS() - getFed() - getState() - getLocal();
     }
 
-    public String toReadableString(){
+    public String toPayStub(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return getFirstName() + " " + getLastName() + " has a gross pay of $" +df.format(getGrossPay()) + System.lineSeparator() +
-                " and a net pay of $" + df.format(getNetPay()) + " while paying $" + df.format(getFed()) + System.lineSeparator() +
-                " in Federal taxes, " + "$" + df.format(getState()) + " in State taxes, " + "$" + df.format(getLocal()) + System.lineSeparator() +
-                " in Local taxes, " + "and $" + df.format(getSS()) + " in Social Security taxes." +System.lineSeparator()  + " They are " + getSex()
-                + " with an ID Number of " + getIdNum() + " working " + getHoursWorked() + System.lineSeparator() +
-                " hours with a a pay rate of $" + df.format(getRateDouble()) + " per hour with " + getNumDependents() + " dependents. " + System.lineSeparator()
-                + "Their overtime status is " + checkOvertime() + ".";
+        return getFirstName() + " " + getLastName() +System.lineSeparator() +
+                "ID Number: " + getIdNum() + System.lineSeparator() +
+                "Pay Rate: $" + df.format(getRateDouble()) +"/hr"+ System.lineSeparator()+
+                "Hours Worked: " + df.format(getHoursWorked()) + System.lineSeparator() +
+                "Overtime: " + checkOvertime() + System.lineSeparator() +
+                "Gross Pay: $" + df.format(getGrossPay()) + System.lineSeparator() +
+                "Net Pay: $" + df.format(getNetPay()) + System.lineSeparator()+
+                "Fed Tax: $" + df.format(getFed()) + System.lineSeparator() +
+                "State Tax: $" + df.format(getState()) + System.lineSeparator() +
+                "Local Tax: $" + df.format(getLocal()) + System.lineSeparator()+
+                "Social Security Tax: $" + df.format(getSS());
     }
     public String toYTDString(){
         DecimalFormat df = new DecimalFormat("0.00");
-        return getFirstName() + " " + getLastName() + " has a gross pay of $" +df.format(getGrossPay()*getWeeksWorked()) +" having worked " + getWeeksWorked() + " weeks"+ System.lineSeparator() +
-                "and a net pay of $" + df.format(getNetPay()*getWeeksWorked()) + " while paying $" + df.format(getFed()*getWeeksWorked()) + System.lineSeparator() +
-                "in Federal taxes, " + "$" + df.format(getState()*getWeeksWorked()) + " in State taxes, " + "$" + df.format(getLocal()*getWeeksWorked()) + System.lineSeparator() +
-                "in Local taxes, " + "and $" + df.format(getSS()*getWeeksWorked()) + " in Social Security taxes." +System.lineSeparator()  + " They are " + getSex()
-                + " with an ID Number of " + getIdNum() + " working " + getHoursWorked()*getWeeksWorked() + System.lineSeparator() +
-                "hours with a a pay rate of $" + df.format(getRateDouble()) + " per hour with " + getNumDependents() + " dependents. " + System.lineSeparator()
-                + "Their overtime status is " + checkOvertime() + ".";
+        return getFirstName() + " " + getLastName() +System.lineSeparator() +
+                "ID Number: " + getIdNum() + System.lineSeparator() +
+                "Pay Rate: $" + df.format(getRateDouble()) +"/hr"+ System.lineSeparator()+
+                "Hours Worked: " + df.format(getHoursWorked()*getWeeksWorked()) + System.lineSeparator() +
+                "Weeks Worked: " + df.format(getWeeksWorked()) + System.lineSeparator() +
+                "Overtime: " + checkOvertime() + System.lineSeparator() +
+                "Gross Pay: $" + df.format(getGrossPay()*getWeeksWorked()) + System.lineSeparator() +
+                "Net Pay: $" + df.format(getNetPay()*getWeeksWorked()) + System.lineSeparator()+
+                "Fed Tax: $" + df.format(getFed()*getWeeksWorked()) + System.lineSeparator() +
+                "State Tax: $" + df.format(getState()*getWeeksWorked()) + System.lineSeparator() +
+                "Local Tax: $" + df.format(getLocal()*getWeeksWorked()) + System.lineSeparator()+
+                "Social Security Tax: $" + df.format(getSS()*getWeeksWorked());
     }
 
     //toString override method

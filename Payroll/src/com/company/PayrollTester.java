@@ -35,7 +35,7 @@ public class PayrollTester {
                     if(payroll.getEmployeeArray().get(i).getIdNum() == idNum){
                         PayrollEmployee selectedEmployee = payroll.getEmployeeArray().get(i);
                         error = 0;
-                        JOptionPane.showMessageDialog(gui, selectedEmployee.toReadableString(), "Pay Stub", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(gui, selectedEmployee.toPayStub(), "Pay Stub", JOptionPane.INFORMATION_MESSAGE);
                         JOptionPane.showMessageDialog(gui, selectedEmployee.toYTDString(), "YTD", JOptionPane.INFORMATION_MESSAGE);
                         break;
                     }else{
