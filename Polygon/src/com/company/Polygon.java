@@ -74,14 +74,12 @@ public class Polygon {
             for(int j = 0; j < getLineSegs().size(); j++){
                 Line2D line1 = new Line2D.Float(getLineSegs().get(i).getMyBP().getX(), getLineSegs().get(i).getMyBP().getY(), getLineSegs().get(i).getMyEP().getX(), getLineSegs().get(i).getMyEP().getY());
                 Line2D line2 = new Line2D.Float(getLineSegs().get(j).getMyBP().getX(), getLineSegs().get(j).getMyBP().getY(), getLineSegs().get(j).getMyEP().getX(), getLineSegs().get(j).getMyEP().getY());
-                if(line2.intersectsLine(line1) && (line1.getX1() != line2.getX2() && line1.getX2() != line2.getX2() && line1.getX2() != line2.getX2())){
+                if(line2.intersectsLine(line1) && (line1.getX2() != line2.getX1()&&line1.getX1() != line2.getX2()&&line1.getX1() != line2.getX1()&&line1.getX2()!= line2.getX2())){
                     return false;
-                }else{
-                    return true;
                 }
             }
         }
-        return false;
+        return true;
     }
 
 
