@@ -2,8 +2,12 @@ package com.company;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 
 public class PolygonTester {
@@ -40,6 +44,8 @@ public class PolygonTester {
             int numberClicks = 0;
             @Override
             public void mouseClicked(MouseEvent e) {
+                width = coordinatePanel.getWidth();
+                height = coordinatePanel.getHeight();
                 numberClicks++;
                 super.mouseClicked(e);
                 //Add clicked point into an array
@@ -47,6 +53,24 @@ public class PolygonTester {
                 coordinatePanel.repaint();
                 clickedPolygon = new Polygon(pointsList);
                 polygonText.setText(clickedPolygon.toString());
+            }
+        });
+        //Adding bar movement listener
+        splitPanel.addPropertyChangeListener(JSplitPane.DIVIDER_LOCATION_PROPERTY, new PropertyChangeListener() {
+            @Override
+            public void propertyChange(PropertyChangeEvent propertyChangeEvent) {
+                width = coordinatePanel.getWidth();
+                height = coordinatePanel.getHeight();
+                coordinatePanel.repaint();
+            }
+        });
+        gui.addComponentListener(new ComponentAdapter() {
+            @Override
+            public void componentResized(ComponentEvent e) {
+                super.componentResized(e);
+                width = coordinatePanel.getWidth();
+                height = coordinatePanel.getHeight();
+                coordinatePanel.repaint();
             }
         });
     }

@@ -27,6 +27,8 @@ public class ColorPanel extends JPanel {
         // Create grid lines.
         for (int i = 0; i < getWidth(); i+=12) {
             g2.drawLine(i, 0, i, getHeight());
+        }
+        for (int i = 0; i < getHeight(); i+=12) {
             g2.drawLine(0, i, getWidth(), i);
         }
 
