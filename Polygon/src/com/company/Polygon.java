@@ -15,6 +15,12 @@ public class Polygon {
         polygonPoints = points;
     }
 
+    public Polygon(ArrayList<LineSeg> lineSegs, String lineSegDeclaration){
+        for(int i = 0; i < lineSegs.size(); i++){
+            polygonPoints.add(lineSegs.get(i).getMyBP());
+        }
+    }
+
     double getArea(){
         // Initialize area
         double area = 0.0;
