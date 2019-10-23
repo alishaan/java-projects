@@ -45,7 +45,6 @@ public class PolygonTester {
                 // this makes sure the button you are pressing is the button variable
                 pointsList = new ArrayList<Point>();
                 clickedPolygon = new Polygon();
-                System.out.println("Button");
                 coordinatePanel.repaint();
                 polygonText.setText(clickedPolygon.toString());
             }
