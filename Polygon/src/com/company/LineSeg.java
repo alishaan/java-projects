@@ -1,7 +1,5 @@
 package com.company;
 
-import javax.sound.sampled.Line;
-
 public class LineSeg {
     private double distance;
     private double slope;

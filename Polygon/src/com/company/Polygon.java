@@ -1,7 +1,6 @@
 package com.company;
 
 import java.awt.geom.Line2D;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Polygon {
