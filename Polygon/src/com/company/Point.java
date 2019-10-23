@@ -51,7 +51,7 @@ public class Point {
                 '}';
     }
     public String toStringCommon(){
-        return "(" + (((PolygonTester.width / 2) - x) * -1) + ", " + ((PolygonTester.width / 2) - y) + ")";
+        return "(" + (((PolygonTester.width / 2) - x) * -1) + ", " + ((PolygonTester.height / 2) - y) + ")";
     }
 
 }

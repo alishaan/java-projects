@@ -98,7 +98,12 @@ public class Polygon {
         for(var i = 0; i < getLineSegs().size(); i++){
             returnString += "LineSeg " + (i+1) + ": " + getLineSegs().get(i).toStringCommon() + System.lineSeparator();
         }
-        returnString += "Area: " + getArea() + System.lineSeparator();
+        returnString += "Area: ";
+        if (checkPolygon() == true){
+            returnString += getArea() + System.lineSeparator();
+        }else{
+            returnString+= " Not a Polygon" + System.lineSeparator();
+        }
         returnString += "Perimeter: " + getPerimeter() + System.lineSeparator();
         returnString += "Is Polygon?: " + checkPolygon();
         return returnString;
