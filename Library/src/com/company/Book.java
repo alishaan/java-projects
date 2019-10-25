@@ -42,4 +42,69 @@ public class Book {
             checkedInDate = LocalDateTime.now();
         }
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public LocalDateTime getCheckedInDate() {
+        return checkedInDate;
+    }
+
+    public void setCheckedInDate(LocalDateTime checkedInDate) {
+        this.checkedInDate = checkedInDate;
+    }
+
+    public LocalDateTime getCheckedOutDate() {
+        return checkedOutDate;
+    }
+
+    public void setCheckedOutDate(LocalDateTime checkedOutDate) {
+        this.checkedOutDate = checkedOutDate;
+    }
+
+    public LocalDateTime getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(LocalDateTime dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public boolean isCheckedOut() {
+        return isCheckedOut;
+    }
+
+    public void setCheckedOut(boolean checkedOut) {
+        isCheckedOut = checkedOut;
+    }
+
+    @Override
+    public String toString() {
+        String returnString = "";
+        if(isCheckedOut == true){
+            returnString+= "Title: " + title + System.lineSeparator();
+            returnString+= "Author: " + author + System.lineSeparator();
+            returnString+= "Due: " + dueDate.toString() + System.lineSeparator();
+            returnString+= "Checked Out: " + checkedOutDate.toString() + System.lineSeparator();
+            return returnString;
+        }else{
+            returnString+= "Title: " + title + System.lineSeparator();
+            returnString+= "Author: " + author + System.lineSeparator();
+            returnString+= "Checked In: " + checkedInDate.toString() + System.lineSeparator();
+            return returnString;
+        }
+    }
 }
