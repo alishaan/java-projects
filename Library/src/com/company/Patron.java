@@ -4,34 +4,39 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class Patron {
+    private static int idNum;
     private String firstName;
     private String lastName;
-    private static int idNum = 0;
     private ArrayList<Book> books;
     private LocalDateTime joinDate;
+    static private int idNumIncrement = 0;
 
     //Default Patron Constructor
     public Patron(){
+        idNumIncrement++;
         firstName = "John";
         lastName = "Smith";
-        idNum += 1;
+        idNum = idNumIncrement;
         joinDate = LocalDateTime.now();
         books = new ArrayList<Book>();
     }
 
     //Fill Patron Constructor
     public Patron(String firstNamePass, String lastNamePass){
+        idNumIncrement++;
         firstName = firstNamePass;
         lastName = lastNamePass;
-        idNum += 1;
+        idNum = idNumIncrement;
         joinDate = LocalDateTime.now();
         books = new ArrayList<Book>();
     }
 
     //Method to check out book
     public void checkOutBook(Book passedBook){
-        passedBook.checkOut();
-        books.add(passedBook);
+        if (books.size()<3){
+            passedBook.checkOut();
+            books.add(passedBook);
+        }
     }
 
     //Method to return book
