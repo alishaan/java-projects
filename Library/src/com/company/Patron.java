@@ -45,6 +45,15 @@ public class Patron {
         books.remove(passedBook);
     }
 
+    public boolean hasBorrowed(String passedBook){
+        for (int i = 0; i < books.size(); i++){
+            if (books.get(i).getTitle().equals(passedBook)){
+                return true;
+            }
+        }
+        return false;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -89,8 +98,8 @@ public class Patron {
     public String toString() {
         String returnString = "";
         returnString += firstName + " " + lastName + " joined " + joinDate.toString() + System.lineSeparator();
-        returnString += "Books Check Out: " + System.lineSeparator();
-        if (books.size() > 0){
+        returnString += "Books Checked Out: " + System.lineSeparator();
+        if (getBooks().size() > 0){
             for (int i = 0; i < books.size(); i++){
                 returnString += books.get(i).toString() + System.lineSeparator();
             }

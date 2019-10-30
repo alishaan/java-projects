@@ -16,7 +16,7 @@ public class LibraryTester {
                 restart = 1;
             }
             else if (textPass.equals("/library")) {
-                System.out.println("Enter /addbook to add a book or /delbook to delete a book: ");
+                System.out.println("Enter /addbook to add a book or /delbook to delete a book or /patrons: ");
                 textPass = input.nextLine();
                 if (textPass.equals("/addbook")){
                     System.out.println("Enter the author: ");
@@ -36,6 +36,10 @@ public class LibraryTester {
                             mainLibrary.getBooksList().remove(i);
                         }
                     }
+                }else if (textPass.equals("/patrons")){
+                    for (int i = 0; i < mainLibrary.getPatronList().size(); i++){
+                        System.out.println(mainLibrary.getPatronList().get(i).toString());
+                    }
                 }
             }else if(textPass.equals("/books")){
                 System.out.println("Enter 'available' for all available books or 'all' for all books: ");
@@ -43,7 +47,7 @@ public class LibraryTester {
                 if(textPass.equals("available")){
                     for (int i = 0; i < mainLibrary.getBooksList().size(); i++){
                         if (mainLibrary.getBooksList().get(i).isCheckedOut() == false){
-                            System.out.println(mainLibrary.getBooksList().get(i).toString());
+                            System.out.println(mainLibrary.getBooksList().get(i).toString() + System.lineSeparator());
                         }
                     }
                 }else if (textPass.equals("all")){
@@ -106,6 +110,9 @@ public class LibraryTester {
                             if ((mainLibrary.getPatronList().get(i).getFirstName() + " " + mainLibrary.getPatronList().get(i).getLastName()).equals(accountInfo)) {
                                 Patron selectedPatron = mainLibrary.getPatronList().get(i);
                                 System.out.println(selectedPatron.toString());
+                                System.out.println("Enter book title to check if you have it borrowed: ");
+                                String bookTitle = input.nextLine();
+                                System.out.println(mainLibrary.getPatronList().get(i).hasBorrowed(bookTitle));
                             }
                         }
                     }
