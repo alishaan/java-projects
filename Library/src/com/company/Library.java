@@ -7,7 +7,6 @@ public class Library {
     ArrayList<Patron> patronList = new ArrayList<Patron>();
 
     public Library(){
-        patronList.add(new Patron());
     }
     public Library(Patron patronPass){
         patronList.add(patronPass);
