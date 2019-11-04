@@ -44,7 +44,7 @@ public class Circle {
     //Method to move the circle by a certain offset
     public void move(int xAmount, int yAmount){
         centerX = centerX + xAmount;
-        centerY = centerY - yAmount;
+        centerY = centerY + yAmount;
     }
     //Getters and Setters
     public int getCenterX() {
