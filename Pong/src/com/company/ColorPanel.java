@@ -97,6 +97,15 @@ public class ColorPanel extends JPanel {
         ball.fill(g);
         paddle.draw(g);
         buttonPosition = 0;
+        if(paddle.contains(ball.getCenterX(), ball.getCenterY())){
+            ball.setDirection(180+ball.getDirection());
+        }
+        for (int i = 0; i<blocksList.size(); i++){
+            if (blocksList.get(i).contains(ball.getCenterX(), ball.getCenterY())&&blocksList.get(i).isDestroyed == false){
+                ball.setDirection(180+ball.getDirection());
+                blocksList.get(i).setDestroyed(true);
+            }
+        }
     }
 
 }
