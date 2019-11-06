@@ -30,7 +30,7 @@ public class Ball extends Circle{
     }
 
     public void setDirection(int direction) {
-        this.direction = direction % 360;
+        this.direction = direction;
     }
 
     public int getVelocity() {
