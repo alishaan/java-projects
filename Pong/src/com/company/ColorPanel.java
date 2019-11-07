@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
 import java.util.ArrayList;
 
 public class ColorPanel extends JPanel {
@@ -53,6 +55,18 @@ public class ColorPanel extends JPanel {
             }
         });
 
+        //Mouse input
+        addMouseMotionListener(new MouseMotionListener() {
+            @Override
+            public void mouseDragged(MouseEvent mouseEvent) {
+
+            }
+
+            @Override
+            public void mouseMoved(MouseEvent mouseEvent) {
+                paddle.setLocation(mouseEvent.getX() - (int)paddle.getWidth()/2, (int)paddle.getY());
+            }
+        });
         //Scoreboard
         score = new JLabel(String.valueOf(player.getScore()));
         add(score);
@@ -135,11 +149,6 @@ public class ColorPanel extends JPanel {
             timer.stop();
         }
         ball.setVelocity(16+timeWithoutBallHit/10);
-
-        //Mouse Tracking
-        PointerInfo mouse = MouseInfo.getPointerInfo();
-        Point mousePoint = mouse.getLocation();
-        paddle.setLocation((int)mousePoint.getX()-(paddle.width/2), (int)paddle.getY());
     }
 
 }
