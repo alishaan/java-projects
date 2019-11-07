@@ -127,7 +127,11 @@ public class ColorPanel extends JPanel {
         //Detection of block collision
         for (int i = 0; i<blocksList.size(); i++){
             if (blocksList.get(i).contains(ball.getCenterX(), ball.getCenterY())&&!blocksList.get(i).isDestroyed){
-                ball.setDirection(360 - ball.getDirection());
+                if (Math.abs(blocksList.get(i).getY() - ball.getCenterY()) < Math.abs(blocksList.get(i).getX() - ball.getCenterX()) || Math.abs(blocksList.get(i).getY() - ball.getCenterY()) < Math.abs(blocksList.get(i).getX() + blocksList.get(i).getWidth() - ball.getCenterX())){
+                    ball.setDirection(360 - ball.getDirection());
+                }else{
+                    ball.setDirection(180-ball.getDirection());
+                }
                 blocksList.get(i).setDestroyed(true);
                 timeWithoutBallHit = 0;
                 player.addPoints(100);
