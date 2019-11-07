@@ -14,6 +14,7 @@ public class ColorPanel extends JPanel {
     private ArrayList<Block> blocksList = new ArrayList<>();
     private Player player;
     private int timeWithoutBallHit;
+    private JLabel score;
 
     //Fill constructor
     public ColorPanel(Color backColor, int width, int height){
@@ -51,6 +52,10 @@ public class ColorPanel extends JPanel {
                 buttonPosition = 2;
             }
         });
+
+        //Scoreboard
+        score = new JLabel(String.valueOf(player.getScore()));
+        add(score);
     }
 
     //Default constructor
@@ -112,6 +117,7 @@ public class ColorPanel extends JPanel {
                 blocksList.get(i).setDestroyed(true);
                 timeWithoutBallHit = 0;
                 player.addPoints(100);
+                score.setText(String.valueOf(player.getScore()));
             }
         }
         //Draws all blocks that are not destroyed
