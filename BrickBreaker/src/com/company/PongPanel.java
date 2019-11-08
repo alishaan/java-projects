@@ -10,7 +10,7 @@ import java.awt.event.MouseMotionListener;
 import java.io.*;
 import java.util.ArrayList;
 
-public class ColorPanel extends JPanel {
+public class PongPanel extends JPanel {
     private Ball ball;
     private Paddle paddle;
     private javax.swing.Timer timer;
@@ -22,7 +22,7 @@ public class ColorPanel extends JPanel {
     private AudioInputStream as = AudioSystem.getAudioInputStream(new File("src/ChillingMusic.wav").getAbsoluteFile());
 
     //Fill constructor
-    public ColorPanel(Color backColor, int width, int height) throws IOException, UnsupportedAudioFileException, LineUnavailableException {
+    public PongPanel(Color backColor, int width, int height) throws IOException, UnsupportedAudioFileException, LineUnavailableException {
         Clip clip = AudioSystem.getClip();
         clip.open(as);
         clip.start();
@@ -80,7 +80,7 @@ public class ColorPanel extends JPanel {
     }
 
     //Default constructor
-    public ColorPanel() throws IOException, UnsupportedAudioFileException {
+    public PongPanel() throws IOException, UnsupportedAudioFileException {
         player = new Player();
         setPreferredSize(new Dimension(400, 400));
         setBackground(Color.WHITE);
