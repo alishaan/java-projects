@@ -1,11 +1,13 @@
 package com.company;
 
+import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
+import java.io.*;
 import java.util.ArrayList;
 
 public class ColorPanel extends JPanel {
@@ -17,9 +19,14 @@ public class ColorPanel extends JPanel {
     private Player player;
     private int timeWithoutBallHit;
     private JLabel score;
+    private AudioInputStream as = AudioSystem.getAudioInputStream(new File("src/ChillingMusic.wav").getAbsoluteFile());
 
     //Fill constructor
-    public ColorPanel(Color backColor, int width, int height){
+    public ColorPanel(Color backColor, int width, int height) throws IOException, UnsupportedAudioFileException, LineUnavailableException {
+        Clip clip = AudioSystem.getClip();
+        clip.open(as);
+        clip.start();
+
         player = new Player();
         for (int i = 0; i<20; i++){
             blocksList.add(new Block(i*(width/20), height/25, width/20, height/20, Color.ORANGE, false));
@@ -73,7 +80,7 @@ public class ColorPanel extends JPanel {
     }
 
     //Default constructor
-    public ColorPanel(){
+    public ColorPanel() throws IOException, UnsupportedAudioFileException {
         player = new Player();
         setPreferredSize(new Dimension(400, 400));
         setBackground(Color.WHITE);
@@ -127,7 +134,9 @@ public class ColorPanel extends JPanel {
         //Detection of block collision
         for (int i = 0; i<blocksList.size(); i++){
             if (blocksList.get(i).contains(ball.getCenterX(), ball.getCenterY())&&!blocksList.get(i).isDestroyed){
-                if (Math.abs(blocksList.get(i).getY() - ball.getCenterY()) < Math.abs(blocksList.get(i).getX() - ball.getCenterX()) || Math.abs(blocksList.get(i).getY() - ball.getCenterY()) < Math.abs(blocksList.get(i).getX() + blocksList.get(i).getWidth() - ball.getCenterX())){
+                if (Math.abs(blocksList.get(i).getY() - ball.getCenterY()) < Math.abs(blocksList.get(i).getX()
+                        - ball.getCenterX()) || Math.abs(blocksList.get(i).getY() - ball.getCenterY()) <
+                        Math.abs(blocksList.get(i).getX() + blocksList.get(i).getWidth() - ball.getCenterX())){
                     ball.setDirection(360 - ball.getDirection());
                 }else{
                     ball.setDirection(180-ball.getDirection());
