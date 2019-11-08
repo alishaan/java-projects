@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
@@ -7,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -20,6 +22,7 @@ public class PongPanel extends JPanel {
     private int timeWithoutBallHit;
     private JLabel score;
     private AudioInputStream as = AudioSystem.getAudioInputStream(new File("src/ChillingMusic.wav").getAbsoluteFile());
+    private BufferedImage image;
 
     //Fill constructor
     public PongPanel(Color backColor, int width, int height) throws IOException, UnsupportedAudioFileException, LineUnavailableException {
@@ -117,6 +120,13 @@ public class PongPanel extends JPanel {
         super.paintComponent(g);
 
         timeWithoutBallHit++;
+
+        try {
+            image = ImageIO.read(new File("src/background.png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        g.drawImage(image, getWidth()/2 - image.getWidth()/2, getHeight()/2 - image.getHeight()/2, this);
 
         if(buttonPosition == 1){
             paddle.move(-20);
