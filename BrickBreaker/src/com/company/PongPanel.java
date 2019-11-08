@@ -174,6 +174,12 @@ public class PongPanel extends JPanel {
             g.drawString("You Lost", getWidth()/2 - 200, getHeight()/2-200);
         }
         ball.setVelocity(16+timeWithoutBallHit/10);
+
+        if (player.getScore() == 600){
+            timer.stop();
+            g.setFont(new Font("TimesRoman", Font.BOLD, 100));
+            g.drawString("You Won", getWidth()/2 - 200, getHeight()/2-200);
+        }
     }
 
     public Ball getBall() {
