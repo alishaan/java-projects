@@ -174,4 +174,83 @@ public class PongPanel extends JPanel {
         ball.setVelocity(16+timeWithoutBallHit/10);
     }
 
+    public Ball getBall() {
+        return ball;
+    }
+
+    public void setBall(Ball ball) {
+        this.ball = ball;
+    }
+
+    public Paddle getPaddle() {
+        return paddle;
+    }
+
+    public void setPaddle(Paddle paddle) {
+        this.paddle = paddle;
+    }
+
+    public Timer getTimer() {
+        return timer;
+    }
+
+    public void setTimer(Timer timer) {
+        this.timer = timer;
+    }
+
+    public int getButtonPosition() {
+        return buttonPosition;
+    }
+
+    public void setButtonPosition(int buttonPosition) {
+        this.buttonPosition = buttonPosition;
+    }
+
+    public ArrayList<Block> getBlocksList() {
+        return blocksList;
+    }
+
+    public void setBlocksList(ArrayList<Block> blocksList) {
+        this.blocksList = blocksList;
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public void setPlayer(Player player) {
+        this.player = player;
+    }
+
+    public int getTimeWithoutBallHit() {
+        return timeWithoutBallHit;
+    }
+
+    public void setTimeWithoutBallHit(int timeWithoutBallHit) {
+        this.timeWithoutBallHit = timeWithoutBallHit;
+    }
+
+    public JLabel getScore() {
+        return score;
+    }
+
+    public void setScore(JLabel score) {
+        this.score = score;
+    }
+
+    public AudioInputStream getAs() {
+        return as;
+    }
+
+    public void setAs(AudioInputStream as) {
+        this.as = as;
+    }
+
+    public BufferedImage getImage() {
+        return image;
+    }
+
+    public void setImage(BufferedImage image) {
+        this.image = image;
+    }
 }
