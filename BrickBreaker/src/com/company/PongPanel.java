@@ -144,12 +144,12 @@ public class PongPanel extends JPanel {
         //Detection of block collision
         for (int i = 0; i<blocksList.size(); i++){
             if (blocksList.get(i).contains(ball.getCenterX(), ball.getCenterY())&&!blocksList.get(i).isDestroyed){
-                if (Math.abs(blocksList.get(i).getY() - ball.getCenterY()) < Math.abs(blocksList.get(i).getX()
-                        - ball.getCenterX()) || Math.abs(blocksList.get(i).getY() - ball.getCenterY()) <
+                if (Math.abs(blocksList.get(i).getY() - ball.getCenterY()) > Math.abs(blocksList.get(i).getX()
+                        - ball.getCenterX()) || Math.abs(blocksList.get(i).getY() - ball.getCenterY()) >
                         Math.abs(blocksList.get(i).getX() + blocksList.get(i).getWidth() - ball.getCenterX())){
                     ball.setDirection(360 - ball.getDirection());
                 }else{
-                    ball.setDirection(180-ball.getDirection());
+                    ball.setDirection(180 - ball.getDirection());
                 }
                 blocksList.get(i).setDestroyed(true);
                 timeWithoutBallHit = 0;
@@ -170,6 +170,8 @@ public class PongPanel extends JPanel {
         //Test condition if ball hits the bottom of the screen
         else if (ball.getCenterY() >= getHeight()){
             timer.stop();
+            g.setFont(new Font("TimesRoman", Font.BOLD, 100));
+            g.drawString("You Lost", getWidth()/2 - 200, getHeight()/2-200);
         }
         ball.setVelocity(16+timeWithoutBallHit/10);
     }
