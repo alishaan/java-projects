@@ -18,5 +18,7 @@ public class MatrixTester {
 
         System.out.println(startMatrix.add(toAdd).toString());;
 
+        System.out.println(startMatrix.add(badMatrix));
+
     }
 }

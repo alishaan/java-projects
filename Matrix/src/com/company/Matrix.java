@@ -33,11 +33,14 @@ public class Matrix {
 
     //Function to add matrices
     public Matrix add(Matrix toAdd){
-        Matrix C = new Matrix(rows, columns);
-        for (int i = 0; i < rows; i++)
-            for (int j = 0; j < columns; j++)
-                C.matrix[i][j] = this.matrix[i][j] + toAdd.matrix[i][j];
-        return C;
+        if (canAdd(toAdd)){
+            Matrix C = new Matrix(rows, columns);
+            for (int i = 0; i < rows; i++)
+                for (int j = 0; j < columns; j++)
+                    C.matrix[i][j] = this.matrix[i][j] + toAdd.matrix[i][j];
+            return C;
+        }
+        return null;
     }
 
     //toString Method
