@@ -18,6 +18,11 @@ public class Matrix {
                 matrix[i][j] = data[i][j];
     }
 
+    //Copy Constructor
+    public Matrix(Matrix toCopy){
+        matrix = toCopy.matrix;
+    }
+
     //check if it can add or subtract
     public boolean canAdd(Matrix toAdd){
         if (toAdd.matrix.length != this.matrix.length || toAdd.matrix[0].length != this.matrix[0].length){
