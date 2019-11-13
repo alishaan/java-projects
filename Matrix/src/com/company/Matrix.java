@@ -41,6 +41,20 @@ public class Matrix {
         return null;
     }
 
+    //Function to subtract
+    public Matrix subtract(Matrix toSubtract){
+        if (canAdd(toSubtract)){
+            int rows = matrix.length;
+            int columns = matrix[0].length;
+            Matrix C = new Matrix(rows, columns);
+            for (int i = 0; i < rows; i++)
+                for (int j = 0; j < columns; j++)
+                    C.matrix[i][j] = this.matrix[i][j] - toSubtract.matrix[i][j];
+            return C;
+        }
+        return null;
+    }
+
     //toString Method
     public String toString(){
         String returnString = "";
@@ -52,7 +66,6 @@ public class Matrix {
             }
             returnString += System.lineSeparator();
         }
-        returnString += System.lineSeparator();
         return returnString;
     }
 
