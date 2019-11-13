@@ -1,21 +1,17 @@
 package com.company;
 
 public class Matrix {
-    private int rows;
-    private int columns;
     private double[][] matrix;
 
     //creates matrix of 0's with a dimension
     public Matrix (int r, int c){
-        rows = r;
-        columns = c;
         matrix = new double[r][c];
     }
 
     //fill in by passing in a two dimensional array of values
     public Matrix(double[][] data){
-        rows = data.length;
-        columns = data[0].length;
+        int rows = data.length;
+        int columns = data[0].length;
         matrix = new double[rows][columns];
         for (int i = 0; i < rows; i++)
             for (int j = 0; j < columns; j++)
@@ -24,7 +20,7 @@ public class Matrix {
 
     //check if it can add or subtract
     public boolean canAdd(Matrix toAdd){
-        if (toAdd.rows != this.rows || toAdd.columns != this.columns){
+        if (toAdd.matrix.length != this.matrix.length || toAdd.matrix[0].length != this.matrix[0].length){
             return false;
         }else{
             return true;
@@ -34,6 +30,8 @@ public class Matrix {
     //Function to add matrices
     public Matrix add(Matrix toAdd){
         if (canAdd(toAdd)){
+            int rows = matrix.length;
+            int columns = matrix[0].length;
             Matrix C = new Matrix(rows, columns);
             for (int i = 0; i < rows; i++)
                 for (int j = 0; j < columns; j++)
@@ -46,29 +44,16 @@ public class Matrix {
     //toString Method
     public String toString(){
         String returnString = "";
+        int rows = matrix.length;
+        int columns = matrix[0].length;
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                returnString += Double.toString(matrix[i][j]) + " ";
+                returnString += matrix[i][j] + " ";
             }
             returnString += System.lineSeparator();
         }
         returnString += System.lineSeparator();
         return returnString;
-    }
-    public int getRows() {
-        return rows;
-    }
-
-    public void setRows(int rows) {
-        this.rows = rows;
-    }
-
-    public int getColumns() {
-        return columns;
-    }
-
-    public void setColumns(int columns) {
-        this.columns = columns;
     }
 
     public double[][] getMatrix() {
