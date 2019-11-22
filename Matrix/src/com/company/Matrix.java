@@ -60,6 +60,30 @@ public class Matrix {
         return null;
     }
 
+    //Function to check if two matrices can be multiplied
+    public boolean checkMult(Matrix toMult){
+        if (getColumns() != toMult.getRows()){
+            return true;
+        }
+        return false;
+    }
+
+    //Function to multiply two matrices
+    public Matrix multiply(Matrix toMult){
+        if (checkMult(toMult)){
+            Matrix toReturn = new Matrix(getRows(), toMult.getColumns());
+            for (int i = 0; i < toReturn.getRows(); i++){
+                for (int j = 0; j < toReturn.getColumns(); j++){
+                    for (int k = 0; k <getColumns(); k++){
+                        toReturn.matrix[i][j] += (matrix[i][k] * toMult.matrix[k][j]);
+                    }
+                }
+            }
+            return toReturn;
+        }
+        return null;
+    }
+
     //toString Method
     public String toString(){
         String returnString = "";
@@ -72,6 +96,14 @@ public class Matrix {
             returnString += System.lineSeparator();
         }
         return returnString;
+    }
+
+    //Getters and setters
+    public int getRows(){
+        return matrix.length;
+    }
+    public int getColumns(){
+        return matrix[0].length;
     }
 
     public double[][] getMatrix() {
