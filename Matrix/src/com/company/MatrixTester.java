@@ -34,13 +34,13 @@ public class MatrixTester {
         JButton add = new JButton("Add");
         JButton subtract = new JButton("Subtract");
         JButton multiply = new JButton("Multiply");
-        JButton divide = new JButton("Divide");
+        JButton scalar = new JButton("Scalar Multiplication");
         JButton transpose = new JButton("Transpose");
 
         buttonsPanel.add(add);
         buttonsPanel.add(subtract);
         buttonsPanel.add(multiply);
-        buttonsPanel.add(divide);
+        buttonsPanel.add(scalar);
         buttonsPanel.add(transpose);
 
         gui.add(buttonsPanel);
@@ -57,7 +57,7 @@ public class MatrixTester {
             JFrame gui2 = new JFrame();
             DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
             JTable matrix2 = new JTable(tableModel2);
-            JScrollPane matrix1Scroll13 = new JScrollPane(matrix2);
+            JScrollPane matrix2Scroll = new JScrollPane(matrix2);
 
 
             tableModel2.addTableModelListener(tableModelEvent -> {
@@ -78,9 +78,9 @@ public class MatrixTester {
                 JFrame gui3 = new JFrame();
                 DefaultTableModel tableModel3 = new DefaultTableModel(matrixObject3.generateObjectArray(), matrixObject3.generateColumnNames());
                 JTable matrix3 = new JTable(tableModel3);
-                JScrollPane matrix1Scroll1 = new JScrollPane(matrix3);
+                JScrollPane matrix3Scroll = new JScrollPane(matrix3);
 
-                gui3.add(matrix1Scroll1);
+                gui3.add(matrix3Scroll);
                 gui3.setSize(1000,500);
                 gui3.setVisible(true);
             });
@@ -88,7 +88,7 @@ public class MatrixTester {
             gui2.setSize(1000, 500);
             buttonsPanel2.setLocation(400, 200);
             gui2.add(buttonsPanel2);
-            gui2.add(matrix1Scroll13);
+            gui2.add(matrix2Scroll);
             gui2.setVisible(true);
         });
 
@@ -98,7 +98,7 @@ public class MatrixTester {
             JFrame gui2 = new JFrame();
             DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
             JTable matrix2 = new JTable(tableModel2);
-            JScrollPane matrix1Scroll12 = new JScrollPane(matrix2);
+            JScrollPane matrix2Scroll = new JScrollPane(matrix2);
 
 
             tableModel2.addTableModelListener(tableModelEvent -> {
@@ -119,9 +119,9 @@ public class MatrixTester {
                 JFrame gui3 = new JFrame();
                 DefaultTableModel tableModel3 = new DefaultTableModel(matrixObject3.generateObjectArray(), matrixObject3.generateColumnNames());
                 JTable matrix3 = new JTable(tableModel3);
-                JScrollPane matrix1Scroll1 = new JScrollPane(matrix3);
+                JScrollPane matrix3Scroll = new JScrollPane(matrix3);
 
-                gui3.add(matrix1Scroll1);
+                gui3.add(matrix3Scroll);
                 gui3.setSize(1000,500);
                 gui3.setVisible(true);
             });
@@ -129,7 +129,65 @@ public class MatrixTester {
             gui2.setSize(1000, 500);
             buttonsPanel2.setLocation(400, 200);
             gui2.add(buttonsPanel2);
-            gui2.add(matrix1Scroll12);
+            gui2.add(matrix2Scroll);
+            gui2.setVisible(true);
+        });
+
+        multiply.addActionListener(actionEvent -> {
+            String columns2 = JOptionPane.showInputDialog("Enter how many columns to multiply with");
+
+            Matrix matrixObject2 = new Matrix(Integer.parseInt(columns), Integer.parseInt(columns2));
+
+            JFrame gui2 = new JFrame();
+            DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
+            JTable matrix2 = new JTable(tableModel2);
+            JScrollPane matrix2Scroll = new JScrollPane(matrix2);
+
+
+            tableModel2.addTableModelListener(tableModelEvent -> {
+                if (matrix2.isEditing()){
+                    Object value = matrix2.getValueAt(matrix2.getSelectedRow(), matrix2.getSelectedColumn());
+                    matrixObject2.getMatrix()[matrix2.getSelectedRow()][matrix2.getSelectedColumn()] = Double.parseDouble((String)value);
+                }
+            });
+
+            JPanel buttonsPanel2 = new JPanel();
+            buttonsPanel2.setSize(new Dimension(250, 500));
+            JButton multiply2 = new JButton("Multiply");
+            buttonsPanel2.add(multiply2);
+
+            multiply2.addActionListener(actionEvent1 -> {
+                Matrix matrixObject3 = matrixObject1.multiply(matrixObject2);
+
+                JFrame gui3 = new JFrame();
+                DefaultTableModel tableModel3 = new DefaultTableModel(matrixObject3.generateObjectArray(), matrixObject3.generateColumnNames());
+                JTable matrix3 = new JTable(tableModel3);
+                JScrollPane matrix3Scroll = new JScrollPane(matrix3);
+
+                gui3.add(matrix3Scroll);
+                gui3.setSize(1000,500);
+                gui3.setVisible(true);
+            });
+
+            gui2.setSize(1000, 500);
+            buttonsPanel2.setLocation(400, 200);
+            gui2.add(buttonsPanel2);
+            gui2.add(matrix2Scroll);
+            gui2.setVisible(true);
+        });
+
+        scalar.addActionListener(actionEvent -> {
+            String number = JOptionPane.showInputDialog("Enter number to multiply by");
+
+            Matrix matrixObject2 = matrixObject1.scalarMultiplication(Double.parseDouble(number));
+
+            JFrame gui2 = new JFrame();
+            DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
+            JTable matrix2 = new JTable(tableModel2);
+            JScrollPane matrix2Scroll = new JScrollPane(matrix2);
+
+            gui2.setSize(1000, 500);
+            gui2.add(matrix2Scroll);
             gui2.setVisible(true);
         });
 
@@ -139,10 +197,10 @@ public class MatrixTester {
             JFrame gui2 = new JFrame();
             DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
             JTable matrix2 = new JTable(tableModel2);
-            JScrollPane matrix1Scroll12 = new JScrollPane(matrix2);
+            JScrollPane matrix2Scroll = new JScrollPane(matrix2);
 
             gui2.setSize(1000, 500);
-            gui2.add(matrix1Scroll12);
+            gui2.add(matrix2Scroll);
             gui2.setVisible(true);
         });
 

@@ -62,7 +62,7 @@ public class Matrix {
 
     //Function to check if two matrices can be multiplied
     public boolean checkMult(Matrix toMult){
-        if (getColumns() != toMult.getRows()){
+        if (getColumns() == toMult.getRows()){
             return true;
         }
         return false;
@@ -82,6 +82,16 @@ public class Matrix {
             return toReturn;
         }
         return null;
+    }
+
+    public Matrix scalarMultiplication(double toMult){
+        Matrix A = new Matrix(getRows(), getColumns());
+        for (int i = 0; i < getRows(); i++){
+            for (int j = 0; j < getColumns(); j++){
+                A.matrix[i][j] = matrix[i][j] * toMult;
+            }
+        }
+        return A;
     }
 
     //Function to transpose a matrix
