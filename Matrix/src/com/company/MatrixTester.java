@@ -133,5 +133,18 @@ public class MatrixTester {
             gui2.setVisible(true);
         });
 
+        transpose.addActionListener(actionEvent -> {
+            Matrix matrixObject2 = matrixObject1.transpose();
+
+            JFrame gui2 = new JFrame();
+            DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
+            JTable matrix2 = new JTable(tableModel2);
+            JScrollPane matrix1Scroll12 = new JScrollPane(matrix2);
+
+            gui2.setSize(1000, 500);
+            gui2.add(matrix1Scroll12);
+            gui2.setVisible(true);
+        });
+
     }
 }

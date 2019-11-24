@@ -86,9 +86,9 @@ public class Matrix {
 
     //Function to transpose a matrix
     public Matrix transpose(){
-        Matrix A = new Matrix(getRows(), getColumns());
-        for (int i = 0; i < getColumns(); i++){
-            for (int j = 0; j < getRows(); j++){
+        Matrix A = new Matrix(getColumns(), getRows());
+        for (int i = 0; i < getRows(); i++){
+            for (int j = 0; j < getColumns(); j++){
                 A.matrix[j][i] = matrix[i][j];
             }
         }
