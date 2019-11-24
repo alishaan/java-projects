@@ -84,6 +84,17 @@ public class Matrix {
         return null;
     }
 
+    //Function to transpose a matrix
+    public Matrix transpose(){
+        Matrix A = new Matrix(getRows(), getColumns());
+        for (int i = 0; i < getColumns(); i++){
+            for (int j = 0; j < getRows(); j++){
+                A.matrix[j][i] = matrix[i][j];
+            }
+        }
+        return A;
+    }
+
     //toString Method
     public String toString(){
         String returnString = "";
@@ -104,6 +115,26 @@ public class Matrix {
     }
     public int getColumns(){
         return matrix[0].length;
+    }
+
+    public Object[][] generateObjectArray(){
+        Object[][] objectArray = new Object[getMatrix().length][getMatrix()[0].length];
+
+        for(int i = 0; i < getMatrix().length; i++)
+        {
+            for(int j = 0; j < getMatrix()[0].length; j++)
+                objectArray[i][j] = (Object) getMatrix()[i][j];
+        }
+        return objectArray;
+    }
+
+    public Object[] generateColumnNames(){
+        Object[] columnNames = new Object[getColumns()];
+
+        for (int i = 0; i < columnNames.length; i++){
+            columnNames[i] = i + 1;
+        }
+        return columnNames;
     }
 
     public double[][] getMatrix() {
