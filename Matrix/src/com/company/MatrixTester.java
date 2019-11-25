@@ -36,12 +36,14 @@ public class MatrixTester {
         JButton multiply = new JButton("Multiply");
         JButton scalar = new JButton("Scalar Multiplication");
         JButton transpose = new JButton("Transpose");
+        JButton edit = new JButton("Edit");
 
         buttonsPanel.add(add);
         buttonsPanel.add(subtract);
         buttonsPanel.add(multiply);
         buttonsPanel.add(scalar);
         buttonsPanel.add(transpose);
+        buttonsPanel.add(edit);
 
         gui.add(buttonsPanel);
         gui.add(matrix1Scroll);
@@ -204,5 +206,15 @@ public class MatrixTester {
             gui2.setVisible(true);
         });
 
+        edit.addActionListener(actionEvent -> {
+            String rows2 = JOptionPane.showInputDialog("Enter the amount of rows");
+            String columns2 = JOptionPane.showInputDialog("Enter the amount of columns");
+
+            matrixObject1.setMatrix(new Matrix(Integer.parseInt(rows2), Integer.parseInt(columns2)).getMatrix());
+
+            tableModel.setDataVector(matrixObject1.generateObjectArray(), matrixObject1.generateColumnNames());
+
+            tableModel.fireTableDataChanged();
+        });
     }
 }
