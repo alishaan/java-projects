@@ -54,7 +54,7 @@ public class MatrixTester {
         gui.setVisible(true);
 
         add.addActionListener(actionEvent -> {
-            Matrix matrixObject2 = new Matrix(Integer.parseInt(rows),Integer.parseInt(columns));
+            Matrix matrixObject2 = new Matrix(matrixObject1.getRows(),matrixObject1.getColumns());
 
             JFrame gui2 = new JFrame();
             DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
@@ -95,7 +95,7 @@ public class MatrixTester {
         });
 
         subtract.addActionListener(actionEvent -> {
-            Matrix matrixObject2 = new Matrix(Integer.parseInt(rows),Integer.parseInt(columns));
+            Matrix matrixObject2 = new Matrix(matrixObject1.getRows(),matrixObject1.getColumns());
 
             JFrame gui2 = new JFrame();
             DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
@@ -138,7 +138,7 @@ public class MatrixTester {
         multiply.addActionListener(actionEvent -> {
             String columns2 = JOptionPane.showInputDialog("Enter how many columns to multiply with");
 
-            Matrix matrixObject2 = new Matrix(Integer.parseInt(columns), Integer.parseInt(columns2));
+            Matrix matrixObject2 = new Matrix(matrixObject1.getColumns(), Integer.parseInt(columns2));
 
             JFrame gui2 = new JFrame();
             DefaultTableModel tableModel2 = new DefaultTableModel(matrixObject2.generateObjectArray(), matrixObject2.generateColumnNames());
