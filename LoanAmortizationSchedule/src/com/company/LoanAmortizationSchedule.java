@@ -26,12 +26,6 @@ public class LoanAmortizationSchedule {
         printAmortizationSchedule(loanAmount, annualInterestRate, numYears);
     }
 
-    /**
-     * Prints amortization schedule for all months.
-     * @param principal - the total amount of the loan
-     * @param annualInterestRate in percent
-     * @param numYears
-     */
     public static void printAmortizationSchedule(double principal, double annualInterestRate,
                                                  int numYears) {
         double interestPaid, principalPaid, newBalance;
@@ -62,30 +56,18 @@ public class LoanAmortizationSchedule {
         }
     }
 
-    /**
-     * @param loanAmount
-     * @param monthlyInterestRate in percent
-     * @param numberOfYears
-     * @return the amount of the monthly payment of the loan
-     */
     static double monthlyPayment(double loanAmount, double monthlyInterestRate, int numberOfYears) {
         monthlyInterestRate /= 100;  // e.g. 5% => 0.05
         return loanAmount * monthlyInterestRate /
                 ( 1 - 1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12) );
     }
 
-    /**
-     * Prints a table data of the amortization schedule as a table row.
-     */
     private static void printScheduleItem(int month, double interestPaid,
                                           double principalPaid, double newBalance) {
         System.out.format("%8d%10.2f%10.2f%12.2f\n",
                 month, interestPaid, principalPaid, newBalance);
     }
-
-    /**
-     * Prints the table header for the amortization schedule.
-     */
+    
     private static void printTableHeader() {
         System.out.println("\nAmortization schedule");
         for(int i = 0; i < 40; i++) {  // Draw a line
