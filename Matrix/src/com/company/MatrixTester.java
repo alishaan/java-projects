@@ -49,7 +49,7 @@ public class MatrixTester {
         gui.add(matrix1Scroll);
 
         gui.setSize(1000, 500);
-        buttonsPanel.setLocation(400, 200);
+        buttonsPanel.setLocation(gui.getWidth()/2 - 125, 200);
 
         gui.setVisible(true);
 
