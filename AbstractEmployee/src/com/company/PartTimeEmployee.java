@@ -8,12 +8,13 @@ public class PartTimeEmployee extends Employee {
 
     public PartTimeEmployee(String n, double r, int h){
         super(n, r, h);
+        totalPay += getPay();
     }
 
     public double getPay() {
         double pay;
         pay = rate * hours;
-        totalPay += pay;
+        //totalPay += pay;
         return pay;
     }
 

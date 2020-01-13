@@ -7,11 +7,13 @@ public class FullTimeEmployee extends Employee {
    public FullTimeEmployee(){
       super();
       uniondue = 0;
+      totalPay += getPay();
    }
 
    public FullTimeEmployee(String n, double r, int h, double u){
       super(n, r, h);
       uniondue = u;
+      totalPay += getPay();
    }
 
    public double getPay() {
@@ -22,7 +24,7 @@ public class FullTimeEmployee extends Employee {
       else
          pay = rate * 40 +  rate * 2 * (hours - 40);
 
-      totalPay += pay;
+      //totalPay += pay;
       return pay;
    }
 

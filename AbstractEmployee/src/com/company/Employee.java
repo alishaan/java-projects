@@ -98,5 +98,11 @@ abstract public class Employee {
     public int getIdNum(){
         return idNum;
     }
+    public int getHours(){
+        return hours;
+    }
+    public double getRate(){
+        return rate;
+    }
 }
 
