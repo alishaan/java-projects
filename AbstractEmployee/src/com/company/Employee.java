@@ -6,18 +6,24 @@ abstract public class Employee {
     protected String name;
     protected double rate;
     protected int hours;
+    protected int idNum;
+    protected static int idCount = 0;
 
     // Public Methods:
     public Employee(){
         name = "";
         rate = 0;
         hours = 0;
+        idCount ++;
+        idNum = idCount;
     }
 
     public Employee(String n, double r, int h){
         name = n;
         rate = r;
         hours = h;
+        idCount ++;
+        idNum = idCount;
     }
 
     public boolean setName(String nm){
@@ -88,6 +94,9 @@ abstract public class Employee {
 
     private static String getRule (double low, double high) {
         return "between " + low + " and " + high + ", inclusive";
+    }
+    public int getIdNum(){
+        return idNum;
     }
 }
 

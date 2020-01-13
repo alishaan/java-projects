@@ -41,9 +41,10 @@ public class PayrollSystemInterface{
             fullpay += i.getPay();
 
       for (Employee i : emps){
-         System.out.printf("Name: %s\nPay: $%.2f\n",
+         System.out.printf("Name: %s\nPay: $%.2f\nId Num: %d\n",
                  i.getName(),
-                 i.getPay());
+                 i.getPay(),
+                 i.getIdNum());
          if (i instanceof FullTimeEmployee){
             System.out.printf("Union Dues: $%.2f\n", i.getDues());
          }
