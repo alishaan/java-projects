@@ -1,0 +1,7000 @@
+Name: ROSELLE HITE        
+Grade:  1
+Scores: 96, 92, 91
+GPA: 4.00
+Fees: $ 7.15
+ID: 100001
+Project: Painting
+Name: JULIAN MANNIX       
+Grade:  7
+Scores: 89, 86, 93
+GPA: 3.33
+Fees: $29.74
+ID: 100002
+Team: Gifford Dinos
+Name: SANTIAGO SHREINER   
+Grade:  2
+Scores: 97, 96, 98
+GPA: 4.00
+Fees: $ 9.21
+ID: 100003
+Project: Painting
+Name: NOBLE MERKLING      
+Grade:  1
+Scores: 67, 90, 99
+GPA: 3.00
+Fees: $ 1.18
+ID: 100004
+Project: Science Fair
+Name: COLBY CRUZAN        
+Grade: 10
+Scores: 78, 83, 78
+GPA: 2.33
+Fees: $80.70
+ID: 100005
+AP Classes: 1
+Name: KARMEN SCHMEIDER    
+Grade:  5
+Scores: 95, 83, 95
+GPA: 3.67
+Fees: $25.93
+ID: 100006
+Building: John Schmidt
+Name: STANFORD GORANSON   
+Grade:  9
+Scores: 92, 83, 86
+GPA: 3.33
+Fees: $64.72
+ID: 100007
+AP Classes: 0
+Name: CHANG BRASSELL      
+Grade:  6
+Scores: 97, 83, 95
+GPA: 3.67
+Fees: $17.51
+ID: 100008
+Building: William Foster
+Name: BRUCE LAVENTURE     
+Grade:  6
+Scores: 70, 92, 95
+GPA: 3.33
+Fees: $22.56
+ID: 100009
+Building: William Foster
+Name: ELENORA RICCIUTI    
+Grade:  1
+Scores: 89, 93, 95
+GPA: 3.67
+Fees: $ 0.74
+ID: 100010
+Project: Math Problems
+Name: RONNA JAGLA         
+Grade:  7
+Scores: 96, 89, 94
+GPA: 3.67
+Fees: $25.80
+ID: 100011
+Team: Gifford Dinos
+Name: BEAU SLOMINSKI      
+Grade:  7
+Scores: 91, 65, 96
+GPA: 3.00
+Fees: $49.91
+ID: 100012
+Team: Fightin' Itens
+Name: DANA TAKASHIMA      
+Grade:  4
+Scores: 96, 85, 91
+GPA: 3.67
+Fees: $21.65
+ID: 100013
+Building: John Schmidt
+Name: VEOLA SCHMIED       
+Grade:  2
+Scores: 87, 92, 90
+GPA: 3.67
+Fees: $ 9.67
+ID: 100014
+Project: Math Problems
+Name: JULIUS BERKA        
+Grade:  7
+Scores: 88, 92, 99
+GPA: 3.67
+Fees: $40.07
+ID: 100015
+Team: Fightin' Itens
+Name: LEZLIE NOURI        
+Grade:  8
+Scores: 88, 99, 90
+GPA: 3.67
+Fees: $ 1.08
+ID: 100016
+Team: Sri's Trees
+Name: REINALDO TOLMAN     
+Grade: 10
+Scores: 66, 68, 87
+GPA: 1.67
+Fees: $32.35
+ID: 100017
+AP Classes: 2
+Name: ILA RABENSTEIN      
+Grade: 10
+Scores: 88, 95, 91
+GPA: 3.67
+Fees: $236.70
+ID: 100018
+AP Classes: 10
+Name: RUSTY BLIND         
+Grade: 12
+Scores: 98, 94, 70
+GPA: 3.33
+Fees: $226.38
+ID: 100019
+AP Classes: 9
+Name: ALI OKUDA           
+Grade:  7
+Scores: 99, 94, 76
+GPA: 3.33
+Fees: $55.07
+ID: 100020
+Team: House of Kim
+Name: JOSEPH LEAMON       
+Grade:  7
+Scores: 99, 76, 87
+GPA: 3.00
+Fees: $45.42
+ID: 100021
+Team: Sri's Trees
+Name: WILFORD JACEK       
+Grade:  9
+Scores: 96, 99, 99
+GPA: 4.00
+Fees: $13.75
+ID: 100022
+AP Classes: 0
+Name: KATI REDNOUR        
+Grade:  8
+Scores: 81, 89, 86
+GPA: 3.00
+Fees: $39.35
+ID: 100023
+Team: House of Kim
+Name: EHTEL MCFARLAIN     
+Grade:  1
+Scores: 93, 77, 76
+GPA: 2.67
+Fees: $ 4.08
+ID: 100024
+Project: Math Problems
+Name: CHARISSA MASK       
+Grade:  6
+Scores: 88, 98, 95
+GPA: 3.67
+Fees: $16.19
+ID: 100025
+Building: John Schmidt
+Name: JOHANNE ISAM        
+Grade:  6
+Scores: 83, 97, 94
+GPA: 3.67
+Fees: $24.19
+ID: 100026
+Building: John Schmidt
+Name: CARROLL PULK        
+Grade:  4
+Scores: 90, 94, 84
+GPA: 3.67
+Fees: $ 8.21
+ID: 100027
+Building: William Foster
+Name: BRANDEN KNOLL       
+Grade:  4
+Scores: 84, 96, 97
+GPA: 3.67
+Fees: $13.16
+ID: 100028
+Building: John Schmidt
+Name: NEAL ZUBIK          
+Grade:  5
+Scores: 99, 79, 83
+GPA: 3.00
+Fees: $18.60
+ID: 100029
+Building: John Schmidt
+Name: TRAVIS ZARAGOSA     
+Grade: 11
+Scores: 99, 94, 66
+GPA: 3.00
+Fees: $46.09
+ID: 100030
+AP Classes: 2
+Name: WINFRED BARNS       
+Grade:  9
+Scores: 80, 93, 77
+GPA: 3.00
+Fees: $157.53
+ID: 100031
+AP Classes: 7
+Name: IMA NIEWIEROSKI     
+Grade:  7
+Scores: 93, 89, 98
+GPA: 3.67
+Fees: $35.73
+ID: 100032
+Team: Fightin' Itens
+Name: KYLA SEMPRINI       
+Grade:  6
+Scores: 90, 92, 99
+GPA: 4.00
+Fees: $10.67
+ID: 100033
+Building: John Schmidt
+Name: DONNELL KLECHA      
+Grade: 12
+Scores: 85, 87, 93
+GPA: 3.33
+Fees: $69.06
+ID: 100034
+AP Classes: 1
+Name: JAIME PANTONI       
+Grade:  2
+Scores: 87, 95, 99
+GPA: 3.67
+Fees: $ 3.24
+ID: 100035
+Project: Painting
+Name: MAY KIRCHOFF        
+Grade: 11
+Scores: 81, 80, 92
+GPA: 3.33
+Fees: $227.86
+ID: 100036
+AP Classes: 10
+Name: JONI REPINSKI       
+Grade: 12
+Scores: 91, 79, 90
+GPA: 3.33
+Fees: $36.49
+ID: 100037
+AP Classes: 2
+Name: DONNETTA CHERNAK    
+Grade: 12
+Scores: 90, 88, 97
+GPA: 3.67
+Fees: $176.37
+ID: 100038
+AP Classes: 9
+Name: KATIE ULRICK        
+Grade:  7
+Scores: 99, 65, 90
+GPA: 3.00
+Fees: $10.30
+ID: 100039
+Team: House of Kim
+Name: RODNEY ECCLES       
+Grade: 12
+Scores: 81, 93, 99
+GPA: 3.67
+Fees: $51.61
+ID: 100040
+AP Classes: 3
+Name: ALBINA CONNESS      
+Grade:  6
+Scores: 85, 93, 95
+GPA: 3.67
+Fees: $26.61
+ID: 100041
+Building: John Schmidt
+Name: JESSIKA BRASETH     
+Grade: 10
+Scores: 85, 95, 94
+GPA: 3.67
+Fees: $194.40
+ID: 100042
+AP Classes: 7
+Name: CLAUDINE ECHARD     
+Grade:  7
+Scores: 88, 98, 78
+GPA: 3.00
+Fees: $ 3.28
+ID: 100043
+Team: Sri's Trees
+Name: VIVA NOBREGA        
+Grade:  9
+Scores: 81, 83, 93
+GPA: 3.33
+Fees: $120.53
+ID: 100044
+AP Classes: 8
+Name: TIFFANEY CHIAPPINELLI
+Grade: 11
+Scores: 93, 88, 97
+GPA: 3.67
+Fees: $181.09
+ID: 100045
+AP Classes: 10
+Name: LONNIE DEAHL        
+Grade:  9
+Scores: 84, 92, 87
+GPA: 3.33
+Fees: $164.77
+ID: 100046
+AP Classes: 9
+Name: TARRA GETER         
+Grade:  2
+Scores: 98, 93, 99
+GPA: 4.00
+Fees: $ 5.04
+ID: 100047
+Project: Painting
+Name: MARTHA SELIGSON     
+Grade: 11
+Scores: 82, 80, 78
+GPA: 2.67
+Fees: $189.94
+ID: 100048
+AP Classes: 10
+Name: TEDDY IAROCCI       
+Grade:  8
+Scores: 83, 92, 76
+GPA: 3.00
+Fees: $46.77
+ID: 100049
+Team: House of Kim
+Name: LOYD GOW            
+Grade:  4
+Scores: 89, 78, 86
+GPA: 2.67
+Fees: $ 0.50
+ID: 100050
+Building: William Foster
+Name: JOAN LETSINGER      
+Grade: 11
+Scores: 94, 90, 89
+GPA: 3.67
+Fees: $89.75
+ID: 100051
+AP Classes: 2
+Name: WILLIAN KORBY       
+Grade: 10
+Scores: 99, 81, 94
+GPA: 3.67
+Fees: $60.18
+ID: 100052
+AP Classes: 4
+Name: DANNY ODONNEL       
+Grade:  6
+Scores: 87, 85, 92
+GPA: 3.33
+Fees: $19.50
+ID: 100053
+Building: John Schmidt
+Name: GARLAND STOGSDILL   
+Grade:  2
+Scores: 96, 91, 88
+GPA: 3.67
+Fees: $ 0.85
+ID: 100054
+Project: Painting
+Name: WILTON SHEA         
+Grade: 11
+Scores: 88, 69, 83
+GPA: 2.33
+Fees: $157.86
+ID: 100055
+AP Classes: 7
+Name: ASLEY PARISER       
+Grade: 10
+Scores: 86, 92, 90
+GPA: 3.67
+Fees: $135.84
+ID: 100056
+AP Classes: 7
+Name: KENNETH BALISTRIERI 
+Grade: 12
+Scores: 77, 84, 88
+GPA: 2.67
+Fees: $72.55
+ID: 100057
+AP Classes: 4
+Name: JONAS SALATINO      
+Grade:  7
+Scores: 98, 88, 86
+GPA: 3.33
+Fees: $49.24
+ID: 100058
+Team: Sri's Trees
+Name: BLAIR MITZEL        
+Grade:  3
+Scores: 91, 87, 66
+GPA: 2.67
+Fees: $ 3.67
+ID: 100059
+Project: Science Fair
+Name: CLAUDIE NASHE       
+Grade: 11
+Scores: 80, 87, 93
+GPA: 3.33
+Fees: $98.53
+ID: 100060
+AP Classes: 3
+Name: JAIMIE LATHERN      
+Grade:  8
+Scores: 90, 81, 79
+GPA: 3.00
+Fees: $51.69
+ID: 100061
+Team: Kummer Tuners
+Name: CHIN HAWMAN         
+Grade:  4
+Scores: 72, 87, 99
+GPA: 3.00
+Fees: $ 0.67
+ID: 100062
+Building: William Foster
+Name: BRAD WENKE          
+Grade:  6
+Scores: 80, 99, 82
+GPA: 3.33
+Fees: $25.84
+ID: 100063
+Building: William Foster
+Name: MARCELLE GRZEGOREK  
+Grade:  1
+Scores: 81, 85, 91
+GPA: 3.33
+Fees: $ 7.36
+ID: 100064
+Project: Science Fair
+Name: DONALD TAY          
+Grade: 10
+Scores: 97, 91, 87
+GPA: 3.67
+Fees: $100.55
+ID: 100065
+AP Classes: 1
+Name: PIERRE BRAUNBECK    
+Grade:  3
+Scores: 85, 75, 69
+GPA: 2.00
+Fees: $ 3.44
+ID: 100066
+Project: Science Fair
+Name: JENICE RICHARD      
+Grade:  4
+Scores: 98, 89, 88
+GPA: 3.33
+Fees: $17.93
+ID: 100067
+Building: William Foster
+Name: ROSSIE DRAYTON      
+Grade:  4
+Scores: 77, 85, 77
+GPA: 2.33
+Fees: $21.10
+ID: 100068
+Building: John Schmidt
+Name: MANDIE GULDEN       
+Grade:  7
+Scores: 74, 89, 81
+GPA: 2.67
+Fees: $16.81
+ID: 100069
+Team: Fightin' Itens
+Name: ANYA KRAUSHAAR      
+Grade:  8
+Scores: 89, 86, 98
+GPA: 3.33
+Fees: $52.66
+ID: 100070
+Team: Gifford Dinos
+Name: BRADY HAMEISTER     
+Grade:  3
+Scores: 79, 76, 85
+GPA: 2.33
+Fees: $ 1.92
+ID: 100071
+Project: Science Fair
+Name: WILL HIBDON         
+Grade: 12
+Scores: 99, 97, 98
+GPA: 4.00
+Fees: $90.75
+ID: 100072
+AP Classes: 1
+Name: EDMOND KERSHNER     
+Grade:  7
+Scores: 92, 91, 95
+GPA: 4.00
+Fees: $12.89
+ID: 100073
+Team: Gifford Dinos
+Name: MAXINE MOAT         
+Grade:  8
+Scores: 93, 88, 90
+GPA: 3.67
+Fees: $25.89
+ID: 100074
+Team: Kummer Tuners
+Name: KYUNG RION          
+Grade:  2
+Scores: 89, 95, 79
+GPA: 3.00
+Fees: $ 4.94
+ID: 100076
+Project: Math Problems
+Name: MARIANNA NUNNERY    
+Grade:  7
+Scores: 93, 73, 82
+GPA: 3.00
+Fees: $46.22
+ID: 100077
+Team: Gifford Dinos
+Name: SANDY SUTLEY        
+Grade:  9
+Scores: 92, 88, 94
+GPA: 3.67
+Fees: $90.95
+ID: 100078
+AP Classes: 3
+Name: ANTHONY BUMPAS      
+Grade:  4
+Scores: 98, 88, 99
+GPA: 3.67
+Fees: $22.84
+ID: 100079
+Building: John Schmidt
+Name: JOHNATHAN RIVADENEIRA
+Grade:  5
+Scores: 90, 89, 98
+GPA: 3.67
+Fees: $25.79
+ID: 100080
+Building: John Schmidt
+Name: MARYLOUISE MOUSER   
+Grade:  7
+Scores: 91, 71, 80
+GPA: 3.00
+Fees: $28.67
+ID: 100081
+Team: Kummer Tuners
+Name: RUDOLF PINKSTON     
+Grade: 12
+Scores: 92, 79, 90
+GPA: 3.33
+Fees: $137.24
+ID: 100082
+AP Classes: 3
+Name: BILLYE SENIOR       
+Grade: 12
+Scores: 87, 89, 69
+GPA: 2.33
+Fees: $62.67
+ID: 100083
+AP Classes: 2
+Name: DESMOND ZEPP        
+Grade:  1
+Scores: 69, 89, 76
+GPA: 2.00
+Fees: $ 6.42
+ID: 100084
+Project: Math Problems
+Name: VIOLA PANDY         
+Grade:  8
+Scores: 72, 88, 78
+GPA: 2.33
+Fees: $45.73
+ID: 100085
+Team: Sri's Trees
+Name: IVORY BLEGEN        
+Grade:  5
+Scores: 85, 66, 87
+GPA: 2.33
+Fees: $20.86
+ID: 100086
+Building: John Schmidt
+Name: SHERITA HARLAND     
+Grade:  8
+Scores: 99, 82, 98
+GPA: 3.67
+Fees: $54.28
+ID: 100087
+Team: Fightin' Itens
+Name: JOVAN SAHOTA        
+Grade: 11
+Scores: 90, 86, 85
+GPA: 3.33
+Fees: $56.97
+ID: 100088
+AP Classes: 2
+Name: CLARETTA ABRUZZESE  
+Grade: 11
+Scores: 73, 81, 81
+GPA: 2.67
+Fees: $60.32
+ID: 100089
+AP Classes: 0
+Name: PAUL FARMAN         
+Grade:  2
+Scores: 93, 97, 92
+GPA: 4.00
+Fees: $ 3.79
+ID: 100090
+Project: Painting
+Name: TATUM KUCHERA       
+Grade:  5
+Scores: 94, 92, 72
+GPA: 3.33
+Fees: $28.79
+ID: 100091
+Building: John Schmidt
+Name: DREAMA BONVILLAIN   
+Grade:  2
+Scores: 93, 96, 97
+GPA: 4.00
+Fees: $ 0.42
+ID: 100092
+Project: Painting
+Name: ROSEANN IMPSON      
+Grade:  3
+Scores: 69, 82, 94
+GPA: 2.67
+Fees: $ 2.95
+ID: 100093
+Project: Painting
+Name: LETHA DENENBERG     
+Grade:  3
+Scores: 76, 95, 93
+GPA: 3.33
+Fees: $ 6.27
+ID: 100094
+Project: Science Fair
+Name: ANTOINETTE TROUTNER 
+Grade: 12
+Scores: 91, 91, 95
+GPA: 4.00
+Fees: $168.15
+ID: 100095
+AP Classes: 6
+Name: PATTY DOHRMAN       
+Grade:  6
+Scores: 72, 79, 82
+GPA: 2.33
+Fees: $20.35
+ID: 100096
+Building: William Foster
+Name: PAIGE SCHOENROCK    
+Grade: 11
+Scores: 86, 88, 98
+GPA: 3.33
+Fees: $33.65
+ID: 100097
+AP Classes: 2
+Name: LAVERNE FRAUNFELTER 
+Grade:  7
+Scores: 84, 94, 98
+GPA: 3.67
+Fees: $ 8.71
+ID: 100098
+Team: Fightin' Itens
+Name: ANGLA KENDELL       
+Grade:  4
+Scores: 97, 89, 84
+GPA: 3.33
+Fees: $22.05
+ID: 100099
+Building: William Foster
+Name: THERESA TALASKA     
+Grade:  9
+Scores: 93, 91, 98
+GPA: 4.00
+Fees: $85.96
+ID: 100100
+AP Classes: 2
+Name: GILBERT LAPLACE     
+Grade:  1
+Scores: 76, 79, 77
+GPA: 2.00
+Fees: $ 6.63
+ID: 100101
+Project: Math Problems
+Name: MARLANA WAGGANER    
+Grade:  1
+Scores: 95, 78, 93
+GPA: 3.33
+Fees: $ 1.52
+ID: 100102
+Project: Science Fair
+Name: REFUGIO LANDSBERG   
+Grade:  5
+Scores: 95, 88, 70
+GPA: 3.00
+Fees: $11.42
+ID: 100103
+Building: John Schmidt
+Name: TRENT SERGIO        
+Grade:  9
+Scores: 93, 65, 95
+GPA: 3.00
+Fees: $167.78
+ID: 100104
+AP Classes: 6
+Name: MAX PRADHAN         
+Grade:  4
+Scores: 86, 77, 86
+GPA: 2.67
+Fees: $25.81
+ID: 100105
+Building: William Foster
+Name: CHAUNCEY GARMANY    
+Grade:  7
+Scores: 97, 85, 99
+GPA: 3.67
+Fees: $27.44
+ID: 100106
+Team: House of Kim
+Name: CASSIE BOWLDS       
+Grade:  2
+Scores: 73, 87, 90
+GPA: 3.00
+Fees: $ 3.69
+ID: 100107
+Project: Painting
+Name: ALFONZO AVERILL     
+Grade:  6
+Scores: 99, 94, 67
+GPA: 3.00
+Fees: $28.36
+ID: 100108
+Building: John Schmidt
+Name: WANETTA BUFFKIN     
+Grade: 10
+Scores: 70, 96, 72
+GPA: 2.67
+Fees: $158.57
+ID: 100109
+AP Classes: 6
+Name: LIBBY POLOWY        
+Grade: 11
+Scores: 88, 98, 73
+GPA: 3.00
+Fees: $223.90
+ID: 100110
+AP Classes: 9
+Name: MARGE RICCELLI      
+Grade:  7
+Scores: 72, 95, 85
+GPA: 3.00
+Fees: $31.62
+ID: 100111
+Team: House of Kim
+Name: LUCIUS GIBBSON      
+Grade:  2
+Scores: 83, 77, 89
+GPA: 2.67
+Fees: $ 5.33
+ID: 100112
+Project: Math Problems
+Name: AGATHA SVEDIN       
+Grade:  6
+Scores: 90, 92, 85
+GPA: 3.67
+Fees: $ 5.16
+ID: 100113
+Building: William Foster
+Name: KEELEY TELLEZ       
+Grade:  8
+Scores: 91, 93, 86
+GPA: 3.67
+Fees: $28.67
+ID: 100114
+Team: House of Kim
+Name: ESTELL FORMELLA     
+Grade:  3
+Scores: 98, 91, 87
+GPA: 3.67
+Fees: $ 3.00
+ID: 100115
+Project: Science Fair
+Name: MARC HINKLE         
+Grade:  7
+Scores: 93, 89, 96
+GPA: 3.67
+Fees: $19.54
+ID: 100116
+Team: Gifford Dinos
+Name: COLTON MAJER        
+Grade: 10
+Scores: 82, 72, 74
+GPA: 2.33
+Fees: $134.85
+ID: 100117
+AP Classes: 6
+Name: JOAN KINNA          
+Grade:  5
+Scores: 99, 87, 96
+GPA: 3.67
+Fees: $18.63
+ID: 100118
+Building: William Foster
+Name: DOROTHEA FOULK      
+Grade:  7
+Scores: 87, 88, 98
+GPA: 3.33
+Fees: $50.85
+ID: 100119
+Team: Fightin' Itens
+Name: FELIX GUTTMAN       
+Grade:  6
+Scores: 98, 68, 72
+GPA: 2.33
+Fees: $ 1.07
+ID: 100120
+Building: John Schmidt
+Name: DORIAN BUCKWALTER   
+Grade: 10
+Scores: 94, 99, 87
+GPA: 3.67
+Fees: $175.67
+ID: 100121
+AP Classes: 6
+Name: HILTON LAZARUS      
+Grade:  5
+Scores: 94, 94, 95
+GPA: 4.00
+Fees: $24.36
+ID: 100122
+Building: William Foster
+Name: SHON NEIHOFF        
+Grade:  4
+Scores: 88, 91, 94
+GPA: 3.67
+Fees: $24.31
+ID: 100123
+Building: John Schmidt
+Name: RANDY NORMAND       
+Grade: 12
+Scores: 86, 95, 91
+GPA: 3.67
+Fees: $195.07
+ID: 100124
+AP Classes: 8
+Name: CAREY KOCK          
+Grade:  3
+Scores: 87, 92, 97
+GPA: 3.67
+Fees: $ 0.14
+ID: 100125
+Project: Science Fair
+Name: CRISTAL PANTOJZ     
+Grade:  7
+Scores: 89, 92, 85
+GPA: 3.33
+Fees: $35.15
+ID: 100126
+Team: Kummer Tuners
+Name: ILEEN AHLMAN        
+Grade:  9
+Scores: 96, 91, 79
+GPA: 3.33
+Fees: $195.32
+ID: 100127
+AP Classes: 7
+Name: LEONEL CONNOLY      
+Grade:  3
+Scores: 91, 74, 85
+GPA: 3.00
+Fees: $ 2.53
+ID: 100128
+Project: Painting
+Name: VAUGHN BUSHWAY      
+Grade: 12
+Scores: 81, 77, 92
+GPA: 3.00
+Fees: $157.37
+ID: 100129
+AP Classes: 5
+Name: NORRIS HARDING      
+Grade:  7
+Scores: 79, 65, 66
+GPA: 1.33
+Fees: $17.11
+ID: 100130
+Team: Gifford Dinos
+Name: SAU ZEA             
+Grade: 10
+Scores: 94, 99, 98
+GPA: 4.00
+Fees: $73.77
+ID: 100131
+AP Classes: 4
+Name: DEBRA KEALA         
+Grade:  4
+Scores: 89, 93, 98
+GPA: 3.67
+Fees: $25.23
+ID: 100132
+Building: John Schmidt
+Name: LI LUZZI            
+Grade: 12
+Scores: 86, 98, 96
+GPA: 3.67
+Fees: $159.82
+ID: 100133
+AP Classes: 7
+Name: CYRUS EGGINGTON     
+Grade: 11
+Scores: 96, 97, 97
+GPA: 4.00
+Fees: $168.30
+ID: 100134
+AP Classes: 8
+Name: DENVER TEETZ        
+Grade:  5
+Scores: 88, 87, 96
+GPA: 3.33
+Fees: $ 9.47
+ID: 100135
+Building: John Schmidt
+Name: LEOPOLDO ZHANEL     
+Grade:  4
+Scores: 65, 80, 86
+GPA: 2.33
+Fees: $25.38
+ID: 100136
+Building: William Foster
+Name: SIOBHAN PONTING     
+Grade:  5
+Scores: 88, 99, 97
+GPA: 3.67
+Fees: $26.63
+ID: 100137
+Building: John Schmidt
+Name: JERRELL ZELAZO      
+Grade:  7
+Scores: 90, 80, 94
+GPA: 3.67
+Fees: $39.70
+ID: 100138
+Team: Kummer Tuners
+Name: LAUREN SILVI        
+Grade:  8
+Scores: 82, 80, 71
+GPA: 2.67
+Fees: $11.63
+ID: 100139
+Team: Gifford Dinos
+Name: LINDA DRENTH        
+Grade:  6
+Scores: 94, 89, 94
+GPA: 3.67
+Fees: $28.75
+ID: 100140
+Building: William Foster
+Name: CLELIA WOODRICH     
+Grade:  2
+Scores: 86, 96, 95
+GPA: 3.67
+Fees: $ 0.67
+ID: 100141
+Project: Science Fair
+Name: CLIFF WIKOFF        
+Grade:  1
+Scores: 98, 89, 96
+GPA: 3.67
+Fees: $ 9.57
+ID: 100142
+Project: Painting
+Name: CHARLEEN GADD       
+Grade:  1
+Scores: 87, 78, 75
+GPA: 2.33
+Fees: $ 9.49
+ID: 100143
+Project: Math Problems
+Name: JEAN KOHLI          
+Grade: 10
+Scores: 82, 86, 98
+GPA: 3.33
+Fees: $82.76
+ID: 100144
+AP Classes: 5
+Name: SANDY MAREAN        
+Grade:  5
+Scores: 89, 90, 84
+GPA: 3.33
+Fees: $14.34
+ID: 100145
+Building: John Schmidt
+Name: PIEDAD WESTRAY      
+Grade:  5
+Scores: 94, 98, 98
+GPA: 4.00
+Fees: $22.86
+ID: 100146
+Building: William Foster
+Name: HEATH CROES         
+Grade: 12
+Scores: 79, 93, 95
+GPA: 3.33
+Fees: $68.37
+ID: 100147
+AP Classes: 4
+Name: DEADRA FAYLOR       
+Grade:  8
+Scores: 89, 72, 70
+GPA: 2.33
+Fees: $30.12
+ID: 100148
+Team: Kummer Tuners
+Name: LORIANN SHUPING     
+Grade:  5
+Scores: 87, 87, 90
+GPA: 3.33
+Fees: $ 5.29
+ID: 100149
+Building: William Foster
+Name: MING POPHAM         
+Grade:  2
+Scores: 92, 90, 92
+GPA: 4.00
+Fees: $ 7.10
+ID: 100150
+Project: Math Problems
+Name: IRENA DONNELLY      
+Grade:  8
+Scores: 94, 92, 91
+GPA: 4.00
+Fees: $18.15
+ID: 100151
+Team: Fightin' Itens
+Name: LORENE NICKEL       
+Grade:  1
+Scores: 91, 77, 91
+GPA: 3.33
+Fees: $ 5.82
+ID: 100152
+Project: Science Fair
+Name: LOUVENIA BERTAGNOLLI
+Grade:  8
+Scores: 90, 79, 81
+GPA: 3.00
+Fees: $27.02
+ID: 100153
+Team: Fightin' Itens
+Name: CLAUDIO SCHMIDT     
+Grade:  6
+Scores: 86, 99, 88
+GPA: 3.33
+Fees: $ 3.34
+ID: 100154
+Building: John Schmidt
+Name: WILLIS TENNISON     
+Grade:  2
+Scores: 93, 90, 97
+GPA: 4.00
+Fees: $ 1.77
+ID: 100155
+Project: Painting
+Name: MARLON KESSENICH    
+Grade:  5
+Scores: 74, 91, 72
+GPA: 2.67
+Fees: $ 8.96
+ID: 100156
+Building: John Schmidt
+Name: ILIANA BEAUDREAU    
+Grade: 10
+Scores: 92, 86, 66
+GPA: 2.67
+Fees: $142.14
+ID: 100157
+AP Classes: 7
+Name: MARYBELLE FANE      
+Grade:  1
+Scores: 73, 98, 91
+GPA: 3.33
+Fees: $ 4.58
+ID: 100158
+Project: Painting
+Name: ERICH BARNHURST     
+Grade:  3
+Scores: 85, 99, 91
+GPA: 3.67
+Fees: $ 2.90
+ID: 100159
+Project: Science Fair
+Name: ONEIDA BARUCH       
+Grade: 10
+Scores: 72, 97, 75
+GPA: 2.67
+Fees: $128.46
+ID: 100160
+AP Classes: 6
+Name: CHEREE JENDRAS      
+Grade:  1
+Scores: 95, 82, 97
+GPA: 3.67
+Fees: $ 2.69
+ID: 100161
+Project: Painting
+Name: GLEN PUMA           
+Grade:  6
+Scores: 87, 85, 91
+GPA: 3.33
+Fees: $29.07
+ID: 100162
+Building: John Schmidt
+Name: KEENAN BREYFOGLE    
+Grade:  6
+Scores: 75, 91, 82
+GPA: 3.00
+Fees: $ 9.81
+ID: 100163
+Building: William Foster
+Name: WILMA SANDGREN      
+Grade: 11
+Scores: 79, 68, 67
+GPA: 1.33
+Fees: $123.24
+ID: 100164
+AP Classes: 6
+Name: MARCO NARVAIZ       
+Grade:  6
+Scores: 88, 95, 95
+GPA: 3.67
+Fees: $12.78
+ID: 100165
+Building: John Schmidt
+Name: GRETA SMALE         
+Grade:  3
+Scores: 99, 88, 97
+GPA: 3.67
+Fees: $ 3.64
+ID: 100166
+Project: Science Fair
+Name: HAILEY ATCHESON     
+Grade:  7
+Scores: 90, 83, 93
+GPA: 3.67
+Fees: $48.20
+ID: 100167
+Team: Gifford Dinos
+Name: ANNAMARIE SPENSER   
+Grade: 10
+Scores: 87, 85, 94
+GPA: 3.33
+Fees: $179.08
+ID: 100168
+AP Classes: 8
+Name: CAREY FACIO         
+Grade:  9
+Scores: 90, 95, 94
+GPA: 4.00
+Fees: $32.00
+ID: 100169
+AP Classes: 2
+Name: NOBLE KRASZEWSKI    
+Grade:  5
+Scores: 85, 90, 87
+GPA: 3.33
+Fees: $16.01
+ID: 100170
+Building: William Foster
+Name: HUGH CRANDELL       
+Grade:  1
+Scores: 68, 75, 91
+GPA: 2.33
+Fees: $ 8.99
+ID: 100171
+Project: Science Fair
+Name: CHRISTOPHER PAVEY   
+Grade:  8
+Scores: 87, 92, 96
+GPA: 3.67
+Fees: $44.58
+ID: 100172
+Team: Gifford Dinos
+Name: HAROLD WINFREE      
+Grade:  5
+Scores: 89, 90, 89
+GPA: 3.33
+Fees: $17.62
+ID: 100173
+Building: William Foster
+Name: MARAGRET HENARD     
+Grade:  9
+Scores: 91, 98, 94
+GPA: 4.00
+Fees: $235.02
+ID: 100174
+AP Classes: 10
+Name: CHING HUXLEY        
+Grade: 12
+Scores: 84, 70, 70
+GPA: 2.33
+Fees: $73.53
+ID: 100175
+AP Classes: 1
+Name: BEAU ELMENDORF      
+Grade:  1
+Scores: 87, 97, 94
+GPA: 3.67
+Fees: $ 6.23
+ID: 100176
+Project: Science Fair
+Name: DEANGELO SCHUEPFER  
+Grade:  4
+Scores: 92, 83, 78
+GPA: 3.00
+Fees: $ 2.65
+ID: 100177
+Building: William Foster
+Name: RAMIRO AMARANTE     
+Grade:  4
+Scores: 91, 88, 81
+GPA: 3.33
+Fees: $ 8.16
+ID: 100178
+Building: William Foster
+Name: SANTANA TRIMM       
+Grade:  8
+Scores: 98, 89, 96
+GPA: 3.67
+Fees: $14.56
+ID: 100179
+Team: Fightin' Itens
+Name: RAYMON ARRENDONDO   
+Grade:  5
+Scores: 92, 80, 92
+GPA: 3.67
+Fees: $16.80
+ID: 100180
+Building: William Foster
+Name: VERGIE KILLMON      
+Grade:  8
+Scores: 96, 86, 96
+GPA: 3.67
+Fees: $55.19
+ID: 100181
+Team: House of Kim
+Name: LEIF DEMILLE        
+Grade:  8
+Scores: 91, 86, 87
+GPA: 3.33
+Fees: $15.99
+ID: 100182
+Team: Sri's Trees
+Name: STEVIE BAILER       
+Grade:  3
+Scores: 98, 96, 95
+GPA: 4.00
+Fees: $ 2.11
+ID: 100183
+Project: Science Fair
+Name: EVELIN NEVILLE      
+Grade: 11
+Scores: 85, 91, 90
+GPA: 3.67
+Fees: $157.50
+ID: 100184
+AP Classes: 5
+Name: SUSIE CROOKSHANKS   
+Grade:  3
+Scores: 88, 98, 67
+GPA: 2.67
+Fees: $ 5.54
+ID: 100185
+Project: Math Problems
+Name: AYAKO RIELLY        
+Grade: 12
+Scores: 98, 85, 92
+GPA: 3.67
+Fees: $120.13
+ID: 100186
+AP Classes: 2
+Name: VINCE FISKE         
+Grade:  2
+Scores: 99, 83, 84
+GPA: 3.33
+Fees: $ 2.59
+ID: 100187
+Project: Math Problems
+Name: ZELLA KIKUCHI       
+Grade:  1
+Scores: 97, 86, 92
+GPA: 3.67
+Fees: $ 7.38
+ID: 100188
+Project: Math Problems
+Name: FOSTER BERGESEN     
+Grade: 10
+Scores: 99, 85, 75
+GPA: 3.00
+Fees: $148.93
+ID: 100189
+AP Classes: 4
+Name: WESLEY IDLER        
+Grade: 11
+Scores: 81, 92, 84
+GPA: 3.33
+Fees: $137.68
+ID: 100190
+AP Classes: 9
+Name: ANNABEL BRUNZ       
+Grade: 12
+Scores: 96, 99, 96
+GPA: 4.00
+Fees: $78.05
+ID: 100191
+AP Classes: 5
+Name: SUMIKO CAFFERY      
+Grade:  9
+Scores: 89, 86, 88
+GPA: 3.00
+Fees: $80.21
+ID: 100192
+AP Classes: 0
+Name: TERRELL MAGAW       
+Grade: 10
+Scores: 87, 96, 91
+GPA: 3.67
+Fees: $205.51
+ID: 100193
+AP Classes: 10
+Name: JOYA HARUTA         
+Grade:  1
+Scores: 99, 87, 96
+GPA: 3.67
+Fees: $ 2.42
+ID: 100194
+Project: Math Problems
+Name: MIKAELA STIMITS     
+Grade:  1
+Scores: 86, 89, 99
+GPA: 3.33
+Fees: $ 7.52
+ID: 100195
+Project: Painting
+Name: BIRDIE YANUARIA     
+Grade:  1
+Scores: 80, 94, 82
+GPA: 3.33
+Fees: $ 9.14
+ID: 100196
+Project: Math Problems
+Name: SONJA AURELIA       
+Grade:  9
+Scores: 66, 85, 73
+GPA: 2.00
+Fees: $216.12
+ID: 100197
+AP Classes: 10
+Name: LELA CHANEY         
+Grade:  3
+Scores: 81, 96, 82
+GPA: 3.33
+Fees: $ 5.13
+ID: 100198
+Project: Math Problems
+Name: EMMANUEL FARHAT     
+Grade:  8
+Scores: 86, 82, 78
+GPA: 2.67
+Fees: $53.54
+ID: 100199
+Team: Sri's Trees
+Name: WARREN FREETAGE     
+Grade: 11
+Scores: 78, 76, 87
+GPA: 2.33
+Fees: $166.19
+ID: 100200
+AP Classes: 9
+Name: MALENA LECLAIR      
+Grade: 10
+Scores: 75, 98, 81
+GPA: 3.00
+Fees: $140.05
+ID: 100201
+AP Classes: 9
+Name: KATELIN GARHART     
+Grade:  3
+Scores: 87, 82, 68
+GPA: 2.33
+Fees: $ 7.03
+ID: 100202
+Project: Science Fair
+Name: MALIA BURDO         
+Grade: 12
+Scores: 93, 94, 76
+GPA: 3.33
+Fees: $144.80
+ID: 100203
+AP Classes: 3
+Name: MYRON MCGAHEY       
+Grade:  2
+Scores: 97, 80, 99
+GPA: 3.67
+Fees: $ 0.86
+ID: 100204
+Project: Math Problems
+Name: FRANCIS VANWEELDEN  
+Grade:  5
+Scores: 82, 82, 82
+GPA: 3.00
+Fees: $18.37
+ID: 100205
+Building: John Schmidt
+Name: JOEY MATAYOSHI      
+Grade: 10
+Scores: 88, 85, 88
+GPA: 3.00
+Fees: $108.58
+ID: 100206
+AP Classes: 2
+Name: ANDREAS BOHNEN      
+Grade:  6
+Scores: 96, 87, 92
+GPA: 3.67
+Fees: $17.32
+ID: 100207
+Building: William Foster
+Name: JOANN NIEMANN       
+Grade:  7
+Scores: 92, 92, 71
+GPA: 3.33
+Fees: $39.75
+ID: 100208
+Team: Gifford Dinos
+Name: HEDWIG SELLA        
+Grade: 11
+Scores: 93, 91, 85
+GPA: 3.67
+Fees: $99.95
+ID: 100209
+AP Classes: 6
+Name: MA GORNY            
+Grade:  8
+Scores: 92, 92, 95
+GPA: 4.00
+Fees: $43.05
+ID: 100210
+Team: Sri's Trees
+Name: KEITH GAUTNEY       
+Grade:  9
+Scores: 99, 98, 68
+GPA: 3.00
+Fees: $49.43
+ID: 100211
+AP Classes: 0
+Name: RICHARD MONTJOY     
+Grade: 12
+Scores: 87, 91, 99
+GPA: 3.67
+Fees: $247.52
+ID: 100212
+AP Classes: 10
+Name: JIM RIFFEL          
+Grade:  7
+Scores: 79, 78, 84
+GPA: 2.33
+Fees: $48.66
+ID: 100213
+Team: Sri's Trees
+Name: LONNIE ATAY         
+Grade:  7
+Scores: 96, 80, 86
+GPA: 3.33
+Fees: $30.53
+ID: 100214
+Team: Gifford Dinos
+Name: RUSS GATLIN         
+Grade:  5
+Scores: 77, 94, 88
+GPA: 3.00
+Fees: $ 9.08
+ID: 100215
+Building: William Foster
+Name: MASON TOMEI         
+Grade:  8
+Scores: 85, 82, 93
+GPA: 3.33
+Fees: $47.12
+ID: 100216
+Team: Kummer Tuners
+Name: ELLIE LUCIO         
+Grade:  3
+Scores: 77, 87, 89
+GPA: 2.67
+Fees: $ 3.54
+ID: 100217
+Project: Science Fair
+Name: LUTHER RAETZ        
+Grade: 11
+Scores: 93, 83, 75
+GPA: 3.00
+Fees: $98.71
+ID: 100218
+AP Classes: 0
+Name: ZULEMA FALKENSTEIN  
+Grade: 12
+Scores: 91, 75, 82
+GPA: 3.00
+Fees: $63.85
+ID: 100219
+AP Classes: 2
+Name: GUS CAUBLE          
+Grade:  8
+Scores: 90, 89, 94
+GPA: 3.67
+Fees: $13.47
+ID: 100220
+Team: House of Kim
+Name: KERRI TRUMBO        
+Grade: 10
+Scores: 95, 81, 90
+GPA: 3.67
+Fees: $183.86
+ID: 100221
+AP Classes: 6
+Name: IDELLA ESKRA        
+Grade: 10
+Scores: 91, 96, 77
+GPA: 3.33
+Fees: $98.40
+ID: 100222
+AP Classes: 6
+Name: DUNCAN MCLAUCHLIN   
+Grade:  7
+Scores: 75, 71, 93
+GPA: 2.67
+Fees: $47.17
+ID: 100223
+Team: House of Kim
+Name: LISETTE HWANG       
+Grade: 11
+Scores: 87, 94, 86
+GPA: 3.33
+Fees: $212.85
+ID: 100224
+AP Classes: 10
+Name: HUNG MOATES         
+Grade:  3
+Scores: 79, 91, 99
+GPA: 3.33
+Fees: $ 0.85
+ID: 100225
+Project: Science Fair
+Name: DENVER VANHESE      
+Grade:  9
+Scores: 95, 89, 95
+GPA: 3.67
+Fees: $78.16
+ID: 100226
+AP Classes: 1
+Name: CORA CENTER         
+Grade:  1
+Scores: 78, 88, 93
+GPA: 3.00
+Fees: $ 2.86
+ID: 100227
+Project: Science Fair
+Name: EUSEBIO LATTING     
+Grade: 10
+Scores: 74, 74, 94
+GPA: 2.67
+Fees: $221.71
+ID: 100228
+AP Classes: 9
+Name: GEORGE WAKELAND     
+Grade:  4
+Scores: 95, 88, 99
+GPA: 3.67
+Fees: $28.83
+ID: 100229
+Building: William Foster
+Name: NORBERT LEITAO      
+Grade:  1
+Scores: 91, 85, 72
+GPA: 3.00
+Fees: $ 6.23
+ID: 100230
+Project: Science Fair
+Name: INGA PAVLICA        
+Grade:  2
+Scores: 82, 67, 96
+GPA: 2.67
+Fees: $ 7.44
+ID: 100231
+Project: Painting
+Name: BRANDE WISDOM       
+Grade:  8
+Scores: 80, 95, 72
+GPA: 3.00
+Fees: $26.62
+ID: 100232
+Team: House of Kim
+Name: COLLEN PANNELL      
+Grade: 12
+Scores: 80, 78, 96
+GPA: 3.00
+Fees: $181.16
+ID: 100233
+AP Classes: 7
+Name: OLEN FOISY          
+Grade: 11
+Scores: 86, 97, 98
+GPA: 3.67
+Fees: $191.77
+ID: 100234
+AP Classes: 7
+Name: EVIA SCHNAKE        
+Grade:  1
+Scores: 96, 86, 94
+GPA: 3.67
+Fees: $ 1.85
+ID: 100235
+Project: Science Fair
+Name: EDDY SCHMIEDER      
+Grade: 11
+Scores: 83, 90, 95
+GPA: 3.67
+Fees: $70.96
+ID: 100236
+AP Classes: 2
+Name: AURA SIEMEK         
+Grade:  9
+Scores: 91, 92, 88
+GPA: 3.67
+Fees: $108.25
+ID: 100237
+AP Classes: 5
+Name: RHEA THEUS          
+Grade: 12
+Scores: 79, 88, 84
+GPA: 2.67
+Fees: $22.35
+ID: 100238
+AP Classes: 1
+Name: BRUCE SOUR          
+Grade:  6
+Scores: 82, 89, 90
+GPA: 3.33
+Fees: $ 4.02
+ID: 100239
+Building: John Schmidt
+Name: REVA ECKERLE        
+Grade: 12
+Scores: 98, 92, 90
+GPA: 4.00
+Fees: $36.94
+ID: 100240
+AP Classes: 1
+Name: SAMMIE MAE          
+Grade: 10
+Scores: 88, 87, 95
+GPA: 3.33
+Fees: $102.11
+ID: 100241
+AP Classes: 4
+Name: PARIS SZILAGYI      
+Grade:  9
+Scores: 78, 98, 89
+GPA: 3.00
+Fees: $155.94
+ID: 100242
+AP Classes: 6
+Name: STERLING MICHONSKI  
+Grade:  1
+Scores: 83, 96, 75
+GPA: 3.00
+Fees: $ 4.08
+ID: 100243
+Project: Math Problems
+Name: GARRY COVELLO       
+Grade:  6
+Scores: 89, 87, 97
+GPA: 3.33
+Fees: $25.17
+ID: 100244
+Building: William Foster
+Name: DERICK QUAIN        
+Grade: 10
+Scores: 97, 87, 87
+GPA: 3.33
+Fees: $146.78
+ID: 100245
+AP Classes: 4
+Name: GARY ZIEBELL        
+Grade: 11
+Scores: 91, 73, 88
+GPA: 3.00
+Fees: $105.65
+ID: 100246
+AP Classes: 2
+Name: CONRAD SIEGLE       
+Grade:  4
+Scores: 99, 84, 70
+GPA: 3.00
+Fees: $16.34
+ID: 100247
+Building: William Foster
+Name: ALVA DULLUM         
+Grade:  8
+Scores: 92, 93, 86
+GPA: 3.67
+Fees: $ 7.49
+ID: 100248
+Team: Gifford Dinos
+Name: LASHUNDA TOOT       
+Grade:  6
+Scores: 90, 87, 79
+GPA: 3.00
+Fees: $ 8.36
+ID: 100249
+Building: John Schmidt
+Name: MERISSA CASCIOLI    
+Grade: 11
+Scores: 79, 70, 83
+GPA: 2.33
+Fees: $87.57
+ID: 100250
+AP Classes: 2
+Name: ZANE HEAVILIN       
+Grade:  8
+Scores: 85, 83, 96
+GPA: 3.33
+Fees: $56.49
+ID: 100251
+Team: Gifford Dinos
+Name: HAI PFOHL           
+Grade:  2
+Scores: 78, 92, 92
+GPA: 3.33
+Fees: $ 1.69
+ID: 100252
+Project: Painting
+Name: FELTON KULLMAN      
+Grade:  2
+Scores: 82, 79, 96
+GPA: 3.00
+Fees: $ 2.74
+ID: 100253
+Project: Painting
+Name: JULES DEENER        
+Grade:  3
+Scores: 70, 76, 97
+GPA: 2.67
+Fees: $ 3.43
+ID: 100254
+Project: Painting
+Name: BENNY HOSCHOUER     
+Grade: 12
+Scores: 65, 73, 90
+GPA: 2.33
+Fees: $38.02
+ID: 100255
+AP Classes: 1
+Name: MINH PINNA          
+Grade:  8
+Scores: 98, 78, 80
+GPA: 3.00
+Fees: $59.96
+ID: 100256
+Team: Gifford Dinos
+Name: HULDA BARDALES      
+Grade: 12
+Scores: 91, 89, 91
+GPA: 3.67
+Fees: $174.74
+ID: 100257
+AP Classes: 9
+Name: GAYLE RIEDELL       
+Grade: 10
+Scores: 77, 98, 85
+GPA: 3.00
+Fees: $52.75
+ID: 100258
+AP Classes: 3
+Name: JORGE BORGE         
+Grade:  4
+Scores: 98, 92, 99
+GPA: 4.00
+Fees: $17.83
+ID: 100259
+Building: William Foster
+Name: BRANDEN MARECKI     
+Grade: 10
+Scores: 87, 95, 86
+GPA: 3.33
+Fees: $214.82
+ID: 100260
+AP Classes: 9
+Name: ALICIA DEFRIES      
+Grade:  7
+Scores: 84, 69, 75
+GPA: 2.00
+Fees: $13.63
+ID: 100261
+Team: Sri's Trees
+Name: ALFREDO GODNICK     
+Grade:  8
+Scores: 95, 94, 77
+GPA: 3.33
+Fees: $21.12
+ID: 100262
+Team: Sri's Trees
+Name: LYNWOOD MANYGOATS   
+Grade:  3
+Scores: 91, 95, 78
+GPA: 3.33
+Fees: $ 5.14
+ID: 100263
+Project: Painting
+Name: LIDA MCNAIL         
+Grade:  8
+Scores: 94, 93, 98
+GPA: 4.00
+Fees: $57.32
+ID: 100264
+Team: Fightin' Itens
+Name: IDELL BLAKEMORE     
+Grade:  9
+Scores: 77, 79, 87
+GPA: 2.33
+Fees: $142.21
+ID: 100265
+AP Classes: 6
+Name: MANY SNAY           
+Grade:  3
+Scores: 91, 97, 86
+GPA: 3.67
+Fees: $ 2.46
+ID: 100266
+Project: Math Problems
+Name: JOE COLOSI          
+Grade:  4
+Scores: 65, 70, 73
+GPA: 1.67
+Fees: $ 8.82
+ID: 100267
+Building: William Foster
+Name: TAWANNA WINANS      
+Grade:  6
+Scores: 94, 85, 79
+GPA: 3.00
+Fees: $10.72
+ID: 100268
+Building: William Foster
+Name: HUNG DENEAL         
+Grade:  5
+Scores: 99, 94, 87
+GPA: 3.67
+Fees: $ 4.77
+ID: 100269
+Building: William Foster
+Name: JASON OSDOBA        
+Grade:  7
+Scores: 91, 93, 96
+GPA: 4.00
+Fees: $30.89
+ID: 100270
+Team: Gifford Dinos
+Name: VONNIE WITHEY       
+Grade:  9
+Scores: 92, 93, 87
+GPA: 3.67
+Fees: $247.03
+ID: 100271
+AP Classes: 10
+Name: LEOLA DEPALMA       
+Grade:  1
+Scores: 73, 97, 68
+GPA: 2.33
+Fees: $ 6.95
+ID: 100272
+Project: Math Problems
+Name: TUAN MEGINNES       
+Grade:  5
+Scores: 91, 86, 88
+GPA: 3.33
+Fees: $16.55
+ID: 100273
+Building: John Schmidt
+Name: MARIBETH CABALLERO  
+Grade:  7
+Scores: 70, 97, 95
+GPA: 3.33
+Fees: $ 4.71
+ID: 100274
+Team: House of Kim
+Name: JUDSON LEVEILLE     
+Grade: 10
+Scores: 89, 76, 88
+GPA: 2.67
+Fees: $126.95
+ID: 100275
+AP Classes: 2
+Name: DARRON MELSON       
+Grade: 12
+Scores: 96, 81, 80
+GPA: 3.33
+Fees: $178.21
+ID: 100276
+AP Classes: 10
+Name: JOHNIE VARNEDORE    
+Grade:  5
+Scores: 92, 78, 94
+GPA: 3.33
+Fees: $ 7.57
+ID: 100277
+Building: John Schmidt
+Name: MADALENE DOLEN      
+Grade:  4
+Scores: 84, 80, 76
+GPA: 2.67
+Fees: $ 3.69
+ID: 100278
+Building: William Foster
+Name: FELIX WOLFRUM       
+Grade:  2
+Scores: 80, 94, 95
+GPA: 3.67
+Fees: $ 7.16
+ID: 100279
+Project: Painting
+Name: KRISTIAN GERBATZ    
+Grade:  7
+Scores: 65, 94, 80
+GPA: 2.67
+Fees: $32.44
+ID: 100280
+Team: Gifford Dinos
+Name: JUNIOR FURNAS       
+Grade:  5
+Scores: 96, 96, 86
+GPA: 3.67
+Fees: $ 7.66
+ID: 100281
+Building: William Foster
+Name: LUCIUS TAPLIN       
+Grade:  8
+Scores: 81, 72, 87
+GPA: 2.67
+Fees: $31.58
+ID: 100282
+Team: Fightin' Itens
+Name: JEANA FRONK         
+Grade:  2
+Scores: 77, 85, 81
+GPA: 2.67
+Fees: $ 9.10
+ID: 100283
+Project: Painting
+Name: FRANK GUT           
+Grade:  3
+Scores: 90, 75, 79
+GPA: 2.67
+Fees: $ 2.61
+ID: 100284
+Project: Science Fair
+Name: ARTHUR PETITE       
+Grade:  2
+Scores: 77, 96, 86
+GPA: 3.00
+Fees: $ 9.80
+ID: 100285
+Project: Science Fair
+Name: MIKE SCHANE         
+Grade: 12
+Scores: 85, 91, 87
+GPA: 3.33
+Fees: $124.38
+ID: 100286
+AP Classes: 5
+Name: MIMI SEBO           
+Grade: 11
+Scores: 88, 87, 88
+GPA: 3.00
+Fees: $195.49
+ID: 100287
+AP Classes: 8
+Name: DELORA CRETSINGER   
+Grade: 12
+Scores: 87, 88, 82
+GPA: 3.00
+Fees: $94.50
+ID: 100288
+AP Classes: 6
+Name: ELWANDA STAMPKA     
+Grade:  1
+Scores: 99, 86, 85
+GPA: 3.33
+Fees: $ 0.95
+ID: 100289
+Project: Painting
+Name: TESS SANDLIN        
+Grade:  9
+Scores: 82, 84, 94
+GPA: 3.33
+Fees: $80.77
+ID: 100290
+AP Classes: 5
+Name: JESSE GOODLET       
+Grade:  8
+Scores: 82, 82, 77
+GPA: 2.67
+Fees: $44.84
+ID: 100291
+Team: Gifford Dinos
+Name: CORAL SCARBROUGH    
+Grade:  1
+Scores: 85, 98, 91
+GPA: 3.67
+Fees: $ 3.91
+ID: 100292
+Project: Math Problems
+Name: LEANORA TOMSIC      
+Grade:  2
+Scores: 89, 99, 80
+GPA: 3.33
+Fees: $ 1.52
+ID: 100293
+Project: Math Problems
+Name: SUMIKO SPRATLING    
+Grade: 12
+Scores: 86, 90, 97
+GPA: 3.67
+Fees: $149.96
+ID: 100294
+AP Classes: 6
+Name: TITUS PETROVITS     
+Grade: 10
+Scores: 97, 89, 94
+GPA: 3.67
+Fees: $115.57
+ID: 100295
+AP Classes: 3
+Name: DARRYL VANORDER     
+Grade:  7
+Scores: 93, 85, 85
+GPA: 3.33
+Fees: $ 7.38
+ID: 100296
+Team: House of Kim
+Name: NOAH MILLAGE        
+Grade:  2
+Scores: 89, 85, 95
+GPA: 3.33
+Fees: $ 8.62
+ID: 100297
+Project: Painting
+Name: SHANE DESAUTELS     
+Grade:  9
+Scores: 90, 93, 90
+GPA: 4.00
+Fees: $17.21
+ID: 100298
+AP Classes: 1
+Name: FREDA LINDENBERGER  
+Grade:  1
+Scores: 99, 76, 76
+GPA: 2.67
+Fees: $ 6.72
+ID: 100299
+Project: Math Problems
+Name: LOVE HULS           
+Grade:  1
+Scores: 95, 79, 82
+GPA: 3.00
+Fees: $ 2.79
+ID: 100300
+Project: Science Fair
+Name: FLOYD FANTOZZI      
+Grade:  5
+Scores: 80, 77, 77
+GPA: 2.33
+Fees: $23.72
+ID: 100301
+Building: William Foster
+Name: TYSON GRECH         
+Grade: 11
+Scores: 86, 85, 68
+GPA: 2.33
+Fees: $128.89
+ID: 100302
+AP Classes: 3
+Name: COLTON MEEHL        
+Grade:  1
+Scores: 79, 84, 97
+GPA: 3.00
+Fees: $ 8.73
+ID: 100303
+Project: Painting
+Name: JEFFEREY ALMEIDA    
+Grade:  4
+Scores: 89, 79, 78
+GPA: 2.33
+Fees: $ 5.49
+ID: 100304
+Building: John Schmidt
+Name: JOAN CHENE          
+Grade:  9
+Scores: 85, 78, 77
+GPA: 2.33
+Fees: $75.35
+ID: 100305
+AP Classes: 1
+Name: TROY CORTER         
+Grade: 10
+Scores: 90, 96, 98
+GPA: 4.00
+Fees: $189.73
+ID: 100306
+AP Classes: 10
+Name: SHAKIRA SCHOENFELDER
+Grade:  2
+Scores: 66, 81, 70
+GPA: 2.00
+Fees: $ 3.44
+ID: 100307
+Project: Painting
+Name: OTTO GOTHAM         
+Grade:  5
+Scores: 85, 97, 93
+GPA: 3.67
+Fees: $29.08
+ID: 100308
+Building: William Foster
+Name: BLAKE ALTMAN        
+Grade:  4
+Scores: 77, 78, 93
+GPA: 2.67
+Fees: $16.09
+ID: 100309
+Building: William Foster
+Name: YVONE MONIE         
+Grade: 11
+Scores: 91, 98, 98
+GPA: 4.00
+Fees: $188.48
+ID: 100310
+AP Classes: 9
+Name: JOEY BOULTINGHOUSE  
+Grade:  2
+Scores: 78, 94, 93
+GPA: 3.33
+Fees: $ 0.80
+ID: 100311
+Project: Math Problems
+Name: DOMINQUE BAFFUTO    
+Grade:  2
+Scores: 93, 86, 95
+GPA: 3.67
+Fees: $ 7.54
+ID: 100312
+Project: Painting
+Name: TONDA KJAR          
+Grade:  5
+Scores: 86, 84, 75
+GPA: 2.67
+Fees: $14.30
+ID: 100313
+Building: John Schmidt
+Name: TYREE SCHARPING     
+Grade:  7
+Scores: 67, 81, 79
+GPA: 2.00
+Fees: $22.10
+ID: 100314
+Team: Fightin' Itens
+Name: RHIANNON FUNKE      
+Grade:  2
+Scores: 86, 97, 88
+GPA: 3.33
+Fees: $ 5.84
+ID: 100315
+Project: Painting
+Name: NOAH CALCARA        
+Grade: 12
+Scores: 87, 91, 85
+GPA: 3.33
+Fees: $127.05
+ID: 100316
+AP Classes: 6
+Name: JUDY CIESLINSKI     
+Grade: 11
+Scores: 86, 93, 94
+GPA: 3.67
+Fees: $35.77
+ID: 100317
+AP Classes: 1
+Name: ISIAH SHOBE         
+Grade:  3
+Scores: 85, 94, 92
+GPA: 3.67
+Fees: $ 4.16
+ID: 100318
+Project: Science Fair
+Name: DARELL KARDAS       
+Grade:  1
+Scores: 79, 75, 87
+GPA: 2.33
+Fees: $ 7.83
+ID: 100319
+Project: Painting
+Name: YOLANDO HOSKIE      
+Grade:  7
+Scores: 87, 81, 84
+GPA: 3.00
+Fees: $12.88
+ID: 100320
+Team: Sri's Trees
+Name: HARVEY POLLEY       
+Grade:  3
+Scores: 99, 96, 98
+GPA: 4.00
+Fees: $ 3.76
+ID: 100321
+Project: Painting
+Name: DIANN ESHBAUGH      
+Grade:  5
+Scores: 83, 98, 79
+GPA: 3.00
+Fees: $ 1.40
+ID: 100322
+Building: William Foster
+Name: DOMINIC VANCURA     
+Grade:  7
+Scores: 77, 67, 85
+GPA: 2.00
+Fees: $57.69
+ID: 100323
+Team: Sri's Trees
+Name: JEWELL PADON        
+Grade: 11
+Scores: 80, 87, 77
+GPA: 2.67
+Fees: $187.35
+ID: 100324
+AP Classes: 9
+Name: MONICA NITZ         
+Grade: 10
+Scores: 84, 75, 88
+GPA: 2.67
+Fees: $149.88
+ID: 100325
+AP Classes: 6
+Name: ROSELEE CURLE       
+Grade:  1
+Scores: 90, 80, 76
+GPA: 3.00
+Fees: $ 7.81
+ID: 100326
+Project: Painting
+Name: SENAIDA RAZEY       
+Grade:  6
+Scores: 93, 88, 94
+GPA: 3.67
+Fees: $ 1.85
+ID: 100327
+Building: William Foster
+Name: KENNA SIMPON        
+Grade:  1
+Scores: 87, 98, 89
+GPA: 3.33
+Fees: $ 2.90
+ID: 100328
+Project: Science Fair
+Name: ADRIANNA REYNVAAN   
+Grade:  4
+Scores: 81, 76, 92
+GPA: 3.00
+Fees: $10.79
+ID: 100329
+Building: John Schmidt
+Name: RACHEL POWLEY       
+Grade:  4
+Scores: 91, 81, 69
+GPA: 2.67
+Fees: $25.00
+ID: 100330
+Building: John Schmidt
+Name: MILES LEMOND        
+Grade:  9
+Scores: 75, 67, 95
+GPA: 2.33
+Fees: $132.82
+ID: 100331
+AP Classes: 3
+Name: CLINT MARCHAK       
+Grade: 11
+Scores: 94, 91, 85
+GPA: 3.67
+Fees: $186.00
+ID: 100332
+AP Classes: 8
+Name: DARYL QAZI          
+Grade:  2
+Scores: 95, 97, 75
+GPA: 3.33
+Fees: $ 1.41
+ID: 100333
+Project: Science Fair
+Name: BRANDON WAREHIME    
+Grade:  5
+Scores: 87, 97, 92
+GPA: 3.67
+Fees: $19.97
+ID: 100334
+Building: William Foster
+Name: ALLYSON ZULAUF      
+Grade: 11
+Scores: 85, 91, 95
+GPA: 3.67
+Fees: $196.91
+ID: 100335
+AP Classes: 9
+Name: JERROD BLASINI      
+Grade:  7
+Scores: 85, 85, 88
+GPA: 3.00
+Fees: $59.96
+ID: 100336
+Team: Fightin' Itens
+Name: SIGRID HARTZLER     
+Grade:  8
+Scores: 81, 91, 95
+GPA: 3.67
+Fees: $51.80
+ID: 100337
+Team: Gifford Dinos
+Name: EMILIA WOODFORD     
+Grade:  6
+Scores: 81, 80, 96
+GPA: 3.33
+Fees: $ 4.82
+ID: 100338
+Building: William Foster
+Name: DION GENZ           
+Grade:  8
+Scores: 88, 94, 96
+GPA: 3.67
+Fees: $10.74
+ID: 100339
+Team: Kummer Tuners
+Name: LORRINE GEIDNER     
+Grade:  9
+Scores: 87, 85, 72
+GPA: 2.67
+Fees: $175.84
+ID: 100340
+AP Classes: 7
+Name: NOLAN FERA          
+Grade:  7
+Scores: 93, 78, 94
+GPA: 3.33
+Fees: $19.94
+ID: 100341
+Team: Fightin' Itens
+Name: GARFIELD BARKETT    
+Grade:  6
+Scores: 96, 83, 76
+GPA: 3.00
+Fees: $20.87
+ID: 100342
+Building: John Schmidt
+Name: TRENA HOLLMANN      
+Grade:  8
+Scores: 80, 79, 88
+GPA: 2.67
+Fees: $ 6.24
+ID: 100343
+Team: Kummer Tuners
+Name: HAI CRUIKSHANK      
+Grade:  3
+Scores: 98, 97, 81
+GPA: 3.67
+Fees: $ 0.03
+ID: 100344
+Project: Science Fair
+Name: SHAWNEE PINEGAR     
+Grade:  4
+Scores: 77, 90, 79
+GPA: 2.67
+Fees: $ 0.09
+ID: 100345
+Building: William Foster
+Name: MARION CAGLIOSTRO   
+Grade:  2
+Scores: 91, 74, 98
+GPA: 3.33
+Fees: $ 0.88
+ID: 100346
+Project: Math Problems
+Name: LUELLA FLORCZAK     
+Grade:  9
+Scores: 89, 94, 88
+GPA: 3.33
+Fees: $122.90
+ID: 100347
+AP Classes: 3
+Name: MARKETTA BERARD     
+Grade:  8
+Scores: 92, 95, 99
+GPA: 4.00
+Fees: $31.96
+ID: 100348
+Team: House of Kim
+Name: LACY ANSON          
+Grade:  3
+Scores: 88, 82, 75
+GPA: 2.67
+Fees: $ 9.30
+ID: 100349
+Project: Science Fair
+Name: FREEMAN BRUMMET     
+Grade:  3
+Scores: 91, 89, 85
+GPA: 3.33
+Fees: $ 2.95
+ID: 100350
+Project: Painting
+Name: YUK PITRE           
+Grade: 12
+Scores: 97, 89, 89
+GPA: 3.33
+Fees: $220.86
+ID: 100351
+AP Classes: 9
+Name: FRANCOISE QUINBY    
+Grade:  9
+Scores: 87, 92, 93
+GPA: 3.67
+Fees: $120.51
+ID: 100352
+AP Classes: 3
+Name: KIMBERLY FICKETT    
+Grade:  1
+Scores: 85, 71, 75
+GPA: 2.33
+Fees: $ 4.01
+ID: 100353
+Project: Science Fair
+Name: DIVINA SPERL        
+Grade:  9
+Scores: 93, 90, 85
+GPA: 3.67
+Fees: $62.38
+ID: 100354
+AP Classes: 1
+Name: EMOGENE ODONAHUE    
+Grade: 12
+Scores: 73, 88, 93
+GPA: 3.00
+Fees: $83.69
+ID: 100355
+AP Classes: 4
+Name: MIGUEL JEZIERSKI    
+Grade:  5
+Scores: 97, 92, 87
+GPA: 3.67
+Fees: $ 0.42
+ID: 100356
+Building: John Schmidt
+Name: CHANG OROZCO        
+Grade:  9
+Scores: 84, 65, 86
+GPA: 2.33
+Fees: $160.99
+ID: 100357
+AP Classes: 6
+Name: LLOYD AMOROSO       
+Grade:  3
+Scores: 97, 71, 76
+GPA: 2.67
+Fees: $ 6.03
+ID: 100358
+Project: Painting
+Name: CLORA BALDASSARA    
+Grade:  9
+Scores: 99, 84, 75
+GPA: 3.00
+Fees: $198.48
+ID: 100359
+AP Classes: 10
+Name: WALLY MUTO          
+Grade:  6
+Scores: 95, 94, 85
+GPA: 3.67
+Fees: $19.81
+ID: 100360
+Building: William Foster
+Name: CHAD STRINGHAM      
+Grade:  6
+Scores: 98, 77, 82
+GPA: 3.00
+Fees: $ 2.58
+ID: 100361
+Building: John Schmidt
+Name: RENETTA DEARY       
+Grade: 12
+Scores: 92, 80, 86
+GPA: 3.33
+Fees: $155.19
+ID: 100362
+AP Classes: 4
+Name: CHRISTEN SHARRARD   
+Grade:  2
+Scores: 91, 94, 87
+GPA: 3.67
+Fees: $ 6.55
+ID: 100363
+Project: Math Problems
+Name: MARCELLUS REISINGER 
+Grade:  1
+Scores: 88, 87, 86
+GPA: 3.00
+Fees: $ 3.79
+ID: 100364
+Project: Math Problems
+Name: VAL KILMAN          
+Grade:  6
+Scores: 94, 89, 99
+GPA: 3.67
+Fees: $23.97
+ID: 100365
+Building: John Schmidt
+Name: JESUSITA MACKEEN    
+Grade:  7
+Scores: 92, 87, 96
+GPA: 3.67
+Fees: $58.42
+ID: 100366
+Team: Kummer Tuners
+Name: SHIRLEY MERAZ       
+Grade: 12
+Scores: 85, 99, 97
+GPA: 3.67
+Fees: $143.49
+ID: 100367
+AP Classes: 8
+Name: JEANNE CONRADY      
+Grade:  5
+Scores: 87, 86, 99
+GPA: 3.33
+Fees: $ 1.24
+ID: 100368
+Building: John Schmidt
+Name: NOLAN ASAKURA       
+Grade:  4
+Scores: 94, 91, 85
+GPA: 3.67
+Fees: $29.06
+ID: 100369
+Building: William Foster
+Name: HONG FINGAR         
+Grade:  7
+Scores: 83, 79, 87
+GPA: 2.67
+Fees: $54.85
+ID: 100370
+Team: Kummer Tuners
+Name: MARTY STCHARLES     
+Grade:  8
+Scores: 87, 90, 99
+GPA: 3.67
+Fees: $44.25
+ID: 100371
+Team: Fightin' Itens
+Name: MAJOR BRYNER        
+Grade:  8
+Scores: 96, 85, 86
+GPA: 3.33
+Fees: $33.03
+ID: 100372
+Team: Fightin' Itens
+Name: FLOY KETTEL         
+Grade:  7
+Scores: 87, 98, 94
+GPA: 3.67
+Fees: $26.69
+ID: 100373
+Team: Fightin' Itens
+Name: LINDA ABEITA        
+Grade: 11
+Scores: 96, 99, 91
+GPA: 4.00
+Fees: $72.01
+ID: 100374
+AP Classes: 3
+Name: DESTINY PAULIK      
+Grade: 12
+Scores: 86, 96, 87
+GPA: 3.33
+Fees: $170.07
+ID: 100375
+AP Classes: 6
+Name: WADE BOWYER         
+Grade:  8
+Scores: 85, 94, 88
+GPA: 3.33
+Fees: $55.58
+ID: 100376
+Team: Kummer Tuners
+Name: LULU QUESENBERRY    
+Grade:  8
+Scores: 89, 86, 91
+GPA: 3.33
+Fees: $35.80
+ID: 100377
+Team: Fightin' Itens
+Name: WADE KEETH          
+Grade:  3
+Scores: 76, 66, 95
+GPA: 2.33
+Fees: $ 1.97
+ID: 100378
+Project: Science Fair
+Name: LEMUEL TAVIRA       
+Grade:  9
+Scores: 94, 79, 92
+GPA: 3.33
+Fees: $222.84
+ID: 100379
+AP Classes: 9
+Name: BRITANY SCHWEIZER   
+Grade: 10
+Scores: 83, 69, 89
+GPA: 2.33
+Fees: $162.03
+ID: 100380
+AP Classes: 6
+Name: PATRICIA CORNS      
+Grade:  7
+Scores: 69, 91, 67
+GPA: 2.00
+Fees: $16.56
+ID: 100381
+Team: Sri's Trees
+Name: BENEDICT WOOLWORTH  
+Grade: 12
+Scores: 87, 94, 86
+GPA: 3.33
+Fees: $114.18
+ID: 100382
+AP Classes: 6
+Name: LEOLA SOWDERS       
+Grade: 10
+Scores: 98, 86, 94
+GPA: 3.67
+Fees: $166.87
+ID: 100383
+AP Classes: 9
+Name: MASON DEGIDIO       
+Grade:  7
+Scores: 97, 89, 89
+GPA: 3.33
+Fees: $30.34
+ID: 100384
+Team: Sri's Trees
+Name: WARREN HERBSTER     
+Grade:  6
+Scores: 95, 81, 96
+GPA: 3.67
+Fees: $ 1.64
+ID: 100385
+Building: William Foster
+Name: SPENCER BROWNING    
+Grade:  3
+Scores: 91, 94, 91
+GPA: 4.00
+Fees: $ 9.12
+ID: 100386
+Project: Science Fair
+Name: JEANA AUTAUBO       
+Grade: 11
+Scores: 88, 76, 81
+GPA: 2.67
+Fees: $65.87
+ID: 100387
+AP Classes: 0
+Name: KIP NAPPI           
+Grade:  1
+Scores: 99, 89, 93
+GPA: 3.67
+Fees: $ 2.68
+ID: 100388
+Project: Painting
+Name: CAMERON LIFFICK     
+Grade:  9
+Scores: 91, 80, 85
+GPA: 3.33
+Fees: $106.41
+ID: 100389
+AP Classes: 4
+Name: DUNG FAUDREE        
+Grade:  6
+Scores: 91, 89, 95
+GPA: 3.67
+Fees: $12.88
+ID: 100390
+Building: William Foster
+Name: RUSSEL SHIELD       
+Grade: 10
+Scores: 90, 93, 73
+GPA: 3.33
+Fees: $182.00
+ID: 100391
+AP Classes: 8
+Name: LEDA TOMEI          
+Grade:  2
+Scores: 83, 89, 92
+GPA: 3.33
+Fees: $ 5.54
+ID: 100392
+Project: Science Fair
+Name: RAMIRO WIRTANEN     
+Grade:  3
+Scores: 90, 93, 98
+GPA: 4.00
+Fees: $ 9.40
+ID: 100393
+Project: Science Fair
+Name: ELLSWORTH DEMLING   
+Grade:  6
+Scores: 97, 86, 85
+GPA: 3.33
+Fees: $19.95
+ID: 100394
+Building: William Foster
+Name: REGENIA KIPKA       
+Grade:  2
+Scores: 91, 86, 72
+GPA: 3.00
+Fees: $ 9.23
+ID: 100395
+Project: Science Fair
+Name: ALBERTA LONER       
+Grade:  9
+Scores: 75, 86, 80
+GPA: 2.67
+Fees: $ 8.55
+ID: 100396
+AP Classes: 0
+Name: WILBER HUSH         
+Grade:  3
+Scores: 94, 81, 80
+GPA: 3.33
+Fees: $ 0.92
+ID: 100397
+Project: Painting
+Name: SAVANNA PIORKOWSKI  
+Grade:  7
+Scores: 82, 65, 77
+GPA: 2.00
+Fees: $ 2.72
+ID: 100398
+Team: Sri's Trees
+Name: HARRISON FONDER     
+Grade:  2
+Scores: 90, 96, 95
+GPA: 4.00
+Fees: $ 2.97
+ID: 100399
+Project: Math Problems
+Name: DELPHIA EALAND      
+Grade:  6
+Scores: 96, 96, 98
+GPA: 4.00
+Fees: $20.56
+ID: 100400
+Building: William Foster
+Name: HAI CATO            
+Grade:  8
+Scores: 77, 65, 99
+GPA: 2.33
+Fees: $15.80
+ID: 100401
+Team: House of Kim
+Name: HSIU HEYD           
+Grade: 10
+Scores: 92, 83, 78
+GPA: 3.00
+Fees: $153.38
+ID: 100402
+AP Classes: 5
+Name: ALBERTO NICOLELLA   
+Grade:  6
+Scores: 91, 89, 93
+GPA: 3.67
+Fees: $ 0.64
+ID: 100403
+Building: John Schmidt
+Name: STACEE GRINER       
+Grade:  2
+Scores: 85, 89, 99
+GPA: 3.33
+Fees: $ 7.47
+ID: 100404
+Project: Painting
+Name: AUGUSTUS MATTER     
+Grade:  2
+Scores: 79, 75, 90
+GPA: 2.67
+Fees: $ 6.40
+ID: 100405
+Project: Math Problems
+Name: JAMISON DANZ        
+Grade:  1
+Scores: 90, 99, 92
+GPA: 4.00
+Fees: $ 6.17
+ID: 100406
+Project: Math Problems
+Name: LATISHA FAUST       
+Grade: 10
+Scores: 88, 71, 99
+GPA: 3.00
+Fees: $155.18
+ID: 100407
+AP Classes: 5
+Name: WALKER POSTON       
+Grade:  4
+Scores: 91, 96, 66
+GPA: 3.00
+Fees: $ 6.91
+ID: 100408
+Building: William Foster
+Name: ELISEO GUINANE      
+Grade:  8
+Scores: 93, 89, 96
+GPA: 3.67
+Fees: $40.21
+ID: 100409
+Team: Gifford Dinos
+Name: TERRELL MCCORKLE    
+Grade:  5
+Scores: 66, 73, 82
+GPA: 2.00
+Fees: $19.35
+ID: 100410
+Building: John Schmidt
+Name: CARL LOBAUGH        
+Grade: 12
+Scores: 84, 86, 96
+GPA: 3.33
+Fees: $155.48
+ID: 100411
+AP Classes: 8
+Name: SCARLETT CHIDESTER  
+Grade: 12
+Scores: 87, 86, 96
+GPA: 3.33
+Fees: $140.02
+ID: 100412
+AP Classes: 5
+Name: VEOLA DANKER        
+Grade: 12
+Scores: 93, 87, 95
+GPA: 3.67
+Fees: $86.78
+ID: 100413
+AP Classes: 1
+Name: HUMBERTO ORLOW      
+Grade:  2
+Scores: 66, 77, 74
+GPA: 1.67
+Fees: $ 9.24
+ID: 100414
+Project: Science Fair
+Name: VANCE BRAUER        
+Grade:  9
+Scores: 94, 94, 88
+GPA: 3.67
+Fees: $153.66
+ID: 100415
+AP Classes: 6
+Name: DULCE ODORE         
+Grade:  7
+Scores: 68, 84, 96
+GPA: 2.67
+Fees: $29.78
+ID: 100416
+Team: House of Kim
+Name: RALEIGH HORSMAN     
+Grade: 12
+Scores: 88, 95, 91
+GPA: 3.67
+Fees: $198.98
+ID: 100417
+AP Classes: 10
+Name: CORNELL APPELGREN   
+Grade:  2
+Scores: 97, 99, 92
+GPA: 4.00
+Fees: $ 7.20
+ID: 100418
+Project: Math Problems
+Name: JOHNNIE ADAMS       
+Grade:  8
+Scores: 78, 77, 93
+GPA: 2.67
+Fees: $ 8.77
+ID: 100419
+Team: Kummer Tuners
+Name: SHU FUTTERMAN       
+Grade:  5
+Scores: 97, 91, 99
+GPA: 4.00
+Fees: $ 0.47
+ID: 100420
+Building: William Foster
+Name: JAKE PLATTNER       
+Grade:  8
+Scores: 87, 88, 97
+GPA: 3.33
+Fees: $ 9.99
+ID: 100421
+Team: Sri's Trees
+Name: FREDIA BODLE        
+Grade: 11
+Scores: 66, 92, 66
+GPA: 2.00
+Fees: $186.15
+ID: 100422
+AP Classes: 8
+Name: WILLIE LEMP         
+Grade:  6
+Scores: 82, 97, 84
+GPA: 3.33
+Fees: $28.34
+ID: 100423
+Building: John Schmidt
+Name: TENA MEES           
+Grade:  5
+Scores: 87, 93, 95
+GPA: 3.67
+Fees: $16.35
+ID: 100424
+Building: John Schmidt
+Name: FRANCES ADAUTO      
+Grade:  5
+Scores: 84, 95, 85
+GPA: 3.33
+Fees: $16.73
+ID: 100425
+Building: John Schmidt
+Name: SOO BOWE            
+Grade: 12
+Scores: 77, 72, 73
+GPA: 2.00
+Fees: $78.80
+ID: 100426
+AP Classes: 2
+Name: TED TOSTE           
+Grade:  8
+Scores: 76, 91, 97
+GPA: 3.33
+Fees: $19.54
+ID: 100427
+Team: Sri's Trees
+Name: BEN PASCARELLA      
+Grade:  8
+Scores: 94, 95, 86
+GPA: 3.67
+Fees: $ 9.57
+ID: 100428
+Team: House of Kim
+Name: HYMAN BESKE         
+Grade:  7
+Scores: 95, 92, 95
+GPA: 4.00
+Fees: $57.63
+ID: 100429
+Team: Fightin' Itens
+Name: SIMON BOLTER        
+Grade:  7
+Scores: 98, 98, 86
+GPA: 3.67
+Fees: $41.95
+ID: 100430
+Team: Gifford Dinos
+Name: KIA ESTES           
+Grade: 11
+Scores: 88, 79, 82
+GPA: 2.67
+Fees: $104.66
+ID: 100431
+AP Classes: 3
+Name: NEOMI MCLEON        
+Grade: 10
+Scores: 87, 90, 86
+GPA: 3.33
+Fees: $100.48
+ID: 100432
+AP Classes: 6
+Name: BLANCH FLORA        
+Grade:  8
+Scores: 81, 82, 93
+GPA: 3.33
+Fees: $25.80
+ID: 100433
+Team: Gifford Dinos
+Name: ERNIE TOJO          
+Grade:  9
+Scores: 90, 98, 89
+GPA: 3.67
+Fees: $150.16
+ID: 100434
+AP Classes: 5
+Name: DENNIS KATS         
+Grade: 10
+Scores: 95, 94, 93
+GPA: 4.00
+Fees: $206.81
+ID: 100435
+AP Classes: 9
+Name: TOD CORKUM          
+Grade:  3
+Scores: 95, 95, 89
+GPA: 3.67
+Fees: $ 6.87
+ID: 100436
+Project: Science Fair
+Name: ALFRED GOMMER       
+Grade: 10
+Scores: 98, 73, 68
+GPA: 2.33
+Fees: $101.66
+ID: 100437
+AP Classes: 3
+Name: LISSA STRINGFELLOW  
+Grade:  8
+Scores: 89, 77, 91
+GPA: 3.00
+Fees: $36.25
+ID: 100438
+Team: Sri's Trees
+Name: FLORENCIO JAFFEE    
+Grade:  2
+Scores: 98, 97, 86
+GPA: 3.67
+Fees: $ 1.35
+ID: 100439
+Project: Painting
+Name: DOMENICA WILLY      
+Grade:  6
+Scores: 87, 88, 94
+GPA: 3.33
+Fees: $17.05
+ID: 100440
+Building: John Schmidt
+Name: RAMONA CAZARES      
+Grade:  8
+Scores: 71, 73, 82
+GPA: 2.33
+Fees: $48.07
+ID: 100441
+Team: House of Kim
+Name: PORFIRIO DEFABER    
+Grade:  3
+Scores: 93, 91, 66
+GPA: 3.00
+Fees: $ 8.10
+ID: 100442
+Project: Math Problems
+Name: LUCIEN HUISINGA     
+Grade:  9
+Scores: 88, 92, 88
+GPA: 3.33
+Fees: $127.87
+ID: 100443
+AP Classes: 7
+Name: RUDY VU             
+Grade:  9
+Scores: 97, 99, 89
+GPA: 3.67
+Fees: $226.26
+ID: 100444
+AP Classes: 9
+Name: SABRA PETRUSKA      
+Grade:  5
+Scores: 98, 86, 99
+GPA: 3.67
+Fees: $27.48
+ID: 100445
+Building: William Foster
+Name: SCOT VIROLA         
+Grade:  6
+Scores: 78, 93, 82
+GPA: 3.00
+Fees: $10.19
+ID: 100446
+Building: William Foster
+Name: ROGELIO DELEE       
+Grade:  3
+Scores: 92, 94, 94
+GPA: 4.00
+Fees: $ 7.07
+ID: 100447
+Project: Math Problems
+Name: LORINA FOLAND       
+Grade:  3
+Scores: 90, 77, 79
+GPA: 2.67
+Fees: $ 2.53
+ID: 100448
+Project: Science Fair
+Name: HIRAM MORMAN        
+Grade:  2
+Scores: 97, 91, 77
+GPA: 3.33
+Fees: $ 5.42
+ID: 100449
+Project: Science Fair
+Name: BABETTE BONILLA     
+Grade: 11
+Scores: 92, 99, 76
+GPA: 3.33
+Fees: $15.83
+ID: 100450
+AP Classes: 1
+Name: RAYE LONGLEY        
+Grade:  4
+Scores: 68, 92, 77
+GPA: 2.33
+Fees: $10.78
+ID: 100451
+Building: John Schmidt
+Name: LAMONICA BEUTER     
+Grade:  8
+Scores: 92, 99, 96
+GPA: 4.00
+Fees: $49.57
+ID: 100452
+Team: House of Kim
+Name: ROY BERTELS         
+Grade:  4
+Scores: 88, 96, 97
+GPA: 3.67
+Fees: $26.64
+ID: 100453
+Building: John Schmidt
+Name: DEWAYNE WOOLSON     
+Grade: 12
+Scores: 88, 99, 93
+GPA: 3.67
+Fees: $162.18
+ID: 100454
+AP Classes: 7
+Name: CARMON HAUER        
+Grade:  3
+Scores: 88, 98, 99
+GPA: 3.67
+Fees: $ 4.24
+ID: 100455
+Project: Painting
+Name: LUCIA CANARIO       
+Grade: 12
+Scores: 85, 86, 92
+GPA: 3.33
+Fees: $181.83
+ID: 100456
+AP Classes: 7
+Name: MAC BYARD           
+Grade:  3
+Scores: 75, 84, 78
+GPA: 2.33
+Fees: $ 7.47
+ID: 100457
+Project: Math Problems
+Name: COLEMAN ISMAEL      
+Grade:  7
+Scores: 85, 78, 91
+GPA: 3.00
+Fees: $12.77
+ID: 100458
+Team: Kummer Tuners
+Name: ISAIAH SITLER       
+Grade:  4
+Scores: 92, 86, 89
+GPA: 3.33
+Fees: $ 3.77
+ID: 100459
+Building: William Foster
+Name: AUGUSTUS DEMAINE    
+Grade:  7
+Scores: 97, 95, 87
+GPA: 3.67
+Fees: $ 4.50
+ID: 100460
+Team: Kummer Tuners
+Name: ELISEO DECHANT      
+Grade: 12
+Scores: 75, 88, 90
+GPA: 3.00
+Fees: $218.88
+ID: 100461
+AP Classes: 10
+Name: APOLONIA ERLEWINE   
+Grade:  1
+Scores: 82, 70, 85
+GPA: 2.67
+Fees: $ 2.63
+ID: 100462
+Project: Painting
+Name: ENID MONCE          
+Grade:  6
+Scores: 80, 95, 98
+GPA: 3.67
+Fees: $ 8.57
+ID: 100463
+Building: William Foster
+Name: JARED HALSEY        
+Grade:  5
+Scores: 94, 99, 97
+GPA: 4.00
+Fees: $ 1.36
+ID: 100464
+Building: John Schmidt
+Name: SIOBHAN FAGEN       
+Grade: 12
+Scores: 81, 93, 95
+GPA: 3.67
+Fees: $119.46
+ID: 100465
+AP Classes: 5
+Name: WINFRED SZEKULA     
+Grade:  6
+Scores: 83, 91, 98
+GPA: 3.67
+Fees: $15.51
+ID: 100466
+Building: William Foster
+Name: BROOK CASPARI       
+Grade:  5
+Scores: 88, 87, 96
+GPA: 3.33
+Fees: $28.12
+ID: 100467
+Building: John Schmidt
+Name: PETER LICHTENWALNER 
+Grade:  7
+Scores: 86, 97, 93
+GPA: 3.67
+Fees: $ 9.54
+ID: 100468
+Team: Kummer Tuners
+Name: JENI FRIEDRICK      
+Grade:  2
+Scores: 93, 75, 84
+GPA: 3.00
+Fees: $ 5.88
+ID: 100469
+Project: Painting
+Name: BETHEL TEIGEN       
+Grade: 12
+Scores: 73, 66, 85
+GPA: 2.00
+Fees: $111.02
+ID: 100470
+AP Classes: 1
+Name: BRIDGET CHESNUT     
+Grade:  9
+Scores: 92, 80, 80
+GPA: 3.33
+Fees: $71.53
+ID: 100471
+AP Classes: 3
+Name: DONA ALLOWAY        
+Grade: 12
+Scores: 77, 96, 80
+GPA: 3.00
+Fees: $163.91
+ID: 100472
+AP Classes: 7
+Name: ZADA BILL           
+Grade:  8
+Scores: 90, 93, 90
+GPA: 4.00
+Fees: $20.41
+ID: 100473
+Team: Gifford Dinos
+Name: KRISTA GRUDT        
+Grade: 11
+Scores: 89, 95, 89
+GPA: 3.33
+Fees: $176.75
+ID: 100474
+AP Classes: 8
+Name: BRIAN WALDMAN       
+Grade:  8
+Scores: 91, 98, 99
+GPA: 4.00
+Fees: $35.15
+ID: 100475
+Team: Sri's Trees
+Name: REYES WRAGG         
+Grade:  5
+Scores: 91, 94, 93
+GPA: 4.00
+Fees: $20.73
+ID: 100476
+Building: John Schmidt
+Name: MITCHEL PENFIELD    
+Grade:  6
+Scores: 79, 87, 95
+GPA: 3.00
+Fees: $28.90
+ID: 100477
+Building: William Foster
+Name: KEIKO NURNBERGER    
+Grade:  2
+Scores: 86, 88, 91
+GPA: 3.33
+Fees: $ 8.54
+ID: 100478
+Project: Painting
+Name: ALFONSO RENO        
+Grade: 11
+Scores: 95, 95, 89
+GPA: 3.67
+Fees: $91.76
+ID: 100479
+AP Classes: 3
+Name: WINIFRED PORTH      
+Grade:  2
+Scores: 83, 98, 97
+GPA: 3.67
+Fees: $ 1.57
+ID: 100480
+Project: Math Problems
+Name: TAWNA SVEHLA        
+Grade: 12
+Scores: 90, 74, 72
+GPA: 2.67
+Fees: $77.98
+ID: 100481
+AP Classes: 1
+Name: JODY BRUNMEIER      
+Grade:  8
+Scores: 96, 87, 97
+GPA: 3.67
+Fees: $37.17
+ID: 100482
+Team: House of Kim
+Name: ERNESTO DUS         
+Grade:  9
+Scores: 90, 82, 92
+GPA: 3.67
+Fees: $22.71
+ID: 100483
+AP Classes: 1
+Name: SO STEINBRUCKNER    
+Grade:  2
+Scores: 81, 97, 72
+GPA: 3.00
+Fees: $ 9.76
+ID: 100484
+Project: Science Fair
+Name: JOSLYN LINKERT      
+Grade: 12
+Scores: 98, 78, 91
+GPA: 3.33
+Fees: $30.17
+ID: 100485
+AP Classes: 0
+Name: CARLO KHALECK       
+Grade: 11
+Scores: 93, 75, 93
+GPA: 3.33
+Fees: $189.00
+ID: 100486
+AP Classes: 6
+Name: LAVERN MILAK        
+Grade: 11
+Scores: 95, 76, 83
+GPA: 3.00
+Fees: $164.20
+ID: 100487
+AP Classes: 6
+Name: SHARDA HIMMEL       
+Grade:  9
+Scores: 91, 86, 98
+GPA: 3.67
+Fees: $122.81
+ID: 100488
+AP Classes: 5
+Name: JONATHON BRISTER    
+Grade:  6
+Scores: 76, 94, 89
+GPA: 3.00
+Fees: $17.68
+ID: 100489
+Building: John Schmidt
+Name: CARLEEN GRANADE     
+Grade: 12
+Scores: 77, 72, 79
+GPA: 2.00
+Fees: $98.91
+ID: 100490
+AP Classes: 4
+Name: HULDA LEITZKE       
+Grade: 10
+Scores: 97, 96, 88
+GPA: 3.67
+Fees: $39.67
+ID: 100491
+AP Classes: 1
+Name: MICHAL COUNTER      
+Grade:  1
+Scores: 81, 78, 74
+GPA: 2.33
+Fees: $ 0.81
+ID: 100492
+Project: Math Problems
+Name: GREGORY ESPELIEN    
+Grade:  5
+Scores: 81, 96, 86
+GPA: 3.33
+Fees: $14.59
+ID: 100493
+Building: John Schmidt
+Name: RORY CARBERRY       
+Grade:  4
+Scores: 77, 88, 81
+GPA: 2.67
+Fees: $ 5.03
+ID: 100494
+Building: William Foster
+Name: DANIAL DRALEAU      
+Grade:  7
+Scores: 90, 98, 88
+GPA: 3.67
+Fees: $36.99
+ID: 100495
+Team: Sri's Trees
+Name: HANK BECRAFT        
+Grade: 12
+Scores: 90, 97, 91
+GPA: 4.00
+Fees: $156.54
+ID: 100496
+AP Classes: 8
+Name: YEN HASTEN          
+Grade: 12
+Scores: 90, 91, 87
+GPA: 3.67
+Fees: $223.16
+ID: 100497
+AP Classes: 9
+Name: MA LANDERO          
+Grade:  8
+Scores: 95, 88, 98
+GPA: 3.67
+Fees: $17.54
+ID: 100498
+Team: Sri's Trees
+Name: CLEO SHADDEN        
+Grade:  9
+Scores: 92, 67, 81
+GPA: 2.67
+Fees: $104.64
+ID: 100499
+AP Classes: 2
+Name: GARTH REINSMITH     
+Grade:  3
+Scores: 90, 83, 72
+GPA: 3.00
+Fees: $ 0.60
+ID: 100500
+Project: Math Problems
+Name: WOODROW LARICK      
+Grade: 10
+Scores: 73, 75, 72
+GPA: 2.00
+Fees: $81.75
+ID: 100501
+AP Classes: 2
+Name: NORBERT FAULKER     
+Grade:  9
+Scores: 99, 83, 94
+GPA: 3.67
+Fees: $99.46
+ID: 100502
+AP Classes: 0
+Name: COLIN SOLLEY        
+Grade:  1
+Scores: 77, 92, 96
+GPA: 3.33
+Fees: $ 2.72
+ID: 100503
+Project: Science Fair
+Name: SHAVON GAUDET       
+Grade:  2
+Scores: 92, 97, 93
+GPA: 4.00
+Fees: $ 7.54
+ID: 100504
+Project: Painting
+Name: DEAN HARGENRADER    
+Grade:  4
+Scores: 86, 93, 94
+GPA: 3.67
+Fees: $17.60
+ID: 100505
+Building: William Foster
+Name: CARROLL VARNADOE    
+Grade:  5
+Scores: 97, 67, 94
+GPA: 3.00
+Fees: $21.04
+ID: 100506
+Building: John Schmidt
+Name: SALVADOR SARWARY    
+Grade:  1
+Scores: 81, 87, 95
+GPA: 3.33
+Fees: $ 4.25
+ID: 100507
+Project: Science Fair
+Name: CARROL SWAGGERT     
+Grade:  1
+Scores: 88, 90, 94
+GPA: 3.67
+Fees: $ 6.60
+ID: 100508
+Project: Painting
+Name: GREGORY LAAKSO      
+Grade:  3
+Scores: 93, 97, 95
+GPA: 4.00
+Fees: $ 2.85
+ID: 100509
+Project: Painting
+Name: ZITA MASLYN         
+Grade: 12
+Scores: 92, 93, 78
+GPA: 3.33
+Fees: $96.60
+ID: 100510
+AP Classes: 5
+Name: ANGELINA MIDGLEY    
+Grade:  1
+Scores: 94, 85, 89
+GPA: 3.33
+Fees: $ 1.75
+ID: 100511
+Project: Painting
+Name: BUFFY CIUS          
+Grade:  7
+Scores: 72, 90, 95
+GPA: 3.33
+Fees: $36.02
+ID: 100512
+Team: Fightin' Itens
+Name: TIERA GAERTNER      
+Grade: 11
+Scores: 96, 77, 93
+GPA: 3.33
+Fees: $107.80
+ID: 100513
+AP Classes: 4
+Name: PRESTON DEORIO      
+Grade:  6
+Scores: 85, 92, 98
+GPA: 3.67
+Fees: $10.92
+ID: 100514
+Building: William Foster
+Name: LOUIS SKOCILICH     
+Grade:  9
+Scores: 95, 85, 67
+GPA: 2.67
+Fees: $93.94
+ID: 100515
+AP Classes: 0
+Name: HEATH CUSSINS       
+Grade:  7
+Scores: 76, 85, 81
+GPA: 2.67
+Fees: $48.66
+ID: 100516
+Team: Fightin' Itens
+Name: ANDREAS CULLOM      
+Grade:  4
+Scores: 97, 83, 99
+GPA: 3.67
+Fees: $12.98
+ID: 100517
+Building: William Foster
+Name: OMAR VICARIO        
+Grade:  7
+Scores: 89, 93, 86
+GPA: 3.33
+Fees: $34.41
+ID: 100518
+Team: Kummer Tuners
+Name: ALENE MARQUES       
+Grade: 12
+Scores: 68, 82, 81
+GPA: 2.33
+Fees: $97.93
+ID: 100519
+AP Classes: 1
+Name: MINH BRADNER        
+Grade:  2
+Scores: 77, 97, 81
+GPA: 3.00
+Fees: $ 6.53
+ID: 100520
+Project: Science Fair
+Name: KRISTA LAYER        
+Grade:  8
+Scores: 86, 93, 89
+GPA: 3.33
+Fees: $41.02
+ID: 100521
+Team: Fightin' Itens
+Name: MITSUE MEHRHOFF     
+Grade:  2
+Scores: 86, 65, 85
+GPA: 2.33
+Fees: $ 3.22
+ID: 100522
+Project: Math Problems
+Name: HASSIE REVERON      
+Grade:  6
+Scores: 90, 99, 88
+GPA: 3.67
+Fees: $25.51
+ID: 100523
+Building: John Schmidt
+Name: RENALDO MARROW      
+Grade:  2
+Scores: 83, 98, 77
+GPA: 3.00
+Fees: $ 6.28
+ID: 100524
+Project: Science Fair
+Name: ANGELO MARCIN       
+Grade:  6
+Scores: 91, 90, 78
+GPA: 3.33
+Fees: $ 4.08
+ID: 100525
+Building: William Foster
+Name: JERICA BRIGHTBILL   
+Grade:  4
+Scores: 76, 77, 72
+GPA: 2.00
+Fees: $15.72
+ID: 100526
+Building: William Foster
+Name: FELECIA CAPIZZI     
+Grade: 10
+Scores: 94, 91, 94
+GPA: 4.00
+Fees: $103.10
+ID: 100527
+AP Classes: 1
+Name: ATHENA PELLHAM      
+Grade:  1
+Scores: 99, 97, 93
+GPA: 4.00
+Fees: $ 8.90
+ID: 100528
+Project: Painting
+Name: MIQUEL FRIPP        
+Grade:  4
+Scores: 92, 83, 93
+GPA: 3.67
+Fees: $ 8.02
+ID: 100529
+Building: John Schmidt
+Name: BRODERICK KINGRY    
+Grade:  7
+Scores: 88, 92, 99
+GPA: 3.67
+Fees: $37.83
+ID: 100530
+Team: Kummer Tuners
+Name: CAROLE BRANCATO     
+Grade: 12
+Scores: 86, 87, 94
+GPA: 3.33
+Fees: $76.48
+ID: 100531
+AP Classes: 2
+Name: JAMAAL MINASIAN     
+Grade:  2
+Scores: 69, 72, 99
+GPA: 2.33
+Fees: $ 8.31
+ID: 100532
+Project: Math Problems
+Name: VALENTINE GROSSNICKLE
+Grade: 10
+Scores: 82, 95, 67
+GPA: 2.67
+Fees: $78.64
+ID: 100533
+AP Classes: 1
+Name: JOSLYN SPONSELLER   
+Grade:  4
+Scores: 91, 92, 99
+GPA: 4.00
+Fees: $ 7.85
+ID: 100534
+Building: John Schmidt
+Name: SCOTT METEVIER      
+Grade:  8
+Scores: 98, 90, 98
+GPA: 4.00
+Fees: $24.82
+ID: 100535
+Team: Fightin' Itens
+Name: OMER TEVES          
+Grade: 10
+Scores: 96, 68, 68
+GPA: 2.00
+Fees: $17.98
+ID: 100536
+AP Classes: 0
+Name: GERALD CIRULLO      
+Grade:  1
+Scores: 80, 88, 90
+GPA: 3.33
+Fees: $ 3.01
+ID: 100537
+Project: Painting
+Name: MARCELINO AGOSTA    
+Grade:  3
+Scores: 93, 89, 86
+GPA: 3.33
+Fees: $ 9.63
+ID: 100538
+Project: Math Problems
+Name: RIVA MENN           
+Grade:  8
+Scores: 80, 68, 75
+GPA: 2.00
+Fees: $43.14
+ID: 100539
+Team: Gifford Dinos
+Name: DELMER ARMSTONG     
+Grade:  7
+Scores: 81, 77, 82
+GPA: 2.67
+Fees: $50.67
+ID: 100540
+Team: Fightin' Itens
+Name: MATHEW EWAN         
+Grade:  8
+Scores: 86, 83, 94
+GPA: 3.33
+Fees: $35.98
+ID: 100541
+Team: Fightin' Itens
+Name: GALEN COONRAD       
+Grade:  2
+Scores: 90, 95, 87
+GPA: 3.67
+Fees: $ 5.96
+ID: 100542
+Project: Painting
+Name: LUCAS FERRIER       
+Grade:  2
+Scores: 96, 95, 85
+GPA: 3.67
+Fees: $ 8.13
+ID: 100543
+Project: Math Problems
+Name: JESSIE TALK         
+Grade:  5
+Scores: 95, 75, 95
+GPA: 3.33
+Fees: $ 2.47
+ID: 100544
+Building: John Schmidt
+Name: BIRDIE BENFIELD     
+Grade:  5
+Scores: 80, 81, 79
+GPA: 2.67
+Fees: $20.83
+ID: 100545
+Building: John Schmidt
+Name: MOSES HEATHCOCK     
+Grade: 10
+Scores: 91, 75, 81
+GPA: 3.00
+Fees: $173.78
+ID: 100546
+AP Classes: 7
+Name: ELDRIDGE BURTTRAM   
+Grade: 11
+Scores: 86, 89, 89
+GPA: 3.00
+Fees: $31.85
+ID: 100547
+AP Classes: 0
+Name: RHETT APPERT        
+Grade:  7
+Scores: 80, 99, 99
+GPA: 3.67
+Fees: $12.91
+ID: 100548
+Team: Sri's Trees
+Name: SKYE CHAPDELAINE    
+Grade:  4
+Scores: 65, 87, 99
+GPA: 2.67
+Fees: $20.11
+ID: 100549
+Building: John Schmidt
+Name: LOUIE WOODBY        
+Grade:  4
+Scores: 86, 86, 94
+GPA: 3.33
+Fees: $24.72
+ID: 100550
+Building: John Schmidt
+Name: ELMO ZULLO          
+Grade:  4
+Scores: 75, 78, 84
+GPA: 2.33
+Fees: $23.58
+ID: 100551
+Building: William Foster
+Name: JEFFERSON MACARTNEY 
+Grade:  2
+Scores: 95, 94, 93
+GPA: 4.00
+Fees: $ 0.96
+ID: 100552
+Project: Painting
+Name: RETA ROSENBLUM      
+Grade:  6
+Scores: 97, 83, 65
+GPA: 2.67
+Fees: $16.89
+ID: 100553
+Building: John Schmidt
+Name: AMBROSE KHA         
+Grade: 12
+Scores: 84, 98, 96
+GPA: 3.67
+Fees: $67.84
+ID: 100554
+AP Classes: 4
+Name: ELENI SCHLICHTING   
+Grade: 12
+Scores: 85, 81, 82
+GPA: 3.00
+Fees: $143.67
+ID: 100555
+AP Classes: 8
+Name: PATRICK WITFIELD    
+Grade:  6
+Scores: 99, 95, 93
+GPA: 4.00
+Fees: $ 3.59
+ID: 100556
+Building: John Schmidt
+Name: KATI ANGLES         
+Grade: 11
+Scores: 87, 65, 77
+GPA: 2.00
+Fees: $114.95
+ID: 100557
+AP Classes: 1
+Name: CHAUNCEY BOWDRY     
+Grade:  5
+Scores: 94, 88, 93
+GPA: 3.67
+Fees: $13.57
+ID: 100558
+Building: John Schmidt
+Name: JERRY OROURKE       
+Grade:  3
+Scores: 88, 99, 82
+GPA: 3.33
+Fees: $ 8.88
+ID: 100559
+Project: Math Problems
+Name: LONNY JUNK          
+Grade: 10
+Scores: 89, 93, 73
+GPA: 3.00
+Fees: $148.35
+ID: 100560
+AP Classes: 5
+Name: JOHNIE TOLLETT      
+Grade:  1
+Scores: 92, 98, 83
+GPA: 3.67
+Fees: $ 5.53
+ID: 100561
+Project: Math Problems
+Name: HILARIO YEATTS      
+Grade:  3
+Scores: 83, 95, 92
+GPA: 3.67
+Fees: $ 6.92
+ID: 100562
+Project: Painting
+Name: MOZELL DAMARIO      
+Grade:  5
+Scores: 99, 96, 81
+GPA: 3.67
+Fees: $11.45
+ID: 100563
+Building: John Schmidt
+Name: IVEY WENNING        
+Grade:  3
+Scores: 87, 65, 70
+GPA: 2.00
+Fees: $ 7.73
+ID: 100564
+Project: Painting
+Name: NU BROWNSTEIN       
+Grade: 10
+Scores: 66, 96, 89
+GPA: 2.67
+Fees: $87.91
+ID: 100565
+AP Classes: 1
+Name: EARNEST KAESTNER    
+Grade:  3
+Scores: 97, 95, 95
+GPA: 4.00
+Fees: $ 8.20
+ID: 100566
+Project: Math Problems
+Name: NENITA JEANNOTTE    
+Grade:  1
+Scores: 85, 96, 87
+GPA: 3.33
+Fees: $ 5.71
+ID: 100567
+Project: Painting
+Name: CORINE VARLAND      
+Grade:  5
+Scores: 93, 92, 91
+GPA: 4.00
+Fees: $ 5.36
+ID: 100568
+Building: John Schmidt
+Name: SHARRI SUH          
+Grade:  1
+Scores: 82, 85, 79
+GPA: 2.67
+Fees: $ 4.20
+ID: 100569
+Project: Science Fair
+Name: RICKIE HURRLE       
+Grade:  6
+Scores: 84, 80, 93
+GPA: 3.33
+Fees: $15.26
+ID: 100570
+Building: William Foster
+Name: PRESTON MARVILLE    
+Grade:  9
+Scores: 99, 94, 88
+GPA: 3.67
+Fees: $120.49
+ID: 100571
+AP Classes: 6
+Name: IDA ZALESKY         
+Grade:  9
+Scores: 93, 98, 97
+GPA: 4.00
+Fees: $174.90
+ID: 100572
+AP Classes: 7
+Name: TIERRA BRINCK       
+Grade:  9
+Scores: 88, 88, 92
+GPA: 3.33
+Fees: $215.28
+ID: 100573
+AP Classes: 9
+Name: LEONARD DELZER      
+Grade:  6
+Scores: 71, 89, 87
+GPA: 2.67
+Fees: $17.16
+ID: 100574
+Building: William Foster
+Name: MINDI SHOSTAK       
+Grade: 12
+Scores: 90, 86, 82
+GPA: 3.33
+Fees: $101.68
+ID: 100575
+AP Classes: 1
+Name: VAUGHN NOLLEY       
+Grade:  1
+Scores: 99, 93, 97
+GPA: 4.00
+Fees: $ 9.38
+ID: 100576
+Project: Science Fair
+Name: CEDRIC RIEKER       
+Grade: 12
+Scores: 96, 80, 85
+GPA: 3.33
+Fees: $242.50
+ID: 100577
+AP Classes: 10
+Name: BROOKE BOLEJACK     
+Grade:  3
+Scores: 99, 89, 86
+GPA: 3.33
+Fees: $ 5.59
+ID: 100578
+Project: Painting
+Name: DEWEY BRANDO        
+Grade:  6
+Scores: 82, 81, 65
+GPA: 2.33
+Fees: $26.89
+ID: 100579
+Building: John Schmidt
+Name: BARBIE SHIN         
+Grade:  6
+Scores: 76, 76, 75
+GPA: 2.00
+Fees: $23.13
+ID: 100580
+Building: William Foster
+Name: RAY BREITKREUTZ     
+Grade:  8
+Scores: 84, 87, 66
+GPA: 2.33
+Fees: $27.96
+ID: 100581
+Team: House of Kim
+Name: CYNDY KIERSTEAD     
+Grade:  2
+Scores: 91, 80, 80
+GPA: 3.33
+Fees: $ 3.70
+ID: 100582
+Project: Science Fair
+Name: MIKE MAJOR          
+Grade:  2
+Scores: 68, 73, 74
+GPA: 1.67
+Fees: $ 9.48
+ID: 100583
+Project: Math Problems
+Name: TIMMY SCHOENING     
+Grade:  9
+Scores: 99, 71, 93
+GPA: 3.33
+Fees: $160.63
+ID: 100584
+AP Classes: 5
+Name: KIRBY GECK          
+Grade:  9
+Scores: 94, 87, 88
+GPA: 3.33
+Fees: $227.42
+ID: 100585
+AP Classes: 10
+Name: CYRSTAL RAIF        
+Grade:  4
+Scores: 73, 97, 87
+GPA: 3.00
+Fees: $ 4.90
+ID: 100586
+Building: John Schmidt
+Name: ADALBERTO KNAACK    
+Grade:  4
+Scores: 80, 77, 76
+GPA: 2.33
+Fees: $25.04
+ID: 100587
+Building: John Schmidt
+Name: KYRA COMPONO        
+Grade:  9
+Scores: 89, 95, 86
+GPA: 3.33
+Fees: $194.33
+ID: 100588
+AP Classes: 8
+Name: ELNORA MOLDER       
+Grade:  9
+Scores: 87, 75, 89
+GPA: 2.67
+Fees: $220.85
+ID: 100589
+AP Classes: 9
+Name: JULIENNE BEHEL      
+Grade: 12
+Scores: 98, 90, 96
+GPA: 4.00
+Fees: $178.18
+ID: 100590
+AP Classes: 6
+Name: MAUREEN SYLVA       
+Grade:  7
+Scores: 77, 83, 92
+GPA: 3.00
+Fees: $44.12
+ID: 100591
+Team: House of Kim
+Name: PAUL FILIPPONI      
+Grade:  9
+Scores: 93, 96, 92
+GPA: 4.00
+Fees: $72.82
+ID: 100592
+AP Classes: 1
+Name: TAMRA CHAUVAUX      
+Grade:  1
+Scores: 97, 98, 85
+GPA: 3.67
+Fees: $ 6.15
+ID: 100593
+Project: Math Problems
+Name: CAMI BALFOUR        
+Grade:  4
+Scores: 70, 81, 65
+GPA: 2.00
+Fees: $ 6.27
+ID: 100594
+Building: William Foster
+Name: NANA MINIFIELD      
+Grade:  4
+Scores: 77, 97, 95
+GPA: 3.33
+Fees: $12.28
+ID: 100595
+Building: William Foster
+Name: GONZALO LIGHTFOOT   
+Grade:  4
+Scores: 95, 99, 88
+GPA: 3.67
+Fees: $ 5.91
+ID: 100596
+Building: William Foster
+Name: KYUNG GERRITY       
+Grade:  7
+Scores: 76, 82, 85
+GPA: 2.67
+Fees: $48.06
+ID: 100597
+Team: Kummer Tuners
+Name: DANIELLA HELSCHER   
+Grade:  4
+Scores: 98, 83, 80
+GPA: 3.33
+Fees: $27.47
+ID: 100598
+Building: John Schmidt
+Name: OFELIA TIEMEYER     
+Grade:  8
+Scores: 77, 93, 79
+GPA: 2.67
+Fees: $47.30
+ID: 100599
+Team: Fightin' Itens
+Name: MIKE GOLDRICK       
+Grade: 12
+Scores: 77, 91, 99
+GPA: 3.33
+Fees: $140.60
+ID: 100600
+AP Classes: 6
+Name: PEGGIE SKELLY       
+Grade:  6
+Scores: 95, 75, 78
+GPA: 2.67
+Fees: $12.51
+ID: 100601
+Building: John Schmidt
+Name: CARY BRIDENBAKER    
+Grade:  3
+Scores: 86, 84, 79
+GPA: 2.67
+Fees: $ 2.39
+ID: 100602
+Project: Math Problems
+Name: TONY LOZARO         
+Grade:  9
+Scores: 88, 90, 95
+GPA: 3.67
+Fees: $153.10
+ID: 100603
+AP Classes: 7
+Name: PAT DALLMANN        
+Grade:  1
+Scores: 87, 90, 90
+GPA: 3.67
+Fees: $ 5.84
+ID: 100604
+Project: Science Fair
+Name: DEONNA TODDY        
+Grade:  6
+Scores: 82, 77, 97
+GPA: 3.00
+Fees: $ 5.86
+ID: 100605
+Building: John Schmidt
+Name: JONAS ALEXANDER     
+Grade:  3
+Scores: 90, 95, 91
+GPA: 4.00
+Fees: $ 8.79
+ID: 100606
+Project: Painting
+Name: SHIN BRECHT         
+Grade:  8
+Scores: 85, 94, 68
+GPA: 2.67
+Fees: $55.97
+ID: 100607
+Team: Gifford Dinos
+Name: OSCAR TROMBLEY      
+Grade:  4
+Scores: 99, 91, 85
+GPA: 3.67
+Fees: $14.27
+ID: 100608
+Building: William Foster
+Name: CHONG HYCHE         
+Grade: 10
+Scores: 86, 94, 94
+GPA: 3.67
+Fees: $66.20
+ID: 100609
+AP Classes: 0
+Name: SHERWOOD KIRITSY    
+Grade:  8
+Scores: 98, 90, 88
+GPA: 3.67
+Fees: $59.49
+ID: 100610
+Team: Kummer Tuners
+Name: MARX GERTZ          
+Grade:  4
+Scores: 87, 92, 95
+GPA: 3.67
+Fees: $15.47
+ID: 100611
+Building: John Schmidt
+Name: WILBURN SUSSWEIN    
+Grade:  5
+Scores: 92, 83, 81
+GPA: 3.33
+Fees: $12.99
+ID: 100612
+Building: William Foster
+Name: SORAYA MCKLVEEN     
+Grade:  5
+Scores: 99, 89, 95
+GPA: 3.67
+Fees: $24.12
+ID: 100613
+Building: John Schmidt
+Name: JERAMY CLICHE       
+Grade:  9
+Scores: 87, 76, 74
+GPA: 2.33
+Fees: $150.43
+ID: 100614
+AP Classes: 7
+Name: DEWAYNE MERCHANT    
+Grade:  6
+Scores: 88, 89, 90
+GPA: 3.33
+Fees: $ 2.57
+ID: 100615
+Building: William Foster
+Name: LADY CORSINO        
+Grade: 11
+Scores: 79, 94, 81
+GPA: 3.00
+Fees: $193.40
+ID: 100616
+AP Classes: 8
+Name: CHANG DECIO         
+Grade: 12
+Scores: 79, 95, 91
+GPA: 3.33
+Fees: $78.20
+ID: 100617
+AP Classes: 2
+Name: MEI CORNELIOUS      
+Grade:  9
+Scores: 86, 97, 89
+GPA: 3.33
+Fees: $57.64
+ID: 100618
+AP Classes: 2
+Name: BLAINE PICKERSGILL  
+Grade: 11
+Scores: 93, 90, 94
+GPA: 4.00
+Fees: $144.49
+ID: 100619
+AP Classes: 4
+Name: KAREY SELLS         
+Grade:  3
+Scores: 80, 77, 81
+GPA: 2.67
+Fees: $ 9.76
+ID: 100620
+Project: Painting
+Name: GENEVIE BAUERLE     
+Grade:  6
+Scores: 80, 90, 71
+GPA: 3.00
+Fees: $27.66
+ID: 100621
+Building: William Foster
+Name: DOLORES FRAVEL      
+Grade:  7
+Scores: 92, 89, 95
+GPA: 3.67
+Fees: $ 2.44
+ID: 100622
+Team: House of Kim
+Name: GORDON MELLADO      
+Grade:  4
+Scores: 69, 73, 88
+GPA: 2.00
+Fees: $ 6.73
+ID: 100623
+Building: William Foster
+Name: ALBA LEMMOND        
+Grade:  4
+Scores: 96, 85, 97
+GPA: 3.67
+Fees: $15.02
+ID: 100624
+Building: John Schmidt
+Name: PERCY BRAUNBECK     
+Grade: 10
+Scores: 84, 95, 68
+GPA: 2.67
+Fees: $215.76
+ID: 100625
+AP Classes: 9
+Name: ELLSWORTH BAUMGARNER
+Grade:  3
+Scores: 85, 96, 95
+GPA: 3.67
+Fees: $ 4.93
+ID: 100626
+Project: Painting
+Name: JOETTA LENGYEL      
+Grade:  5
+Scores: 79, 80, 85
+GPA: 2.67
+Fees: $21.45
+ID: 100627
+Building: William Foster
+Name: ELISABETH KEIGER    
+Grade:  8
+Scores: 82, 75, 97
+GPA: 3.00
+Fees: $38.02
+ID: 100628
+Team: Gifford Dinos
+Name: LYNDON BOHANNAN     
+Grade: 11
+Scores: 65, 91, 75
+GPA: 2.33
+Fees: $77.91
+ID: 100629
+AP Classes: 0
+Name: DIAN ONORATA        
+Grade:  2
+Scores: 79, 94, 97
+GPA: 3.33
+Fees: $ 6.08
+ID: 100630
+Project: Math Problems
+Name: CORDELL LONGWORTH   
+Grade:  9
+Scores: 92, 85, 88
+GPA: 3.33
+Fees: $158.57
+ID: 100631
+AP Classes: 7
+Name: LENORE KULINSKI     
+Grade:  9
+Scores: 65, 66, 75
+GPA: 1.33
+Fees: $85.20
+ID: 100632
+AP Classes: 3
+Name: DAMON SEMONS        
+Grade:  3
+Scores: 92, 94, 80
+GPA: 3.67
+Fees: $ 1.81
+ID: 100633
+Project: Painting
+Name: JAMAL BRAZINGTON    
+Grade: 12
+Scores: 75, 75, 85
+GPA: 2.33
+Fees: $127.88
+ID: 100634
+AP Classes: 3
+Name: ALDO HELGESON       
+Grade:  6
+Scores: 90, 75, 99
+GPA: 3.33
+Fees: $21.86
+ID: 100635
+Building: John Schmidt
+Name: TAMEKA LYSESKI      
+Grade:  1
+Scores: 83, 96, 97
+GPA: 3.67
+Fees: $ 5.97
+ID: 100636
+Project: Math Problems
+Name: JOLYN CHALLACOMBE   
+Grade:  8
+Scores: 73, 94, 98
+GPA: 3.33
+Fees: $38.19
+ID: 100637
+Team: Kummer Tuners
+Name: SILAS APPELBAUM     
+Grade:  5
+Scores: 99, 94, 84
+GPA: 3.67
+Fees: $17.99
+ID: 100638
+Building: William Foster
+Name: WILLIE LANTAFF      
+Grade:  7
+Scores: 88, 92, 82
+GPA: 3.33
+Fees: $13.84
+ID: 100639
+Team: Gifford Dinos
+Name: JONATHAN VOLLICK    
+Grade:  2
+Scores: 91, 93, 86
+GPA: 3.67
+Fees: $ 6.11
+ID: 100640
+Project: Math Problems
+Name: GLENNIE SCANLON     
+Grade:  1
+Scores: 98, 89, 98
+GPA: 3.67
+Fees: $ 4.02
+ID: 100641
+Project: Science Fair
+Name: MAXWELL DOBOS       
+Grade:  3
+Scores: 99, 97, 79
+GPA: 3.33
+Fees: $ 2.34
+ID: 100642
+Project: Science Fair
+Name: HUBERT SCHAU        
+Grade:  5
+Scores: 83, 86, 91
+GPA: 3.33
+Fees: $12.24
+ID: 100643
+Building: John Schmidt
+Name: ESTELA HEGYI        
+Grade:  2
+Scores: 93, 87, 95
+GPA: 3.67
+Fees: $ 3.09
+ID: 100644
+Project: Painting
+Name: NANCEE MASSY        
+Grade:  9
+Scores: 96, 98, 95
+GPA: 4.00
+Fees: $106.97
+ID: 100645
+AP Classes: 1
+Name: LAVONDA LANPHER     
+Grade:  9
+Scores: 87, 78, 72
+GPA: 2.33
+Fees: $136.87
+ID: 100646
+AP Classes: 5
+Name: NAOMA CHIQUITO      
+Grade:  4
+Scores: 75, 72, 75
+GPA: 2.00
+Fees: $16.97
+ID: 100647
+Building: John Schmidt
+Name: WINNIFRED VALLON    
+Grade:  4
+Scores: 96, 99, 93
+GPA: 4.00
+Fees: $10.51
+ID: 100648
+Building: John Schmidt
+Name: WILBUR JENIFER      
+Grade:  6
+Scores: 80, 93, 92
+GPA: 3.67
+Fees: $22.92
+ID: 100649
+Building: John Schmidt
+Name: ARLINE GAVIA        
+Grade:  8
+Scores: 78, 77, 87
+GPA: 2.33
+Fees: $58.40
+ID: 100650
+Team: House of Kim
+Name: TONITA LEICHT       
+Grade:  8
+Scores: 91, 80, 94
+GPA: 3.67
+Fees: $49.82
+ID: 100651
+Team: Gifford Dinos
+Name: MAJOR TAMBURRI      
+Grade:  4
+Scores: 86, 88, 99
+GPA: 3.33
+Fees: $28.18
+ID: 100652
+Building: William Foster
+Name: BENNETT FARIA       
+Grade:  4
+Scores: 96, 80, 91
+GPA: 3.67
+Fees: $18.79
+ID: 100653
+Building: John Schmidt
+Name: EUGENE SHUPE        
+Grade:  8
+Scores: 96, 79, 91
+GPA: 3.33
+Fees: $43.47
+ID: 100654
+Team: House of Kim
+Name: REVA HUSCHER        
+Grade:  8
+Scores: 83, 95, 80
+GPA: 3.33
+Fees: $ 2.76
+ID: 100655
+Team: Gifford Dinos
+Name: LIZZIE MARTINSEN    
+Grade: 10
+Scores: 97, 68, 94
+GPA: 3.00
+Fees: $137.58
+ID: 100656
+AP Classes: 9
+Name: RODRICK WISSMANN    
+Grade:  3
+Scores: 77, 75, 97
+GPA: 2.67
+Fees: $ 2.85
+ID: 100657
+Project: Math Problems
+Name: HOLLIS ROSKELLEY    
+Grade: 10
+Scores: 95, 95, 89
+GPA: 3.67
+Fees: $115.22
+ID: 100658
+AP Classes: 3
+Name: RUSSEL CIOLEK       
+Grade: 12
+Scores: 86, 89, 84
+GPA: 3.00
+Fees: $229.83
+ID: 100659
+AP Classes: 10
+Name: MARKITA PERCLE      
+Grade: 11
+Scores: 72, 93, 77
+GPA: 2.67
+Fees: $64.70
+ID: 100660
+AP Classes: 3
+Name: GRETTA CRINER       
+Grade:  4
+Scores: 88, 91, 85
+GPA: 3.33
+Fees: $13.83
+ID: 100661
+Building: John Schmidt
+Name: HOWARD CALVERY      
+Grade:  1
+Scores: 84, 83, 97
+GPA: 3.33
+Fees: $ 9.11
+ID: 100662
+Project: Math Problems
+Name: LATRICIA ALVEREZ    
+Grade: 12
+Scores: 87, 91, 85
+GPA: 3.33
+Fees: $17.10
+ID: 100663
+AP Classes: 1
+Name: GEORGEANN CEDRONE   
+Grade:  6
+Scores: 81, 76, 81
+GPA: 2.67
+Fees: $24.92
+ID: 100664
+Building: William Foster
+Name: MICHAEL REINER      
+Grade:  7
+Scores: 71, 76, 83
+GPA: 2.33
+Fees: $26.40
+ID: 100665
+Team: Kummer Tuners
+Name: CARL DISCH          
+Grade:  3
+Scores: 74, 90, 84
+GPA: 3.00
+Fees: $ 0.81
+ID: 100666
+Project: Science Fair
+Name: CARMELA GUNNOE      
+Grade:  6
+Scores: 98, 89, 86
+GPA: 3.33
+Fees: $ 4.96
+ID: 100667
+Building: John Schmidt
+Name: ELIAS MURRILLO      
+Grade:  4
+Scores: 95, 85, 86
+GPA: 3.33
+Fees: $26.17
+ID: 100668
+Building: William Foster
+Name: PATRICIA MAGNAN     
+Grade:  2
+Scores: 95, 95, 92
+GPA: 4.00
+Fees: $ 1.95
+ID: 100669
+Project: Math Problems
+Name: FOREST REXROAD      
+Grade: 12
+Scores: 94, 94, 89
+GPA: 3.67
+Fees: $164.90
+ID: 100670
+AP Classes: 8
+Name: HERSCHEL LAVORINI   
+Grade:  8
+Scores: 87, 66, 82
+GPA: 2.33
+Fees: $18.81
+ID: 100671
+Team: Fightin' Itens
+Name: ZADA KADEL          
+Grade:  4
+Scores: 82, 88, 80
+GPA: 3.00
+Fees: $ 9.01
+ID: 100672
+Building: William Foster
+Name: MAN DOLTON          
+Grade:  4
+Scores: 98, 86, 91
+GPA: 3.67
+Fees: $19.19
+ID: 100673
+Building: John Schmidt
+Name: SETH FINNER         
+Grade: 11
+Scores: 94, 88, 88
+GPA: 3.33
+Fees: $73.52
+ID: 100674
+AP Classes: 1
+Name: GARY CORNISH        
+Grade: 11
+Scores: 94, 70, 86
+GPA: 3.00
+Fees: $173.40
+ID: 100675
+AP Classes: 8
+Name: VAUGHN RAFUSE       
+Grade:  7
+Scores: 91, 87, 88
+GPA: 3.33
+Fees: $35.36
+ID: 100676
+Team: Kummer Tuners
+Name: MARGARETE MONTIER   
+Grade: 10
+Scores: 99, 84, 72
+GPA: 3.00
+Fees: $150.10
+ID: 100677
+AP Classes: 5
+Name: CHING SWEERS        
+Grade: 11
+Scores: 90, 85, 94
+GPA: 3.67
+Fees: $136.25
+ID: 100678
+AP Classes: 8
+Name: ALEX BUSHARD        
+Grade: 12
+Scores: 97, 96, 97
+GPA: 4.00
+Fees: $141.27
+ID: 100679
+AP Classes: 9
+Name: HAILEY YOSTEN       
+Grade:  8
+Scores: 95, 92, 91
+GPA: 4.00
+Fees: $39.21
+ID: 100680
+Team: House of Kim
+Name: CORRIN DAGENAIS     
+Grade:  5
+Scores: 95, 84, 68
+GPA: 2.67
+Fees: $ 2.58
+ID: 100681
+Building: William Foster
+Name: DORSEY SABATINI     
+Grade: 11
+Scores: 86, 94, 94
+GPA: 3.67
+Fees: $198.49
+ID: 100682
+AP Classes: 8
+Name: BETTYANN DANNELS    
+Grade: 10
+Scores: 99, 84, 69
+GPA: 2.67
+Fees: $140.46
+ID: 100683
+AP Classes: 7
+Name: VASILIKI WARK       
+Grade:  1
+Scores: 70, 93, 91
+GPA: 3.33
+Fees: $ 0.00
+ID: 100684
+Project: Math Problems
+Name: ELLI DUROCHER       
+Grade: 10
+Scores: 72, 69, 83
+GPA: 2.00
+Fees: $170.11
+ID: 100685
+AP Classes: 7
+Name: BARBRA ELLINGSEN    
+Grade:  2
+Scores: 87, 88, 96
+GPA: 3.33
+Fees: $ 2.84
+ID: 100686
+Project: Painting
+Name: QUINTIN MARCZAK     
+Grade:  2
+Scores: 83, 87, 81
+GPA: 3.00
+Fees: $ 0.46
+ID: 100687
+Project: Math Problems
+Name: SERGIO DIDION       
+Grade:  3
+Scores: 90, 87, 79
+GPA: 3.00
+Fees: $ 9.54
+ID: 100688
+Project: Math Problems
+Name: VINCE MARBUS        
+Grade:  4
+Scores: 97, 90, 94
+GPA: 4.00
+Fees: $ 6.72
+ID: 100689
+Building: John Schmidt
+Name: TOBIAS ANTAYA       
+Grade: 11
+Scores: 90, 90, 91
+GPA: 4.00
+Fees: $63.62
+ID: 100690
+AP Classes: 2
+Name: ROCKY TIDEY         
+Grade:  9
+Scores: 76, 93, 83
+GPA: 3.00
+Fees: $233.28
+ID: 100691
+AP Classes: 10
+Name: KRISTLE RABASCA     
+Grade:  9
+Scores: 88, 75, 90
+GPA: 3.00
+Fees: $91.25
+ID: 100692
+AP Classes: 5
+Name: TYRELL ALBERO       
+Grade:  4
+Scores: 88, 91, 91
+GPA: 3.67
+Fees: $25.90
+ID: 100693
+Building: John Schmidt
+Name: VIRGIL LYN          
+Grade:  9
+Scores: 97, 90, 91
+GPA: 4.00
+Fees: $96.94
+ID: 100694
+AP Classes: 4
+Name: LESLEY KOSER        
+Grade:  5
+Scores: 96, 86, 86
+GPA: 3.33
+Fees: $ 4.98
+ID: 100695
+Building: John Schmidt
+Name: RUFUS PLANCARTE     
+Grade:  6
+Scores: 98, 87, 86
+GPA: 3.33
+Fees: $17.04
+ID: 100696
+Building: William Foster
+Name: CHET BERNS          
+Grade: 12
+Scores: 93, 95, 92
+GPA: 4.00
+Fees: $95.44
+ID: 100697
+AP Classes: 2
+Name: KENDRICK KENNEL     
+Grade:  7
+Scores: 79, 76, 86
+GPA: 2.33
+Fees: $35.08
+ID: 100698
+Team: Kummer Tuners
+Name: JACKSON SEAT        
+Grade: 12
+Scores: 84, 78, 90
+GPA: 3.00
+Fees: $134.55
+ID: 100699
+AP Classes: 8
+Name: LAUREN SWINDLE      
+Grade:  6
+Scores: 97, 97, 93
+GPA: 4.00
+Fees: $10.69
+ID: 100700
+Building: William Foster
+Name: LAVERNA MADISE      
+Grade:  3
+Scores: 87, 88, 94
+GPA: 3.33
+Fees: $ 2.36
+ID: 100701
+Project: Science Fair
+Name: MERLE ZAMORANO      
+Grade:  4
+Scores: 90, 96, 94
+GPA: 4.00
+Fees: $27.50
+ID: 100702
+Building: John Schmidt
+Name: LENITA SENN         
+Grade: 10
+Scores: 97, 97, 92
+GPA: 4.00
+Fees: $116.92
+ID: 100703
+AP Classes: 5
+Name: MARYLEE WIRONEN     
+Grade:  5
+Scores: 79, 79, 80
+GPA: 2.33
+Fees: $ 1.21
+ID: 100704
+Building: John Schmidt
+Name: CLAY ALWARDT        
+Grade:  3
+Scores: 96, 90, 95
+GPA: 4.00
+Fees: $ 3.63
+ID: 100705
+Project: Math Problems
+Name: GIOVANNA GANGA      
+Grade: 12
+Scores: 93, 88, 91
+GPA: 3.67
+Fees: $100.76
+ID: 100706
+AP Classes: 2
+Name: ANIKA CAYNE         
+Grade:  7
+Scores: 86, 97, 88
+GPA: 3.33
+Fees: $54.69
+ID: 100707
+Team: House of Kim
+Name: KENTON SHUFORD      
+Grade:  3
+Scores: 96, 89, 98
+GPA: 3.67
+Fees: $ 0.12
+ID: 100708
+Project: Painting
+Name: INGE COHN           
+Grade: 11
+Scores: 95, 96, 95
+GPA: 4.00
+Fees: $206.64
+ID: 100709
+AP Classes: 10
+Name: KATHARINE BRAKER    
+Grade:  9
+Scores: 92, 98, 98
+GPA: 4.00
+Fees: $195.54
+ID: 100710
+AP Classes: 8
+Name: LUCILA WALZ         
+Grade:  3
+Scores: 80, 83, 88
+GPA: 3.00
+Fees: $ 5.58
+ID: 100711
+Project: Painting
+Name: HERSCHEL HOEY       
+Grade:  8
+Scores: 86, 76, 69
+GPA: 2.00
+Fees: $ 5.83
+ID: 100712
+Team: Fightin' Itens
+Name: TRISH RICKENBACH    
+Grade:  8
+Scores: 88, 75, 65
+GPA: 2.00
+Fees: $13.79
+ID: 100713
+Team: Kummer Tuners
+Name: AGUSTIN SIPOS       
+Grade: 11
+Scores: 66, 97, 73
+GPA: 2.33
+Fees: $245.35
+ID: 100714
+AP Classes: 10
+Name: DONNIE CABERTO      
+Grade: 11
+Scores: 71, 90, 68
+GPA: 2.33
+Fees: $180.89
+ID: 100715
+AP Classes: 6
+Name: DONA ENGQUIST       
+Grade:  4
+Scores: 88, 94, 92
+GPA: 3.67
+Fees: $13.58
+ID: 100716
+Building: John Schmidt
+Name: MERNA BECTON        
+Grade:  7
+Scores: 86, 92, 83
+GPA: 3.33
+Fees: $48.88
+ID: 100717
+Team: Gifford Dinos
+Name: CONSUELO SCHOONMAKER
+Grade:  8
+Scores: 75, 97, 86
+GPA: 3.00
+Fees: $58.01
+ID: 100718
+Team: Gifford Dinos
+Name: DENIS LANGLEY       
+Grade:  6
+Scores: 81, 79, 84
+GPA: 2.67
+Fees: $28.30
+ID: 100719
+Building: William Foster
+Name: BOYCE LINCICOME     
+Grade:  8
+Scores: 94, 90, 85
+GPA: 3.67
+Fees: $11.61
+ID: 100720
+Team: Sri's Trees
+Name: RANDELL TENG        
+Grade:  5
+Scores: 86, 93, 92
+GPA: 3.67
+Fees: $22.70
+ID: 100721
+Building: John Schmidt
+Name: ALFREDO RITTS       
+Grade:  4
+Scores: 77, 77, 80
+GPA: 2.33
+Fees: $ 9.29
+ID: 100722
+Building: John Schmidt
+Name: JANIE MIDDEN        
+Grade:  1
+Scores: 82, 92, 91
+GPA: 3.67
+Fees: $ 2.37
+ID: 100723
+Project: Science Fair
+Name: BRANDIE AREY        
+Grade: 11
+Scores: 87, 90, 72
+GPA: 3.00
+Fees: $218.67
+ID: 100724
+AP Classes: 10
+Name: GLENDORA GRIZZELL   
+Grade:  9
+Scores: 88, 96, 86
+GPA: 3.33
+Fees: $104.59
+ID: 100725
+AP Classes: 6
+Name: DOMINIC NORDGREN    
+Grade: 10
+Scores: 68, 66, 85
+GPA: 1.67
+Fees: $60.21
+ID: 100726
+AP Classes: 0
+Name: LENARD ADCOCK       
+Grade:  4
+Scores: 98, 87, 86
+GPA: 3.33
+Fees: $15.07
+ID: 100727
+Building: John Schmidt
+Name: DELMA FREILER       
+Grade:  1
+Scores: 95, 87, 89
+GPA: 3.33
+Fees: $ 8.10
+ID: 100728
+Project: Science Fair
+Name: KAITLIN WESTMEYER   
+Grade: 10
+Scores: 83, 88, 88
+GPA: 3.00
+Fees: $37.63
+ID: 100729
+AP Classes: 1
+Name: OMA GRANDA          
+Grade: 12
+Scores: 94, 87, 91
+GPA: 3.67
+Fees: $116.00
+ID: 100730
+AP Classes: 7
+Name: MONIKA ROBERTON     
+Grade:  4
+Scores: 90, 88, 84
+GPA: 3.33
+Fees: $22.61
+ID: 100731
+Building: John Schmidt
+Name: HENRY WEXLER        
+Grade:  7
+Scores: 86, 86, 88
+GPA: 3.00
+Fees: $56.50
+ID: 100732
+Team: Gifford Dinos
+Name: AGATHA PESAVENTO    
+Grade:  9
+Scores: 88, 89, 96
+GPA: 3.33
+Fees: $82.38
+ID: 100733
+AP Classes: 1
+Name: COLLIN HIRALDO      
+Grade:  2
+Scores: 65, 71, 67
+GPA: 1.33
+Fees: $ 3.87
+ID: 100734
+Project: Painting
+Name: TERRY EXLINE        
+Grade: 11
+Scores: 73, 75, 68
+GPA: 1.67
+Fees: $210.58
+ID: 100735
+AP Classes: 8
+Name: TOYA MCCALLEN       
+Grade: 12
+Scores: 88, 68, 91
+GPA: 2.67
+Fees: $163.95
+ID: 100736
+AP Classes: 10
+Name: SHERYL NITTLER      
+Grade: 10
+Scores: 97, 91, 86
+GPA: 3.67
+Fees: $128.52
+ID: 100737
+AP Classes: 3
+Name: MELVIN GEDDIE       
+Grade: 11
+Scores: 95, 99, 93
+GPA: 4.00
+Fees: $197.57
+ID: 100738
+AP Classes: 9
+Name: GHISLAINE RUSSAK    
+Grade: 10
+Scores: 78, 75, 78
+GPA: 2.00
+Fees: $85.47
+ID: 100739
+AP Classes: 2
+Name: GIANNA TRENH        
+Grade: 10
+Scores: 82, 96, 77
+GPA: 3.00
+Fees: $127.90
+ID: 100740
+AP Classes: 4
+Name: ENEIDA SIRCY        
+Grade:  4
+Scores: 66, 93, 93
+GPA: 3.00
+Fees: $ 1.88
+ID: 100741
+Building: William Foster
+Name: CESAR MALENFANT     
+Grade:  5
+Scores: 94, 94, 96
+GPA: 4.00
+Fees: $13.96
+ID: 100742
+Building: William Foster
+Name: GAIL MALECHA        
+Grade: 11
+Scores: 86, 98, 92
+GPA: 3.67
+Fees: $63.69
+ID: 100743
+AP Classes: 2
+Name: MITSUE RESLER       
+Grade: 10
+Scores: 81, 85, 81
+GPA: 3.00
+Fees: $107.89
+ID: 100744
+AP Classes: 6
+Name: ADAM MEISENHEIMER   
+Grade:  8
+Scores: 86, 95, 94
+GPA: 3.67
+Fees: $29.30
+ID: 100745
+Team: House of Kim
+Name: DOMINIQUE CARPANINI 
+Grade:  1
+Scores: 68, 92, 90
+GPA: 3.00
+Fees: $ 4.08
+ID: 100746
+Project: Painting
+Name: SOMMER KLISH        
+Grade: 10
+Scores: 89, 81, 87
+GPA: 3.00
+Fees: $79.81
+ID: 100747
+AP Classes: 5
+Name: MARIO NIXON         
+Grade:  3
+Scores: 93, 86, 90
+GPA: 3.67
+Fees: $ 6.71
+ID: 100748
+Project: Science Fair
+Name: DICK EGLAND         
+Grade:  5
+Scores: 90, 90, 98
+GPA: 4.00
+Fees: $ 3.04
+ID: 100749
+Building: John Schmidt
+Name: FRANCISCO GARN      
+Grade: 12
+Scores: 90, 92, 93
+GPA: 4.00
+Fees: $153.18
+ID: 100750
+AP Classes: 9
+Name: EMMANUEL HENNICK    
+Grade:  8
+Scores: 75, 86, 90
+GPA: 3.00
+Fees: $25.36
+ID: 100751
+Team: Fightin' Itens
+Name: MARIANN WALEZAK     
+Grade:  7
+Scores: 88, 86, 96
+GPA: 3.33
+Fees: $ 3.88
+ID: 100752
+Team: House of Kim
+Name: BOYD GLUMAC         
+Grade:  6
+Scores: 77, 78, 96
+GPA: 2.67
+Fees: $ 0.87
+ID: 100753
+Building: William Foster
+Name: JACQUELINE PALKA    
+Grade: 11
+Scores: 72, 82, 78
+GPA: 2.33
+Fees: $225.22
+ID: 100754
+AP Classes: 10
+Name: CECIL SHYU          
+Grade: 10
+Scores: 89, 88, 98
+GPA: 3.33
+Fees: $233.77
+ID: 100755
+AP Classes: 10
+Name: DINAH DROZDENKO     
+Grade:  3
+Scores: 95, 89, 82
+GPA: 3.33
+Fees: $ 9.38
+ID: 100756
+Project: Painting
+Name: MITZI REINHOLTZ     
+Grade:  2
+Scores: 88, 89, 91
+GPA: 3.33
+Fees: $ 6.06
+ID: 100757
+Project: Painting
+Name: RICHARD HOLLEN      
+Grade:  4
+Scores: 85, 85, 88
+GPA: 3.00
+Fees: $29.63
+ID: 100758
+Building: John Schmidt
+Name: MANUEL FAVIA        
+Grade: 10
+Scores: 80, 82, 82
+GPA: 3.00
+Fees: $143.69
+ID: 100759
+AP Classes: 6
+Name: EVELINE SEAVEY      
+Grade:  7
+Scores: 88, 93, 95
+GPA: 3.67
+Fees: $ 8.80
+ID: 100760
+Team: Sri's Trees
+Name: HUNG DELEPPO        
+Grade:  7
+Scores: 96, 93, 99
+GPA: 4.00
+Fees: $39.18
+ID: 100761
+Team: Gifford Dinos
+Name: BENNETT BOUER       
+Grade: 10
+Scores: 82, 89, 81
+GPA: 3.00
+Fees: $134.82
+ID: 100762
+AP Classes: 3
+Name: KEVA WOJENSKI       
+Grade:  2
+Scores: 95, 92, 91
+GPA: 4.00
+Fees: $ 4.83
+ID: 100763
+Project: Science Fair
+Name: ANTONIO GLATT       
+Grade:  7
+Scores: 91, 95, 97
+GPA: 4.00
+Fees: $56.32
+ID: 100764
+Team: Kummer Tuners
+Name: RAPHAEL MATSUMURA   
+Grade:  3
+Scores: 81, 77, 98
+GPA: 3.00
+Fees: $ 0.77
+ID: 100765
+Project: Painting
+Name: FAE MCMURRY         
+Grade:  4
+Scores: 65, 72, 69
+GPA: 1.33
+Fees: $17.91
+ID: 100766
+Building: John Schmidt
+Name: SANDA ABEE          
+Grade:  7
+Scores: 99, 87, 92
+GPA: 3.67
+Fees: $ 4.31
+ID: 100767
+Team: Sri's Trees
+Name: FLOYD GUCMAN        
+Grade:  7
+Scores: 79, 93, 92
+GPA: 3.33
+Fees: $52.72
+ID: 100768
+Team: Gifford Dinos
+Name: CATHIE HALLGREN     
+Grade:  1
+Scores: 81, 78, 99
+GPA: 3.00
+Fees: $ 8.55
+ID: 100769
+Project: Science Fair
+Name: KIYOKO INGMIRE      
+Grade: 10
+Scores: 94, 96, 99
+GPA: 4.00
+Fees: $50.60
+ID: 100770
+AP Classes: 2
+Name: LARAE MCCLAMMY      
+Grade: 10
+Scores: 96, 96, 88
+GPA: 3.67
+Fees: $183.81
+ID: 100771
+AP Classes: 10
+Name: DEON NOON           
+Grade: 12
+Scores: 85, 77, 95
+GPA: 3.00
+Fees: $71.43
+ID: 100772
+AP Classes: 2
+Name: IRWIN MCGATH        
+Grade:  5
+Scores: 87, 84, 95
+GPA: 3.33
+Fees: $ 6.94
+ID: 100773
+Building: William Foster
+Name: STACEY OTEY         
+Grade:  2
+Scores: 90, 97, 98
+GPA: 4.00
+Fees: $ 9.23
+ID: 100774
+Project: Math Problems
+Name: ARIELLE LAVALLE     
+Grade:  6
+Scores: 93, 92, 88
+GPA: 3.67
+Fees: $15.51
+ID: 100775
+Building: John Schmidt
+Name: FRANCES SEELY       
+Grade:  4
+Scores: 85, 97, 89
+GPA: 3.33
+Fees: $29.61
+ID: 100776
+Building: John Schmidt
+Name: SILVA KOESTNER      
+Grade:  3
+Scores: 93, 93, 85
+GPA: 3.67
+Fees: $ 5.71
+ID: 100777
+Project: Math Problems
+Name: TAMISHA AXTELL      
+Grade:  8
+Scores: 84, 83, 71
+GPA: 2.67
+Fees: $59.07
+ID: 100778
+Team: Kummer Tuners
+Name: MARCO GAYDOS        
+Grade: 11
+Scores: 98, 78, 78
+GPA: 2.67
+Fees: $115.16
+ID: 100779
+AP Classes: 7
+Name: MINH HIBBARD        
+Grade:  9
+Scores: 83, 94, 83
+GPA: 3.33
+Fees: $75.65
+ID: 100780
+AP Classes: 1
+Name: KACY GOSNELL        
+Grade: 11
+Scores: 80, 91, 77
+GPA: 3.00
+Fees: $180.61
+ID: 100781
+AP Classes: 7
+Name: BURTON RIEMER       
+Grade:  5
+Scores: 89, 84, 75
+GPA: 2.67
+Fees: $ 4.15
+ID: 100782
+Building: John Schmidt
+Name: ANNAMAE PATELLA     
+Grade:  8
+Scores: 95, 97, 97
+GPA: 4.00
+Fees: $24.53
+ID: 100783
+Team: Fightin' Itens
+Name: SYDNEY VESPERMAN    
+Grade:  1
+Scores: 86, 95, 99
+GPA: 3.67
+Fees: $ 4.97
+ID: 100784
+Project: Math Problems
+Name: NEWTON NELKE        
+Grade:  4
+Scores: 92, 92, 78
+GPA: 3.33
+Fees: $11.25
+ID: 100785
+Building: John Schmidt
+Name: ENOCH MOYERS        
+Grade: 11
+Scores: 98, 94, 99
+GPA: 4.00
+Fees: $23.80
+ID: 100786
+AP Classes: 1
+Name: BENJAMIN SCHWIEGER  
+Grade:  6
+Scores: 96, 94, 91
+GPA: 4.00
+Fees: $21.21
+ID: 100787
+Building: John Schmidt
+Name: JACQUILINE HOSSE    
+Grade:  3
+Scores: 91, 76, 86
+GPA: 3.00
+Fees: $ 8.72
+ID: 100788
+Project: Science Fair
+Name: GREG KOLLE          
+Grade:  3
+Scores: 86, 95, 90
+GPA: 3.67
+Fees: $ 8.92
+ID: 100789
+Project: Math Problems
+Name: ROSIE HERMOSILLA    
+Grade: 11
+Scores: 87, 67, 91
+GPA: 2.67
+Fees: $149.50
+ID: 100790
+AP Classes: 6
+Name: VINCE HARAN         
+Grade:  2
+Scores: 72, 88, 81
+GPA: 2.67
+Fees: $ 6.77
+ID: 100791
+Project: Painting
+Name: BUD ESCALERO        
+Grade:  4
+Scores: 76, 85, 79
+GPA: 2.33
+Fees: $ 7.44
+ID: 100792
+Building: William Foster
+Name: ELMO COMAS          
+Grade:  4
+Scores: 87, 86, 86
+GPA: 3.00
+Fees: $14.55
+ID: 100793
+Building: John Schmidt
+Name: GERALDO MEWES       
+Grade:  5
+Scores: 95, 92, 97
+GPA: 4.00
+Fees: $12.17
+ID: 100794
+Building: John Schmidt
+Name: HOUSTON DODDS       
+Grade:  2
+Scores: 69, 96, 98
+GPA: 3.00
+Fees: $ 2.78
+ID: 100795
+Project: Math Problems
+Name: DOMINIQUE MASSER    
+Grade:  7
+Scores: 92, 94, 90
+GPA: 4.00
+Fees: $52.30
+ID: 100796
+Team: Kummer Tuners
+Name: RUTHANN SHRECK      
+Grade:  5
+Scores: 78, 86, 78
+GPA: 2.33
+Fees: $ 9.60
+ID: 100797
+Building: John Schmidt
+Name: MERVIN MICHAELSON   
+Grade:  4
+Scores: 97, 93, 89
+GPA: 3.67
+Fees: $ 3.24
+ID: 100798
+Building: William Foster
+Name: ISAIAH EWY          
+Grade:  8
+Scores: 71, 81, 93
+GPA: 3.00
+Fees: $20.26
+ID: 100799
+Team: Kummer Tuners
+Name: MATT MAGAT          
+Grade:  9
+Scores: 94, 98, 97
+GPA: 4.00
+Fees: $42.78
+ID: 100800
+AP Classes: 1
+Name: WANDA GAWRYS        
+Grade:  5
+Scores: 96, 87, 87
+GPA: 3.33
+Fees: $ 6.55
+ID: 100801
+Building: William Foster
+Name: NAM GOEDICKE        
+Grade: 11
+Scores: 86, 97, 95
+GPA: 3.67
+Fees: $161.50
+ID: 100802
+AP Classes: 10
+Name: LOVE NERNEY         
+Grade:  9
+Scores: 86, 92, 96
+GPA: 3.67
+Fees: $140.82
+ID: 100803
+AP Classes: 5
+Name: REID KRITIKOS       
+Grade:  9
+Scores: 98, 93, 88
+GPA: 3.67
+Fees: $85.79
+ID: 100804
+AP Classes: 0
+Name: EUGENE TELLIO       
+Grade:  6
+Scores: 88, 76, 83
+GPA: 2.67
+Fees: $13.23
+ID: 100805
+Building: William Foster
+Name: MELISSA TAVENNER    
+Grade:  8
+Scores: 95, 83, 79
+GPA: 3.00
+Fees: $20.60
+ID: 100806
+Team: Gifford Dinos
+Name: MITCH FEARS         
+Grade:  6
+Scores: 98, 80, 89
+GPA: 3.33
+Fees: $12.69
+ID: 100807
+Building: William Foster
+Name: CLEO MUSHETT        
+Grade:  5
+Scores: 82, 78, 87
+GPA: 2.67
+Fees: $ 9.89
+ID: 100808
+Building: William Foster
+Name: HARLEY SHIYOU       
+Grade: 10
+Scores: 76, 86, 86
+GPA: 2.67
+Fees: $16.58
+ID: 100809
+AP Classes: 1
+Name: LELAND CAMPEAU      
+Grade:  4
+Scores: 87, 77, 80
+GPA: 2.67
+Fees: $ 0.78
+ID: 100810
+Building: William Foster
+Name: ROBERT HAHNER       
+Grade:  3
+Scores: 90, 73, 72
+GPA: 2.67
+Fees: $ 6.42
+ID: 100811
+Project: Science Fair
+Name: VALENTINE NUBER     
+Grade:  2
+Scores: 85, 97, 82
+GPA: 3.33
+Fees: $ 9.55
+ID: 100812
+Project: Science Fair
+Name: HIRAM STUCKEL       
+Grade:  6
+Scores: 93, 87, 94
+GPA: 3.67
+Fees: $15.74
+ID: 100813
+Building: William Foster
+Name: SHERON VALLIERES    
+Grade: 12
+Scores: 65, 72, 84
+GPA: 2.00
+Fees: $96.19
+ID: 100814
+AP Classes: 3
+Name: DARREL KAVANAUGH    
+Grade:  2
+Scores: 90, 84, 81
+GPA: 3.33
+Fees: $ 8.03
+ID: 100815
+Project: Math Problems
+Name: FELTON MCEVER       
+Grade:  3
+Scores: 85, 90, 97
+GPA: 3.67
+Fees: $ 2.20
+ID: 100816
+Project: Painting
+Name: KARREN GOETTSCHE    
+Grade:  9
+Scores: 92, 82, 76
+GPA: 3.00
+Fees: $61.38
+ID: 100817
+AP Classes: 0
+Name: TREY COVER          
+Grade: 12
+Scores: 96, 92, 80
+GPA: 3.67
+Fees: $65.09
+ID: 100818
+AP Classes: 1
+Name: LON MIKLAS          
+Grade:  4
+Scores: 95, 89, 92
+GPA: 3.67
+Fees: $28.42
+ID: 100819
+Building: John Schmidt
+Name: LANE GUEDES         
+Grade:  2
+Scores: 88, 85, 93
+GPA: 3.33
+Fees: $ 7.36
+ID: 100820
+Project: Painting
+Name: MIKEL SHELSTAD      
+Grade:  5
+Scores: 89, 98, 99
+GPA: 3.67
+Fees: $ 4.70
+ID: 100821
+Building: William Foster
+Name: ANTOINE TESTEN      
+Grade:  4
+Scores: 86, 98, 86
+GPA: 3.33
+Fees: $24.32
+ID: 100822
+Building: William Foster
+Name: EARL GERSTEIN       
+Grade: 12
+Scores: 77, 79, 80
+GPA: 2.33
+Fees: $36.29
+ID: 100823
+AP Classes: 0
+Name: LORENZO SANTANGELO  
+Grade:  5
+Scores: 94, 95, 88
+GPA: 3.67
+Fees: $ 7.20
+ID: 100824
+Building: John Schmidt
+Name: ELMO RAPSON         
+Grade:  2
+Scores: 70, 97, 71
+GPA: 2.67
+Fees: $ 0.69
+ID: 100825
+Project: Science Fair
+Name: ANJELICA SLIMMER    
+Grade:  6
+Scores: 98, 88, 94
+GPA: 3.67
+Fees: $23.88
+ID: 100826
+Building: John Schmidt
+Name: RICHARD FRASCELLA   
+Grade:  8
+Scores: 97, 89, 70
+GPA: 3.00
+Fees: $13.74
+ID: 100827
+Team: Kummer Tuners
+Name: JOI ANTONIOU        
+Grade:  1
+Scores: 96, 66, 73
+GPA: 2.33
+Fees: $ 3.36
+ID: 100828
+Project: Math Problems
+Name: WARNER YACKLEY      
+Grade: 12
+Scores: 96, 86, 92
+GPA: 3.67
+Fees: $89.85
+ID: 100829
+AP Classes: 4
+Name: ROZELLA GALLEGOS    
+Grade:  9
+Scores: 95, 80, 84
+GPA: 3.33
+Fees: $205.44
+ID: 100830
+AP Classes: 9
+Name: ISAIAH HAGEMEIER    
+Grade: 11
+Scores: 65, 76, 81
+GPA: 2.00
+Fees: $170.60
+ID: 100831
+AP Classes: 7
+Name: ERNIE KRIMPLE       
+Grade:  7
+Scores: 96, 86, 91
+GPA: 3.67
+Fees: $14.86
+ID: 100832
+Team: Fightin' Itens
+Name: JACQULINE GUNDER    
+Grade:  4
+Scores: 98, 96, 90
+GPA: 4.00
+Fees: $ 9.88
+ID: 100833
+Building: William Foster
+Name: LORY MARIAN         
+Grade:  4
+Scores: 85, 75, 80
+GPA: 2.67
+Fees: $12.16
+ID: 100834
+Building: John Schmidt
+Name: OSVALDO OPFER       
+Grade:  2
+Scores: 97, 92, 99
+GPA: 4.00
+Fees: $ 0.51
+ID: 100835
+Project: Painting
+Name: CHERILYN LUHRS      
+Grade:  1
+Scores: 97, 70, 86
+GPA: 3.00
+Fees: $ 1.04
+ID: 100836
+Project: Science Fair
+Name: SOL STOEBER         
+Grade:  3
+Scores: 98, 96, 93
+GPA: 4.00
+Fees: $ 8.47
+ID: 100837
+Project: Painting
+Name: NAKITA COOTS        
+Grade:  7
+Scores: 83, 85, 99
+GPA: 3.33
+Fees: $39.22
+ID: 100838
+Team: Fightin' Itens
+Name: LAKIA BUFFALO       
+Grade:  5
+Scores: 98, 79, 88
+GPA: 3.00
+Fees: $ 3.76
+ID: 100839
+Building: John Schmidt
+Name: MARLIN TIMOTEO      
+Grade:  1
+Scores: 86, 99, 88
+GPA: 3.33
+Fees: $ 6.83
+ID: 100840
+Project: Painting
+Name: ZOILA HEPTINSTALL   
+Grade:  2
+Scores: 93, 67, 72
+GPA: 2.33
+Fees: $ 0.44
+ID: 100841
+Project: Science Fair
+Name: AVERY ZETTLEMOYER   
+Grade: 12
+Scores: 75, 98, 82
+GPA: 3.00
+Fees: $137.18
+ID: 100842
+AP Classes: 4
+Name: LINWOOD OLESKY      
+Grade:  8
+Scores: 89, 82, 98
+GPA: 3.33
+Fees: $28.09
+ID: 100843
+Team: Gifford Dinos
+Name: DOLORIS AVERSANO    
+Grade: 10
+Scores: 93, 85, 90
+GPA: 3.67
+Fees: $132.12
+ID: 100844
+AP Classes: 3
+Name: MILLICENT SHUKLA    
+Grade:  8
+Scores: 75, 84, 75
+GPA: 2.33
+Fees: $24.10
+ID: 100845
+Team: Fightin' Itens
+Name: MARIANO DESILETS    
+Grade:  3
+Scores: 99, 87, 87
+GPA: 3.33
+Fees: $ 5.57
+ID: 100846
+Project: Math Problems
+Name: NOLA TULK           
+Grade: 11
+Scores: 66, 90, 68
+GPA: 2.00
+Fees: $103.61
+ID: 100847
+AP Classes: 3
+Name: BUD CATES           
+Grade:  8
+Scores: 80, 67, 88
+GPA: 2.33
+Fees: $30.57
+ID: 100848
+Team: Gifford Dinos
+Name: JEFFREY DELMURO     
+Grade:  7
+Scores: 99, 88, 92
+GPA: 3.67
+Fees: $50.78
+ID: 100849
+Team: House of Kim
+Name: ROSANNE TEDESKO     
+Grade: 11
+Scores: 94, 88, 90
+GPA: 3.67
+Fees: $139.02
+ID: 100850
+AP Classes: 4
+Name: TAMMIE PAYE         
+Grade:  7
+Scores: 76, 81, 86
+GPA: 2.67
+Fees: $45.94
+ID: 100851
+Team: Kummer Tuners
+Name: MOSES MESSERSMITH   
+Grade: 12
+Scores: 73, 73, 88
+GPA: 2.33
+Fees: $152.25
+ID: 100852
+AP Classes: 8
+Name: SANJUANITA DAME     
+Grade: 10
+Scores: 84, 99, 79
+GPA: 3.00
+Fees: $83.06
+ID: 100853
+AP Classes: 3
+Name: MILFORD SAVAGE      
+Grade:  1
+Scores: 70, 94, 94
+GPA: 3.33
+Fees: $ 1.61
+ID: 100854
+Project: Math Problems
+Name: JULIE SNETTING      
+Grade: 11
+Scores: 81, 93, 70
+GPA: 3.00
+Fees: $155.18
+ID: 100855
+AP Classes: 6
+Name: EUGENIO RUSNAK      
+Grade:  8
+Scores: 96, 97, 88
+GPA: 3.67
+Fees: $25.80
+ID: 100856
+Team: Gifford Dinos
+Name: ANTONE SUNG         
+Grade:  7
+Scores: 92, 94, 85
+GPA: 3.67
+Fees: $ 9.72
+ID: 100857
+Team: Gifford Dinos
+Name: MIKE BETTENHAUSEN   
+Grade:  3
+Scores: 69, 92, 75
+GPA: 2.33
+Fees: $ 1.90
+ID: 100858
+Project: Science Fair
+Name: DORENE ALCANTAR     
+Grade:  5
+Scores: 90, 89, 91
+GPA: 3.67
+Fees: $12.48
+ID: 100859
+Building: William Foster
+Name: MADDIE IRVIN        
+Grade: 11
+Scores: 67, 91, 90
+GPA: 3.00
+Fees: $120.72
+ID: 100860
+AP Classes: 4
+Name: CARMELIA WIREBAUGH  
+Grade:  2
+Scores: 95, 89, 97
+GPA: 3.67
+Fees: $ 6.45
+ID: 100861
+Project: Math Problems
+Name: JORDAN LOCKLEAR     
+Grade:  3
+Scores: 72, 97, 94
+GPA: 3.33
+Fees: $ 1.63
+ID: 100862
+Project: Painting
+Name: DARWIN VERSLUIS     
+Grade:  5
+Scores: 92, 96, 96
+GPA: 4.00
+Fees: $22.98
+ID: 100863
+Building: William Foster
+Name: EDISON TORES        
+Grade: 11
+Scores: 96, 86, 98
+GPA: 3.67
+Fees: $110.61
+ID: 100864
+AP Classes: 6
+Name: ALLEN SCHUR         
+Grade: 12
+Scores: 90, 93, 85
+GPA: 3.67
+Fees: $83.68
+ID: 100865
+AP Classes: 5
+Name: VICTOR TEP          
+Grade:  3
+Scores: 80, 84, 98
+GPA: 3.33
+Fees: $ 2.35
+ID: 100866
+Project: Painting
+Name: MADALINE ISRAEL     
+Grade:  5
+Scores: 87, 81, 92
+GPA: 3.33
+Fees: $20.18
+ID: 100867
+Building: John Schmidt
+Name: ALPHONSO KARIGER    
+Grade:  5
+Scores: 98, 96, 99
+GPA: 4.00
+Fees: $26.05
+ID: 100868
+Building: John Schmidt
+Name: THEO PRUDEN         
+Grade:  1
+Scores: 96, 97, 95
+GPA: 4.00
+Fees: $ 1.86
+ID: 100869
+Project: Math Problems
+Name: KIP BRAMER          
+Grade:  3
+Scores: 97, 99, 80
+GPA: 3.67
+Fees: $ 8.33
+ID: 100870
+Project: Math Problems
+Name: BERNADINE BICKLEY   
+Grade:  6
+Scores: 78, 87, 96
+GPA: 3.00
+Fees: $11.74
+ID: 100871
+Building: William Foster
+Name: DILLON FAGEN        
+Grade:  4
+Scores: 71, 91, 74
+GPA: 2.67
+Fees: $20.30
+ID: 100872
+Building: John Schmidt
+Name: MOSE PUNCHES        
+Grade:  2
+Scores: 91, 95, 99
+GPA: 4.00
+Fees: $ 5.81
+ID: 100873
+Project: Painting
+Name: CHARLINE VERNE      
+Grade:  7
+Scores: 66, 95, 87
+GPA: 2.67
+Fees: $15.67
+ID: 100874
+Team: Fightin' Itens
+Name: WILSON EPOLITO      
+Grade: 11
+Scores: 78, 81, 80
+GPA: 2.67
+Fees: $86.17
+ID: 100875
+AP Classes: 4
+Name: MAUREEN RYDMAN      
+Grade:  9
+Scores: 86, 98, 86
+GPA: 3.33
+Fees: $208.75
+ID: 100876
+AP Classes: 8
+Name: HERSCHEL MANVELYAN  
+Grade:  2
+Scores: 81, 98, 95
+GPA: 3.67
+Fees: $ 0.86
+ID: 100877
+Project: Science Fair
+Name: CAROLE LIWANAG      
+Grade:  8
+Scores: 80, 79, 94
+GPA: 3.00
+Fees: $12.74
+ID: 100878
+Team: Sri's Trees
+Name: TRACY DEYO          
+Grade:  9
+Scores: 91, 98, 98
+GPA: 4.00
+Fees: $62.78
+ID: 100879
+AP Classes: 0
+Name: SHERIDAN MCNAY      
+Grade:  8
+Scores: 98, 77, 81
+GPA: 3.00
+Fees: $29.66
+ID: 100880
+Team: Fightin' Itens
+Name: FREDDY FORADORI     
+Grade: 12
+Scores: 86, 66, 80
+GPA: 2.33
+Fees: $173.16
+ID: 100881
+AP Classes: 10
+Name: ELSA CABEBE         
+Grade: 10
+Scores: 88, 92, 97
+GPA: 3.67
+Fees: $214.59
+ID: 100882
+AP Classes: 9
+Name: STEWART KAH         
+Grade: 10
+Scores: 66, 87, 79
+GPA: 2.00
+Fees: $183.55
+ID: 100883
+AP Classes: 9
+Name: WILLIAM ROSENBLUTH  
+Grade:  1
+Scores: 87, 75, 92
+GPA: 3.00
+Fees: $ 3.43
+ID: 100884
+Project: Math Problems
+Name: SHIRA FRANKHOUSER   
+Grade: 11
+Scores: 83, 77, 96
+GPA: 3.00
+Fees: $218.54
+ID: 100885
+AP Classes: 10
+Name: TOMMY LAFRENIERE    
+Grade:  8
+Scores: 97, 92, 96
+GPA: 4.00
+Fees: $31.33
+ID: 100886
+Team: Gifford Dinos
+Name: BARRETT SCHNUR      
+Grade:  1
+Scores: 76, 86, 71
+GPA: 2.33
+Fees: $ 3.85
+ID: 100887
+Project: Painting
+Name: SHAMIKA MIHM        
+Grade: 11
+Scores: 97, 91, 92
+GPA: 4.00
+Fees: $159.67
+ID: 100888
+AP Classes: 5
+Name: BELIA STUTZMAN      
+Grade:  9
+Scores: 87, 95, 81
+GPA: 3.33
+Fees: $106.79
+ID: 100889
+AP Classes: 5
+Name: IVETTE SCHANDING    
+Grade:  2
+Scores: 85, 87, 93
+GPA: 3.33
+Fees: $ 5.99
+ID: 100890
+Project: Science Fair
+Name: KRISTYN BIDLACK     
+Grade:  3
+Scores: 96, 96, 91
+GPA: 4.00
+Fees: $ 1.25
+ID: 100891
+Project: Math Problems
+Name: RAMIRO OZMINKOWSKI  
+Grade:  4
+Scores: 82, 77, 92
+GPA: 3.00
+Fees: $20.47
+ID: 100892
+Building: William Foster
+Name: ELIDIA WHALEY       
+Grade:  5
+Scores: 88, 94, 78
+GPA: 3.00
+Fees: $24.84
+ID: 100893
+Building: John Schmidt
+Name: GLENDA HYDE         
+Grade: 10
+Scores: 86, 89, 91
+GPA: 3.33
+Fees: $ 4.09
+ID: 100894
+AP Classes: 0
+Name: CORETTA RUESCHER    
+Grade: 12
+Scores: 93, 92, 86
+GPA: 3.67
+Fees: $154.27
+ID: 100895
+AP Classes: 8
+Name: CLETUS MACROWSKI    
+Grade:  2
+Scores: 86, 95, 86
+GPA: 3.33
+Fees: $ 3.82
+ID: 100896
+Project: Painting
+Name: SABINE HOLTERMAN    
+Grade:  8
+Scores: 87, 85, 87
+GPA: 3.00
+Fees: $48.32
+ID: 100897
+Team: Fightin' Itens
+Name: THEO ENDERSON       
+Grade:  7
+Scores: 76, 98, 74
+GPA: 2.67
+Fees: $ 3.28
+ID: 100898
+Team: Gifford Dinos
+Name: BRADLEY MARRIOTT    
+Grade:  2
+Scores: 95, 97, 95
+GPA: 4.00
+Fees: $10.00
+ID: 100899
+Project: Science Fair
+Name: HILDEGARDE PASH     
+Grade:  7
+Scores: 77, 80, 90
+GPA: 3.00
+Fees: $ 2.85
+ID: 100900
+Team: House of Kim
+Name: DELORES GALYAN      
+Grade:  2
+Scores: 98, 93, 89
+GPA: 3.67
+Fees: $ 7.00
+ID: 100901
+Project: Math Problems
+Name: CARLYN RIEGER       
+Grade:  8
+Scores: 80, 92, 87
+GPA: 3.33
+Fees: $44.93
+ID: 100902
+Team: House of Kim
+Name: MEAGHAN TAYOR       
+Grade:  9
+Scores: 77, 87, 71
+GPA: 2.33
+Fees: $52.96
+ID: 100903
+AP Classes: 1
+Name: CELENA HAYBURN      
+Grade:  6
+Scores: 99, 91, 99
+GPA: 4.00
+Fees: $28.58
+ID: 100904
+Building: William Foster
+Name: WINFORD KUDER       
+Grade:  5
+Scores: 97, 88, 99
+GPA: 3.67
+Fees: $18.77
+ID: 100905
+Building: William Foster
+Name: IVORY ARTICE        
+Grade:  6
+Scores: 92, 88, 76
+GPA: 3.00
+Fees: $26.32
+ID: 100906
+Building: John Schmidt
+Name: DION RADECKI        
+Grade:  5
+Scores: 99, 89, 90
+GPA: 3.67
+Fees: $ 7.65
+ID: 100907
+Building: John Schmidt
+Name: DAMIAN BIAGIONI     
+Grade:  3
+Scores: 96, 99, 86
+GPA: 3.67
+Fees: $ 1.70
+ID: 100908
+Project: Math Problems
+Name: ENRIQUE BARLETTE    
+Grade:  9
+Scores: 80, 91, 86
+GPA: 3.33
+Fees: $200.65
+ID: 100909
+AP Classes: 9
+Name: NICKOLAS BRIDE      
+Grade:  5
+Scores: 89, 99, 95
+GPA: 3.67
+Fees: $ 2.44
+ID: 100910
+Building: John Schmidt
+Name: EUSEBIO MAYANS      
+Grade: 10
+Scores: 79, 91, 91
+GPA: 3.33
+Fees: $135.75
+ID: 100911
+AP Classes: 3
+Name: ADAM HAARSTAD       
+Grade: 11
+Scores: 88, 81, 65
+GPA: 2.33
+Fees: $99.83
+ID: 100912
+AP Classes: 5
+Name: SHARRI HUSBY        
+Grade: 10
+Scores: 89, 85, 97
+GPA: 3.33
+Fees: $59.19
+ID: 100913
+AP Classes: 2
+Name: ALYCIA PAPARO       
+Grade:  7
+Scores: 72, 68, 81
+GPA: 2.00
+Fees: $52.68
+ID: 100914
+Team: Sri's Trees
+Name: LORRETTA OBRYAN     
+Grade:  2
+Scores: 92, 89, 96
+GPA: 3.67
+Fees: $ 4.22
+ID: 100915
+Project: Math Problems
+Name: LENORE HAFFLING     
+Grade:  5
+Scores: 81, 71, 77
+GPA: 2.33
+Fees: $22.08
+ID: 100916
+Building: William Foster
+Name: FRAN MULLALY        
+Grade:  9
+Scores: 86, 75, 75
+GPA: 2.33
+Fees: $216.11
+ID: 100917
+AP Classes: 8
+Name: ROBBIE CUSANELLI    
+Grade: 12
+Scores: 95, 98, 98
+GPA: 4.00
+Fees: $204.82
+ID: 100918
+AP Classes: 7
+Name: LINDSAY HAMMERS     
+Grade:  2
+Scores: 68, 89, 86
+GPA: 2.33
+Fees: $ 8.54
+ID: 100919
+Project: Science Fair
+Name: TERRELL CAVAGNARO   
+Grade:  1
+Scores: 93, 91, 95
+GPA: 4.00
+Fees: $ 0.48
+ID: 100920
+Project: Math Problems
+Name: BRIAN MAGUET        
+Grade:  3
+Scores: 88, 85, 87
+GPA: 3.00
+Fees: $ 0.86
+ID: 100921
+Project: Painting
+Name: NOBUKO KNAB         
+Grade: 10
+Scores: 85, 89, 86
+GPA: 3.00
+Fees: $125.23
+ID: 100922
+AP Classes: 5
+Name: HAL BOATFIELD       
+Grade: 12
+Scores: 85, 94, 87
+GPA: 3.33
+Fees: $133.14
+ID: 100923
+AP Classes: 4
+Name: GENE KREBS          
+Grade:  8
+Scores: 88, 86, 76
+GPA: 2.67
+Fees: $14.61
+ID: 100924
+Team: House of Kim
+Name: ALVERTA CLAVERIE    
+Grade:  3
+Scores: 85, 78, 93
+GPA: 3.00
+Fees: $ 3.49
+ID: 100925
+Project: Painting
+Name: SHANEL SHAULIS      
+Grade:  2
+Scores: 68, 67, 84
+GPA: 1.67
+Fees: $ 0.44
+ID: 100926
+Project: Painting
+Name: GLENDORA ROSS       
+Grade: 10
+Scores: 97, 86, 94
+GPA: 3.67
+Fees: $206.30
+ID: 100927
+AP Classes: 8
+Name: DARIUS GIGNAC       
+Grade:  9
+Scores: 80, 86, 69
+GPA: 2.33
+Fees: $137.54
+ID: 100928
+AP Classes: 7
+Name: RAMONITA RIDDLEBARGER
+Grade:  8
+Scores: 99, 89, 87
+GPA: 3.33
+Fees: $27.41
+ID: 100929
+Team: House of Kim
+Name: LILIANA BECERRA     
+Grade:  8
+Scores: 73, 89, 71
+GPA: 2.33
+Fees: $55.74
+ID: 100930
+Team: Gifford Dinos
+Name: ALIX TYRELL         
+Grade:  9
+Scores: 95, 65, 79
+GPA: 2.33
+Fees: $40.56
+ID: 100931
+AP Classes: 1
+Name: BURTON UPDIKE       
+Grade:  1
+Scores: 99, 90, 85
+GPA: 3.67
+Fees: $ 5.25
+ID: 100932
+Project: Painting
+Name: MAGNOLIA MOLETTE    
+Grade:  8
+Scores: 96, 94, 92
+GPA: 4.00
+Fees: $41.35
+ID: 100933
+Team: Kummer Tuners
+Name: LOGAN ZOLLER        
+Grade:  7
+Scores: 88, 93, 94
+GPA: 3.67
+Fees: $51.37
+ID: 100934
+Team: Fightin' Itens
+Name: ANTON VRBA          
+Grade:  7
+Scores: 96, 94, 87
+GPA: 3.67
+Fees: $33.81
+ID: 100935
+Team: Kummer Tuners
+Name: TOM ROSENBECK       
+Grade:  7
+Scores: 90, 95, 97
+GPA: 4.00
+Fees: $20.28
+ID: 100936
+Team: Gifford Dinos
+Name: BLAINE JANOVICH     
+Grade:  1
+Scores: 94, 97, 78
+GPA: 3.33
+Fees: $ 7.39
+ID: 100937
+Project: Painting
+Name: CATHERYN MERRILL    
+Grade:  6
+Scores: 96, 85, 87
+GPA: 3.33
+Fees: $10.40
+ID: 100938
+Building: John Schmidt
+Name: JAIMIE CRESSY       
+Grade:  9
+Scores: 90, 75, 83
+GPA: 3.00
+Fees: $87.43
+ID: 100939
+AP Classes: 3
+Name: ELROY STRYKER       
+Grade:  9
+Scores: 99, 85, 98
+GPA: 3.67
+Fees: $65.13
+ID: 100940
+AP Classes: 3
+Name: TANNER WARRENDER    
+Grade: 12
+Scores: 86, 95, 97
+GPA: 3.67
+Fees: $93.18
+ID: 100941
+AP Classes: 1
+Name: JENE DROWN          
+Grade: 12
+Scores: 77, 91, 86
+GPA: 3.00
+Fees: $216.74
+ID: 100942
+AP Classes: 10
+Name: ANDRES LEHAR        
+Grade:  8
+Scores: 86, 89, 86
+GPA: 3.00
+Fees: $53.11
+ID: 100943
+Team: Gifford Dinos
+Name: ZELLA LUNDAHL       
+Grade:  1
+Scores: 90, 96, 93
+GPA: 4.00
+Fees: $ 5.98
+ID: 100944
+Project: Painting
+Name: SALVATORE CORDY     
+Grade:  4
+Scores: 89, 81, 76
+GPA: 2.67
+Fees: $13.62
+ID: 100945
+Building: William Foster
+Name: TOMEKA HENNEBERGER  
+Grade:  8
+Scores: 81, 73, 74
+GPA: 2.33
+Fees: $13.04
+ID: 100946
+Team: House of Kim
+Name: CHAD SCHWANTES      
+Grade:  8
+Scores: 85, 98, 92
+GPA: 3.67
+Fees: $26.79
+ID: 100947
+Team: Kummer Tuners
+Name: SHANTA CLOSSON      
+Grade:  8
+Scores: 77, 78, 75
+GPA: 2.00
+Fees: $20.28
+ID: 100948
+Team: Gifford Dinos
+Name: ALEJANDRO NELSON    
+Grade: 11
+Scores: 84, 66, 65
+GPA: 1.67
+Fees: $77.95
+ID: 100949
+AP Classes: 0
+Name: CHRISTOPER BACHLER  
+Grade:  5
+Scores: 96, 77, 94
+GPA: 3.33
+Fees: $16.86
+ID: 100950
+Building: William Foster
+Name: SUZETTE COWLING     
+Grade: 12
+Scores: 85, 89, 91
+GPA: 3.33
+Fees: $87.99
+ID: 100951
+AP Classes: 5
+Name: BRITT VOLANTE       
+Grade: 10
+Scores: 97, 86, 87
+GPA: 3.33
+Fees: $76.61
+ID: 100952
+AP Classes: 5
+Name: BENTON NOBLITT      
+Grade:  9
+Scores: 83, 97, 89
+GPA: 3.33
+Fees: $172.65
+ID: 100953
+AP Classes: 7
+Name: MASON SHOMAKER      
+Grade: 11
+Scores: 94, 91, 89
+GPA: 3.67
+Fees: $94.10
+ID: 100954
+AP Classes: 6
+Name: CLYDE SCHRADER      
+Grade:  3
+Scores: 93, 84, 86
+GPA: 3.33
+Fees: $ 4.46
+ID: 100955
+Project: Painting
+Name: GLYNIS RUTH         
+Grade: 11
+Scores: 80, 76, 90
+GPA: 3.00
+Fees: $64.00
+ID: 100956
+AP Classes: 4
+Name: ROSARIO SCIPIONE    
+Grade: 10
+Scores: 90, 67, 96
+GPA: 3.00
+Fees: $44.46
+ID: 100957
+AP Classes: 2
+Name: SHANON OBEIRNE      
+Grade: 11
+Scores: 85, 89, 89
+GPA: 3.00
+Fees: $164.42
+ID: 100958
+AP Classes: 8
+Name: EDDIE SALYER        
+Grade:  6
+Scores: 87, 91, 88
+GPA: 3.33
+Fees: $26.17
+ID: 100959
+Building: William Foster
+Name: YU FLOCK            
+Grade:  6
+Scores: 89, 90, 90
+GPA: 3.67
+Fees: $ 1.65
+ID: 100960
+Building: John Schmidt
+Name: CHARITY BARNDT      
+Grade: 12
+Scores: 93, 94, 94
+GPA: 4.00
+Fees: $187.88
+ID: 100961
+AP Classes: 8
+Name: ADRIAN HEISE        
+Grade:  2
+Scores: 84, 88, 95
+GPA: 3.33
+Fees: $ 4.46
+ID: 100962
+Project: Math Problems
+Name: JACKELYN FLENER     
+Grade:  6
+Scores: 95, 85, 98
+GPA: 3.67
+Fees: $18.35
+ID: 100963
+Building: William Foster
+Name: ENRIQUE BONANNO     
+Grade:  2
+Scores: 91, 91, 98
+GPA: 4.00
+Fees: $ 3.24
+ID: 100964
+Project: Math Problems
+Name: SYREETA MESSERLY    
+Grade:  6
+Scores: 85, 84, 83
+GPA: 3.00
+Fees: $13.79
+ID: 100965
+Building: John Schmidt
+Name: ALEX FORGIE         
+Grade:  6
+Scores: 93, 96, 92
+GPA: 4.00
+Fees: $27.72
+ID: 100966
+Building: William Foster
+Name: DANE TINDAL         
+Grade: 10
+Scores: 89, 88, 89
+GPA: 3.00
+Fees: $95.29
+ID: 100967
+AP Classes: 5
+Name: THOMASENA BADOLATO  
+Grade: 12
+Scores: 85, 78, 79
+GPA: 2.33
+Fees: $119.61
+ID: 100968
+AP Classes: 3
+Name: NICHOLAS MAILLOUX   
+Grade:  5
+Scores: 99, 79, 74
+GPA: 2.67
+Fees: $27.44
+ID: 100969
+Building: John Schmidt
+Name: EFRAIN TIPPY        
+Grade: 12
+Scores: 94, 91, 90
+GPA: 4.00
+Fees: $78.03
+ID: 100970
+AP Classes: 0
+Name: LETTY POTASH        
+Grade:  7
+Scores: 87, 85, 86
+GPA: 3.00
+Fees: $58.26
+ID: 100971
+Team: Fightin' Itens
+Name: LEIA HEGGIE         
+Grade:  5
+Scores: 84, 86, 78
+GPA: 2.67
+Fees: $ 9.38
+ID: 100972
+Building: William Foster
+Name: NILSA LAMPSON       
+Grade:  6
+Scores: 84, 95, 95
+GPA: 3.67
+Fees: $22.99
+ID: 100973
+Building: John Schmidt
+Name: SHIRLENE CYNTHIA    
+Grade:  4
+Scores: 85, 78, 93
+GPA: 3.00
+Fees: $10.88
+ID: 100974
+Building: William Foster
+Name: MARLINE CODISPOTI   
+Grade:  5
+Scores: 91, 95, 85
+GPA: 3.67
+Fees: $16.38
+ID: 100975
+Building: John Schmidt
+Name: JULIUS CRIEGHTON    
+Grade: 10
+Scores: 81, 78, 82
+GPA: 2.67
+Fees: $176.41
+ID: 100976
+AP Classes: 6
+Name: MAYOLA COLDREN      
+Grade:  2
+Scores: 89, 85, 86
+GPA: 3.00
+Fees: $ 5.70
+ID: 100977
+Project: Math Problems
+Name: KENT MUDDIMAN       
+Grade: 11
+Scores: 88, 93, 90
+GPA: 3.67
+Fees: $212.41
+ID: 100978
+AP Classes: 9
+Name: SANTO MUCH          
+Grade:  4
+Scores: 88, 79, 94
+GPA: 3.00
+Fees: $ 7.28
+ID: 100979
+Building: William Foster
+Name: CLARETTA WYMAN      
+Grade:  2
+Scores: 93, 75, 94
+GPA: 3.33
+Fees: $ 6.19
+ID: 100980
+Project: Painting
+Name: RAYMON DAGGS        
+Grade:  9
+Scores: 67, 83, 82
+GPA: 2.33
+Fees: $165.70
+ID: 100981
+AP Classes: 6
+Name: PHYLICIA COLLIE     
+Grade: 11
+Scores: 85, 99, 89
+GPA: 3.33
+Fees: $200.97
+ID: 100982
+AP Classes: 10
+Name: RAYMON RANGASAMMY   
+Grade:  4
+Scores: 87, 91, 97
+GPA: 3.67
+Fees: $ 4.09
+ID: 100983
+Building: William Foster
+Name: RUBIN SHUE          
+Grade: 10
+Scores: 85, 85, 71
+GPA: 2.67
+Fees: $34.11
+ID: 100984
+AP Classes: 0
+Name: KELSIE BANIK        
+Grade: 11
+Scores: 75, 84, 97
+GPA: 3.00
+Fees: $162.72
+ID: 100985
+AP Classes: 6
+Name: CARLTON JABLONSKI   
+Grade:  1
+Scores: 90, 92, 97
+GPA: 4.00
+Fees: $ 7.43
+ID: 100986
+Project: Science Fair
+Name: MALENA DANOWSKI     
+Grade:  4
+Scores: 90, 84, 93
+GPA: 3.67
+Fees: $28.77
+ID: 100987
+Building: William Foster
+Name: SANFORD STANARD     
+Grade:  5
+Scores: 91, 83, 86
+GPA: 3.33
+Fees: $26.78
+ID: 100988
+Building: John Schmidt
+Name: MOISES OPIE         
+Grade:  1
+Scores: 91, 96, 98
+GPA: 4.00
+Fees: $ 0.93
+ID: 100989
+Project: Math Problems
+Name: DANE BOHLIG         
+Grade:  6
+Scores: 80, 76, 95
+GPA: 3.00
+Fees: $ 9.99
+ID: 100990
+Building: William Foster
+Name: DONOVAN KELK        
+Grade:  8
+Scores: 89, 72, 87
+GPA: 2.67
+Fees: $39.99
+ID: 100991
+Team: Sri's Trees
+Name: MARGOT WALT         
+Grade:  7
+Scores: 98, 95, 88
+GPA: 3.67
+Fees: $14.16
+ID: 100992
+Team: Sri's Trees
+Name: MATHEW CURREY       
+Grade: 12
+Scores: 91, 88, 96
+GPA: 3.67
+Fees: $172.38
+ID: 100993
+AP Classes: 8
+Name: JEFFREY MARZETT     
+Grade:  2
+Scores: 83, 86, 97
+GPA: 3.33
+Fees: $ 3.93
+ID: 100994
+Project: Science Fair
+Name: NUMBERS OSHIRO      
+Grade: 10
+Scores: 85, 92, 89
+GPA: 3.33
+Fees: $124.63
+ID: 100995
+AP Classes: 6
+Name: TIFFINY WELLNER     
+Grade:  2
+Scores: 89, 87, 91
+GPA: 3.33
+Fees: $ 4.92
+ID: 100996
+Project: Math Problems
+Name: SAL GLANCY          
+Grade:  4
+Scores: 77, 85, 79
+GPA: 2.33
+Fees: $ 1.04
+ID: 100997
+Building: William Foster
+Name: LAUREL DESCOTEAUX   
+Grade: 11
+Scores: 89, 84, 75
+GPA: 2.67
+Fees: $76.15
+ID: 100998
+AP Classes: 4
+Name: NERISSA LENTZ       
+Grade: 11
+Scores: 79, 90, 76
+GPA: 2.67
+Fees: $164.54
+ID: 100999
+AP Classes: 10
+Name: RICKIE CARRIKER     
+Grade:  7
+Scores: 84, 65, 88
+GPA: 2.33
+Fees: $46.73
+ID: 101000
+Team: Fightin' Itens
+Name: ARMANDO EDLOW       
+Grade:  9
+Scores: 150, 150, 150
+GPA: 4.00
+Fees: $197.85
+ID: 100075
+AP Classes: 4
