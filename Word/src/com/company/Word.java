@@ -77,7 +77,7 @@ public class Word {
 
     //toString
     public String toString(){
-        return myWord;
+        return myWord + " Syllables: " + syllables();
     }
 
     //Setters and Getters
