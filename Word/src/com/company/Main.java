@@ -1,20 +1,68 @@
 package com.company;
 
-public class Main {
+import java.util.Scanner;
+import java.io.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
-    public static void main(String[] args) {
-        Word word1 = new Word("Hello");
-        Word word2 = new Word("Time");
-        Word word3 = new Word("Moan");
-        Word word4 = new Word("Table");
-        Word word5 = new Word("Beautiful");
-        Word word6 = new Word("Takedown");
-        System.out.println(word1.toString());
-        System.out.println(word2.toString());
-        System.out.println(word3.toString());
-        System.out.println(word4.toString());
-        System.out.println(word5.toString());
-        System.out.println(word6.toString());
+public class Main{
 
+    public static void main(String[] args) throws IOException{
+        UIManager.put("OptionPane.messageFont", new Font("Arial", Font.BOLD, 30));
+        UIManager.put("OptionPane.buttonFont", new Font("Arial", Font.BOLD, 30));
+        JFrame GUI = new JFrame("Text Analyzer");
+        GUI.setSize(500,500);
+        GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Container pane = GUI.getContentPane();
+        pane.setLayout(new GridLayout(0,1));
+        JButton OpenBut = new JButton("Open File");
+        JButton TextBut = new JButton("Without File");
+        JPanel ButtonPanel = new JPanel(new GridLayout(1,2));
+        JTextArea text = new JTextArea();
+        text.setLineWrap(true);
+        text.setWrapStyleWord(true);
+        OpenBut.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                try{
+                    text.setText("");
+                    String file = JOptionPane.showInputDialog("Filename?");
+                    TextAnalyzer ta = new TextAnalyzer(new File(file));
+                    String output = String.format("Flesch: %d\n Flesch Grade: %s\n Smog: %f\n%s",
+                            ta.flesch(),
+                            ta.fleschgrade(),
+                            ta.smog(),
+                            ta.toString());
+                    Scanner r = new Scanner(new File(file));
+                    while (r.hasNext()){
+                        String line = r.nextLine();
+                        text.setText(text.getText() + "\n" + line);
+                    }
+                    r.close();
+                    JOptionPane.showMessageDialog(null, output);
+                }catch(Exception ex){System.out.println("failure");}
+            }
+        });
+        TextBut.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                TextAnalyzer ta = new TextAnalyzer(text.getText());
+                String output = String.format("Flesch: %d\n Flesch Grade: %s\n Smog: %f\n%s",
+                        ta.flesch(),
+                        ta.fleschgrade(),
+                        ta.smog(),
+                        ta.toString());
+                JOptionPane.showMessageDialog(null, output);
+            }
+        });
+        text.setFont(new Font("Arial", Font.BOLD, 30));
+        OpenBut.setFont(new Font("Arial", Font.BOLD, 30));
+        TextBut.setFont(new Font("Arial", Font.BOLD, 30));
+        ButtonPanel.add(OpenBut);
+        ButtonPanel.add(TextBut);
+        ButtonPanel.setPreferredSize(new Dimension(100,100));
+        pane.add(ButtonPanel);
+        pane.add(new JScrollPane(text));
+        GUI.setVisible(true);
     }
+
 }
