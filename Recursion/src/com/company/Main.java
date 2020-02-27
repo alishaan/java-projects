@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Main{
+public class Main extends Recursion{
 
     public static void main(String[] args){
         JFrame GUI = new JFrame("Recursion");
-        GUI.setSize(1000,1000);
+        GUI.setSize(1000,800);
         GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container pane = GUI.getContentPane();
         pane.setLayout(new GridLayout(0,1));
@@ -32,13 +32,13 @@ public class Main{
         pane.add(TwoInputs);
 
         JPanel OneInput = new JPanel(new GridLayout(0,2));
-        JTextArea[] oneinputboxes = new JTextArea[6];
-        for (int i = 0; i < 6; i++){
+        JTextArea[] oneinputboxes = new JTextArea[7];
+        for (int i = 0; i < 7; i++){
             oneinputboxes[i] = new JTextArea();
             oneinputboxes[i].setFont(f);
             oneinputboxes[i].setBorder(BorderFactory.createLineBorder(Color.black));
         }
-        JButton[] onebut = new JButton[6];
+        JButton[] onebut = new JButton[7];
         onebut[0] = new JButton("Fibbonacci");
         onebut[0].setFont(f);
         onebut[1] = new JButton("Backwards");
@@ -51,7 +51,9 @@ public class Main{
         onebut[4].setFont(f);
         onebut[5] = new JButton("Base 10 to Binary");
         onebut[5].setFont(f);
-        for (int i = 0; i < 6; i++){
+        onebut[6] = new JButton("Remove Duplicates");
+        onebut[6].setFont(f);
+        for (int i = 0; i < 7; i++){
             OneInput.add(onebut[i]);
             OneInput.add(oneinputboxes[i]);
         }
@@ -61,52 +63,69 @@ public class Main{
             public void actionPerformed(ActionEvent e){
                 int base = Integer.parseInt(twoinputboxes[0].getText());
                 int power = Integer.parseInt(twoinputboxes[1].getText());
-                JOptionPane.showMessageDialog(null, "Recursive: " + Integer.toString(Recursion.exponent(base, power)));
-                JOptionPane.showMessageDialog(null, "Iterative: " + Integer.toString(Recursion.iterexponent(base, power)));
+                JOptionPane.showMessageDialog(null, "Recursive: " + Integer.toString(exponent(base, power)));
+                JOptionPane.showMessageDialog(null, "Iterative: " + Integer.toString(iterexponent(base, power)));
             }
         });
 
         onebut[4].addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 int base = Integer.parseInt(oneinputboxes[4].getText());
-                JOptionPane.showMessageDialog(null, "Recursive: " + Integer.toString(Recursion.sum(base)));
-                JOptionPane.showMessageDialog(null, "Iterative: " + Integer.toString(Recursion.itersum(base)));
+                JOptionPane.showMessageDialog(null, "Recursive: " + Integer.toString(sum(base)));
+                JOptionPane.showMessageDialog(null, "Iterative: " + Integer.toString(itersum(base)));
             }
         });
 
         onebut[0].addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 int index = Integer.parseInt(oneinputboxes[0].getText());
-                JOptionPane.showMessageDialog(null, "Recursive: " + Integer.toString(Recursion.fib(index)));
-                JOptionPane.showMessageDialog(null, "Iterative: " + Integer.toString(Recursion.iterfib(index)));
+                String recursive = "";
+                String iter = "";
+                for(var i = 0; i < index; i++) {
+                    recursive += fib(i + 1);
+                    iter += iterfib(i+1);
+                }
+                JOptionPane.showMessageDialog(null, "Recursive: " + recursive);
+                JOptionPane.showMessageDialog(null, "Iterative: " + iter);
             }
         });
 
         onebut[1].addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 String index = oneinputboxes[1].getText();
-                JOptionPane.showMessageDialog(null, Recursion.backwards(index));
+                JOptionPane.showMessageDialog(null, "Recursive: " +backwards(index));
+                JOptionPane.showMessageDialog(null, "Iterative: " +iterbackwards(index));
             }
         });
 
         onebut[2].addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 String index = oneinputboxes[2].getText();
-                JOptionPane.showMessageDialog(null, Recursion.palindrome(index));
+                JOptionPane.showMessageDialog(null, "Recursive: " + palindrome(index));
+                JOptionPane.showMessageDialog(null, "Iterative: " +iterpalindrome(index));
             }
         });
 
         onebut[3].addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 String index = oneinputboxes[3].getText();
-                JOptionPane.showMessageDialog(null, Recursion.binary(index));
+                JOptionPane.showMessageDialog(null, "Recursive: " + binary(index));
+                JOptionPane.showMessageDialog(null, "Iterative: " + iterbinary(index));
             }
         });
 
         onebut[5].addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 int index = Integer.parseInt(oneinputboxes[5].getText());
-                JOptionPane.showMessageDialog(null, Recursion.toBinary(index));
+                JOptionPane.showMessageDialog(null, "Recursive: " + toBinary(index));
+                JOptionPane.showMessageDialog(null, "Iterative: " + itertoBinary(index));
+            }
+        });
+        onebut[6].addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                String index = oneinputboxes[6].getText();
+                JOptionPane.showMessageDialog(null, "Recursive: " + removeDuplicates(index));
+                JOptionPane.showMessageDialog(null, "Iterative: " + iterremoveDuplicates(index));
             }
         });
 

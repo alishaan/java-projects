@@ -85,11 +85,6 @@ public class Recursion {
         return x;
     }
 
-    /* Preconditions: Takes in a word that you want checked as a palindrome
-     *
-     * Postconditions: Returns true if the word is same backwards and forwards
-     * else false
-     */
     public static final boolean palindrome(String word){
         String first = word.substring(0,1);
         String last = word.substring(word.length() - 1, word.length());
@@ -140,6 +135,26 @@ public class Recursion {
             curr /= 2;
         }
         return iterbackwards(x);
+    }
+
+    public static String removeDuplicates(String word) {
+        if(word == null || word.length() <= 1)
+            return word;
+        else if( word.charAt(0) == word.charAt(1) ){
+            return removeDuplicates(word.substring(1, word.length()));
+        } else{
+            return word.charAt(0) + removeDuplicates(word.substring(1, word.length()));
+        }
+    }
+
+    public static String iterremoveDuplicates(String input){
+        String result = "";
+        for (int i = 0; i < input.length(); i++) {
+            if(!result.contains(String.valueOf(input.charAt(i)))) {
+                result += String.valueOf(input.charAt(i));
+            }
+        }
+        return result;
     }
 
 }
