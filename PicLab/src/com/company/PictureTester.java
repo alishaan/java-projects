@@ -17,6 +17,7 @@ public class PictureTester
     beach.explore();
     beach.zeroBlue();
     beach.explore();
+    beach.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\beach.jpg");
   }
 
   public static void keepOnlyBlue(){
@@ -24,6 +25,7 @@ public class PictureTester
     water.explore();
     water.keepOnlyBlue();
     water.explore();
+    water.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\water.jpg");
   }
 
   public static void negate(){
@@ -31,6 +33,7 @@ public class PictureTester
     water.explore();
     water.negate();
     water.explore();
+    water.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\butterfly1.jpg");
   }
 
   public static void grayscale(){
@@ -38,6 +41,7 @@ public class PictureTester
     water.explore();
     water.grayscale();
     water.explore();
+    water.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\flower1.jpg");
   }
 
   /** Method to test mirrorVertical */
@@ -47,6 +51,7 @@ public class PictureTester
     caterpillar.explore();
     caterpillar.mirrorVertical();
     caterpillar.explore();
+    caterpillar.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\caterpillarVertical.jpg");
   }
 
   public static void testMirrorVerticalRightToLeft()
@@ -55,6 +60,7 @@ public class PictureTester
     caterpillar.explore();
     caterpillar.mirrorVerticalRightToLeft();
     caterpillar.explore();
+    caterpillar.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\caterpillarVerticalRightToLeft.jpg");
   }
 
   public static void testMirrorHorizontal()
@@ -63,6 +69,7 @@ public class PictureTester
     caterpillar.explore();
     caterpillar.mirrorHorizontal();
     caterpillar.explore();
+    caterpillar.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\redMotorcycleHorizontal.jpg");
   }
 
   public static void testMirrorHorizontalBotToTop()
@@ -71,6 +78,7 @@ public class PictureTester
     caterpillar.explore();
     caterpillar.mirrorHorizontalBotToTop();
     caterpillar.explore();
+    caterpillar.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\redMotorcycleHorizontalButTop.jpg");
   }
 
   public static void testMirrorDiagonal()
@@ -79,6 +87,7 @@ public class PictureTester
     caterpillar.explore();
     caterpillar.mirrorDiagonal();
     caterpillar.explore();
+    caterpillar.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\beachDiagonal.jpg");
   }
 
   /** Method to test mirrorTemple */
@@ -88,6 +97,7 @@ public class PictureTester
     temple.explore();
     temple.mirrorTemple();
     temple.explore();
+    temple.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\temple.jpg");
   }
 
   public static void testMirrorArms()
@@ -96,6 +106,7 @@ public class PictureTester
     temple.explore();
     temple.mirrorArms();
     temple.explore();
+    temple.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\snowman.jpg");
   }
 
   public static void testMirrorGull()
@@ -104,6 +115,7 @@ public class PictureTester
     temple.explore();
     temple.mirrorGull();
     temple.explore();
+    temple.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\seagull.jpg");
   }
 
 
@@ -113,6 +125,7 @@ public class PictureTester
     Picture canvas = new Picture("640x480.jpg");
     canvas.createCollage();
     canvas.explore();
+    canvas.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\collage.jpg");
   }
 
   public static void testMyCollage()
@@ -120,6 +133,7 @@ public class PictureTester
     Picture canvas = new Picture("640x480.jpg");
     canvas.myCollage();
     canvas.explore();
+    canvas.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\myCollage.jpg");
   }
 
   /** Method to test edgeDetection */
@@ -128,6 +142,7 @@ public class PictureTester
     Picture swan = new Picture("swan.jpg");
     swan.edgeDetection(10);
     swan.explore();
+    swan.write("D:\\Shared\\GitHub\\java-projects\\PicLab\\images\\altered\\swan.jpg");
   }
 
   /** Main method for testing.  Every class can have a main
